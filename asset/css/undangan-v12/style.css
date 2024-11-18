@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+    background-color: #FFD580;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    /* padding: 20px 0; */
+}
+
+.invitation-card {
+    background-color: #D9C3A6;
+    border-radius: 20px;
+    padding: 40px 20px;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.corner-decoration {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+}
+
+.bottom-left {
+    bottom: 0;
+    left: 0;
+}
+
+.bottom-right {
+    bottom: 0;
+    right: 0;
+}
+
+.cloud-pattern {
+    width: 100%;
+    height: 70px;
+    background-repeat: repeat-x;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.tentang{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.tentang h3{
+    font-family: "Great Vibes", serif;
+}
+
+.tentang p{
+    font-family: "Inria Serif", serif;
+}
+
+.image-frame {
+    position: relative;
+    width: 400px; 
+    height: 550px; 
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.background-frame {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 400px;
+}
+
+.foreground-image {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 80%;
+    height: auto;
+}
+
+.text-center p{
+    font-family: "Inria Serif", serif;
+}
+
+.text-center h1{
+    font-family: "Great Vibes", serif;
+}
+
+.text{
+    margin-top: 80px;
+}
+
+.text1{
+    margin-top: 80px;
+}
+
+.event-details {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.event-details h2{
+    font-family: "Great Vibes", serif;
+    font-size: 40px;
+}
+
+.event-details p{
+    font-family: "Inria Serif", serif;
+}
+
+.countdown {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    font-family: "Inria Serif", serif;
+    margin-bottom: 80px;
+}
+
+.countdown-item {
+    background: #220A06;
+    padding: 15px;
+    border-radius: 8px;
+    min-width: 60px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.countdown-item h3 {
+    font-size: 28px;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+.countdown-item p {
+    margin: 5px 0 0;
+    color: #fff;
+    font-size: 14px;
+    border-top: 1px solid #ddd;
+    padding-top: 5px;
+    margin-top: 5px;
+}
+
+.venue-section {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.venue-section h5{
+    font-family: "Inria Serif", serif;
+    margin-top: 50px;
+}
+
+.venue-image {
+    overflow: hidden;
+    margin: 1rem 0;
+    margin-top: 100px;
+}
+
+.venue-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.open-button {
+    display: inline-block;
+    background-color: #8B4513;
+    color: white;
+    padding: 12px 40px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    border: none;
+    margin: 20px 0;
+}
+
+.open-button:hover {
+    background-color: #6B3410;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    color: white;
+}
+
+.card-2 {
+    background: #f9f2ea88;
+    padding: 15px;
+    border-radius: 20px;
+    max-width: 300px;
+    font-family: "Inter", sans-serif;
+    margin: 0 auto;
+}
+
+.bank-card {
+    position: relative;
+    padding: 10px;
+}
+
+.account-number {
+    color: #004d86;
+    font-size: 15px;
+    margin-bottom: 8px;
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 40px;
+}
+
+.copy-btn {
+    background: #004d86;
+    color: white;
+    border: none;
+    padding: 2px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 40px;
+}
+
+.copy-btn:hover {
+    background: #003d66;
+}
+
+.copy-btn.success {
+    background: #28a745;
+}
+
+.name {
+    color: #004d86;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.expiry {
+    color: #004d86;
+    font-size: 12px;
+    margin-top: 2px;
+}
+
+.bri-logo {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #004d86;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.wave-icon {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #004d86;
+    font-size: 14px;
+}
