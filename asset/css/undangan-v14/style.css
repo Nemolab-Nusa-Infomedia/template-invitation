@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Great+Vibes&display=swap');
+
+.top-images {
+    position: relative;
+    width: 500px;
+    max-width: 600px; 
+    margin: 0 auto; 
+}
+
+.left-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20%; 
+    max-width: 100px; 
+}
+
+.center-image {
+    display: block;
+    margin: 0 auto;
+    width: 20%; 
+    max-width: 100px; 
+}
+
+.right-image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 20%; 
+    max-width: 100px; 
+}
+
+.snow-container {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    pointer-events: none; 
+    overflow: hidden;
+    z-index: 1;
+}
+
+.snowflake {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: white;
+    border-radius: 50%;
+    animation: snowfall linear infinite;
+}
+
+/* Membuat beberapa snowflake dengan posisi dan durasi yang berbeda */
+@keyframes snowfall {
+    0% {
+        transform: translateY(-10px) translateX(0) rotate(0deg);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(100vh) translateX(20px) rotate(360deg);
+        opacity: 0.3;
+    }
+}
+
+.guest-info {
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.guest-info .p1{
+    font-family: "EB Garamond", serif;
+    color: #D36D45;
+    font-size: 18px;
+}
+
+.guest-info p{
+    font-family: "EB Garamond", serif;
+    color: #D36D45;
+    font-size: 15px;
+    margin-top: 30px;
+}
+
+.guest-info h1{
+    font-family: "Great Vibes", cursive;
+    color: #0500A1;
+    font-size: 50px;
+}
+
+.event-details {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 16px;
+}
+
+.event-details p {
+    margin: 5px 0;
+    font-size: 15px;
+}
+
+.event-details .p1{
+    font-family: "EB Garamond", serif;
+    color: #D36D45;
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.open-button {
+    font-family: "EB Garamond", serif;
+    display: inline-block;
+    background-color: #5F4E47;
+    color: white;
+    padding: 12px 40px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    border: none;
+    margin: 20px 0;
+    margin-top: 50px;
+}
+
+.open-button:hover {
+    background-color: #76625a;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    color: white;
+}
+
+.bottom-image {
+    width: 100%;
+    max-width: 600px;
+    height: auto; 
+    margin: 20px auto 0; 
+    display: flex;
+    justify-content: center;
+}
+
+.bottom-image img {
+    width: 100%; 
+    object-fit: contain; 
+}

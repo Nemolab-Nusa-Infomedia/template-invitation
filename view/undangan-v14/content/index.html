@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../../asset/css/undangan-v14/style.css">
+    <link rel="stylesheet" href="../../../asset/js/undangan-v14/script.js">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>Christmas Party</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body style="background-color: #d6c8a0;">
+    <audio hidden autoplay loop>
+        <source
+            src="../../../asset/audio/JingleBellswithChristmas.mp3"
+            type="audio/mp3">
+    </audio>
+    <div class="row col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 mx-auto" style="background-color: #ffedbc;">
+        <div class="absolute top-0 w-full flex justify-between p-0">
+            <div class="top-images" data-aos="zoom-in-up" data-aos-duration="3000">
+                <div class="snow-container">
+                    <img src="../../../asset/img/undangan-v14/Group 5.png" alt="">
+                </div>
+                <img src="../../../asset/img/undangan-v14/XMLID_22_.png" class="left-image" alt="Left Decoration">
+                <img src="../../../asset/img/undangan-v14/XMLID_656_.png" class="center-image" alt="Center Decoration">
+                <img src="../../../asset/img/undangan-v14/XMLID_23_.png" class="right-image" alt="Right Decoration">
+            </div>
+
+            <div class="guest-info" data-aos="fade-up" data-aos-duration="3000">
+                <p class="fw-bold p1">Kamu Di Undang Pada Acara</p>
+                <h1>"Christmas Party"</h1>
+                <p class="fw-bold">Meriahkan Hari Natal dengan penuh suka cita,<br>
+                    kehadiran kamu sangat berarti bagi kami. Kami <br>
+                    tunggu kehadiran kamu di acara <br>
+                    "Christmas Party"</p>
+            </div>
+
+            <div class="event-details" data-aos="fade-up" data-aos-duration="3000">
+                <img src="../../../asset/img/undangan-v14/Group.png" alt="">
+                <p>Hari, Tanggal:</p>
+                <p class="p1">Jum'at, 25 Desember 2025</p>
+
+                <p>Waktu:</p>
+                <p class="p1">09.00 - 15.00 WIB</p>
+
+                <p>Alamat:</p>
+                <p class="p1">
+                    Jalan Kaviacha Amasya No. 11
+                </p>
+                <img src="../../../asset/img/undangan-v14/Group 1.png" alt="">
+            </div>
+
+            <div class="button-container" data-aos="fade-up" data-aos-duration="3000">
+                <a href="https://www.google.com/maps/search/?api=1&query=Jalan+Kaviacha+Amasya+No.+11" target="_blank"
+                    class="open-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                        <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6" />
+                    </svg> Lihat di maps
+                </a>
+            </div>
+
+
+            <div class="bottom-image">
+                <img src="../../../asset/img/undangan-v14/Group 7.png" alt="Christmas decorations">
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function createSnowflakes() {
+            const container = document.querySelector('.snow-container');
+            const flakeCount = 50; // Jumlah snowflake
+
+            for (let i = 0; i < flakeCount; i++) {
+                const snowflake = document.createElement('div');
+                snowflake.className = 'snowflake';
+
+                // Memberikan posisi random untuk setiap snowflake
+                snowflake.style.left = `${Math.random() * 100}%`;
+
+                // Memberikan delay dan durasi animasi yang random
+                const animationDuration = 5 + Math.random() * 10;
+                snowflake.style.animation = `snowfall ${animationDuration}s linear infinite`;
+
+                // Memberikan delay yang random
+                snowflake.style.animationDelay = `${Math.random() * 5}s`;
+
+                // Memberikan ukuran yang random
+                const size = 5 + Math.random() * 5;
+                snowflake.style.width = `${size}px`;
+                snowflake.style.height = `${size}px`;
+
+                container.appendChild(snowflake);
+            }
+        }
+
+        // Jalankan fungsi saat halaman dimuat
+        window.onload = createSnowflakes;
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
