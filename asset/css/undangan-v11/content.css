@@ -1,0 +1,649 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Great+Vibes&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    background-color: #D4BEE4;
+}
+
+.w-32 {
+    width: 100%; 
+    opacity: 0.9; 
+    display: block;
+    transform: scale(1.05); 
+}
+
+.title{
+    font-family: "Cinzel", serif;
+}
+
+.subtitle{
+    font-family: "Great Vibes", cursive;
+    font-size: 50px;
+}
+
+.img-user {
+    margin-bottom: 10px;
+}
+
+.profile-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: relative;
+}
+
+.profile-container {
+    position: relative;
+    margin-left: 90px;
+    width: 200px;
+    height: 200px;
+}
+
+.profile-container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* User image */
+.layer-1 {
+    width: 115%;
+    height: 115%;
+    margin-left: 20px;
+    margin-top: 20px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+/* Frame image */
+.layer-2 {
+    width: 135%;
+    height: auto;
+    z-index: 2;
+}
+
+/* Flower image */
+.layer-3 {
+    width: 100%;
+    height: auto;
+    margin-left: 85px;
+    z-index: 3;
+}
+
+.info {
+    font-family: "Cinzel", serif;
+    font-size: 15px;
+}
+
+.info-laksana {
+    font-family: "Cinzel", serif;
+    font-size: 15px;
+    margin-top: 100px;
+}
+
+.info-waktu {
+    font-family: "Cinzel", serif;
+    font-size: 20px;
+}
+
+.info-tgl {
+    font-family: "Cinzel", serif;
+    font-size: 40px;
+}
+
+.info-bln {
+    font-family: "Cinzel", serif;
+    font-size: 28px;
+}
+
+.info-tempat {
+    margin-top: 15px;
+    font-family: "Cinzel", serif;
+    font-size: 15px;
+}
+
+.event-details {
+    background-color: #F3F2F7; 
+    padding: 20px;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    max-width: 400px;
+    margin: 0 auto;
+    margin-left: 50px;
+}
+
+.event-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.event-item:last-child {
+    margin-bottom: 0;
+}
+
+.event-icon {
+    background-color: #f3c8ff;  
+    color: #751D7E;
+    padding: 5px;
+    border-radius: 15px;
+    margin-right: 15px;
+}
+
+.event-icon img {
+    width: 30px;
+    height: 30px;
+    color: #751D7E;
+}
+
+.event-info {
+    color: #4D4A69; 
+}
+
+.event-date{
+    font-family: "Cinzel", serif;
+    margin: 0;
+    font-size: 15px;
+}
+
+.event-location{
+    font-family: "Cinzel", serif;
+    margin: 0;
+    font-size: 15px;
+}
+
+.event-time{
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    color: #757575;  
+    margin: 0;
+}
+
+.event-address {
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    color: #757575;  
+    margin: 0;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    padding: 15px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.grid-item {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.grid-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.grid-item:nth-child(3) {
+    grid-column: 1 / -1;
+    height: 300px;
+}
+
+.grid-item:nth-child(4) {
+    grid-column: 1 / -1;
+    height: 250px;
+}
+
+@media only screen and (max-width: 1280px) and (max-height: 800px) {
+    .profile-image {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        object-fit: cover;
+        position: relative;
+    }
+    
+    .profile-container {
+        position: relative;
+        margin-top: 40px;
+        margin-left: 89px;
+        width: 200px;
+        height: 200px;
+    }
+    
+    .profile-container img {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    
+    .layer-1 {
+        width: 115%;
+        height: 115%;
+        margin-left: 20px;
+        margin-top: 20px;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+    
+    .layer-2 {
+        width: 135%;
+        height: auto;
+        z-index: 2;
+    }
+    
+    .layer-3 {
+        width: 100%;
+        height: auto;
+        margin-left: 85px;
+        z-index: 3;
+    }
+
+    .info-und{
+        margin-right: 5px;
+    }
+
+    .title{
+        font-size: 40px;
+    }
+
+    .subtitle{
+        font-size: 40px;
+    }
+
+    .info{
+        font-size: 15px;
+    }
+
+    .info-laksana{
+        font-size: 15px;
+    }
+
+    .event-details{
+        margin-left: 50px;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+        padding: 15px;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    
+    .grid-item {
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .grid-item img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 8px;
+    }
+    
+    /* Special layout for the last two images */
+    .grid-item:nth-child(3) {
+        grid-column: 1 / -1;
+        height: 300px;
+    }
+    
+    .grid-item:nth-child(4) {
+        grid-column: 1 / -1;
+        height: 250px;
+    }
+
+    /* Layout responsive */
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    /* Kolom menjadi full width di mobile */
+    .col {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+}
+
+@media only screen and (max-width: 768px) and (max-height: 1024px) {
+    .profile-image {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        object-fit: cover;
+        position: relative;
+    }
+    
+    .profile-container {
+        position: relative;
+        margin-top: 40px;
+        margin-left: 250px;
+        width: 200px;
+        height: 200px;
+    }
+    
+    .profile-container img {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    
+    .layer-1 {
+        width: 115%;
+        height: 115%;
+        margin-left: 20px;
+        margin-top: 20px;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+    
+    .layer-2 {
+        width: 135%;
+        height: auto;
+        z-index: 2;
+    }
+    
+    .layer-3 {
+        width: 100%;
+        height: auto;
+        margin-left: 85px;
+        z-index: 3;
+    }
+
+    .info-und{
+        margin-right: 5px;
+    }
+
+    .title{
+        font-size: 40px;
+    }
+
+    .subtitle{
+        font-size: 40px;
+    }
+
+    .info{
+        font-size: 20px;
+    }
+
+    .info-laksana{
+        font-size: 20px;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+        padding: 15px;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    
+    .grid-item {
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .grid-item img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 8px;
+    }
+    
+    /* Special layout for the last two images */
+    .grid-item:nth-child(3) {
+        grid-column: 1 / -1;
+        height: 300px;
+    }
+    
+    .grid-item:nth-child(4) {
+        grid-column: 1 / -1;
+        height: 250px;
+    }
+
+    /* Layout responsive */
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    /* Kolom menjadi full width di mobile */
+    .col {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+}
+
+@media only screen and (max-width: 390px) and (max-height: 844px) {
+    .title{
+        font-size: 30px;
+        margin-bottom: 5px;
+    }
+
+    .profile-image {
+        width: 160px;
+        height: 160px;
+        border-radius: 50%;
+        object-fit: cover;
+        position: relative;
+    }
+    
+    .profile-container {
+        position: relative;
+        margin-left: 107px;
+        width: 150px;
+        height: 150px;
+    }
+    
+    .profile-container img {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    
+    .layer-1 {
+        width: 105%;
+        height: 105%;
+        margin-left: 10px;
+        margin-top: 10px;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+    
+    .layer-2 {
+        width: 120%;
+        height: auto;
+        z-index: 2;
+    }
+    
+    .layer-3 {
+        width: 89%;
+        height: auto;
+        margin-left: 60px;
+        z-index: 3;
+    }
+
+    .info-und{
+        margin-right: 5px;
+    }
+    
+    .subtitle{
+        font-size: 45px;
+        margin-top: 25px;
+    }
+
+    .info{
+        font-size: 15px;
+    }
+
+    .info-laksana{
+        font-size: 15px;
+    }
+
+    .info-waktu{
+        font-size: 20px;
+    }
+
+    .info-tempat{
+        font-size: 18px;
+    }
+
+    .info-tempat{
+        font-size: 15px;
+    }
+
+    .event-details{
+        margin-left: 50px;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+        padding: 15px;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    
+    .grid-item {
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .grid-item img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 8px;
+    }
+    
+    /* Special layout for the last two images */
+    .grid-item:nth-child(3) {
+        grid-column: 1 / -1;
+        height: 300px;
+    }
+    
+    .grid-item:nth-child(4) {
+        grid-column: 1 / -1;
+        height: 250px;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .col {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .profile-image {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        object-fit: cover;
+        position: relative;
+    }
+    
+    .profile-container {
+        position: relative;
+        margin-left: 50px;
+        width: 200px;
+        height: 200px;
+    }
+    
+    .profile-container img {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    
+    .layer-1 {
+        width: 115%;
+        height: 115%;
+        margin-left: 20px;
+        margin-top: 20px;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+    
+    .layer-2 {
+        width: 135%;
+        height: auto;
+        z-index: 2;
+    }
+    
+    .layer-3 {
+        width: 100%;
+        height: auto;
+        margin-left: 85px;
+        z-index: 3;
+    }
+
+    .info {
+        font-family: "Cinzel", serif;
+        font-size: 15px;
+    }
+
+    .event-details{
+        margin-left: 40px;
+    }
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+        padding: 15px;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    
+    .grid-item {
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .grid-item img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 8px;
+    }
+    
+    /* Special layout for the last two images */
+    .grid-item:nth-child(3) {
+        grid-column: 1 / -1;
+        height: 300px;
+    }
+    
+    .grid-item:nth-child(4) {
+        grid-column: 1 / -1;
+        height: 250px;
+    }
+
+    /* Layout responsive */
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    /* Kolom menjadi full width di mobile */
+    .col {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+}

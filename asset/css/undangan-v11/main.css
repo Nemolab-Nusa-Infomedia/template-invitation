@@ -1,0 +1,533 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Great+Vibes&display=swap');
+
+body {
+    background-color: #D4BEE4;
+}
+
+.img-top {
+    width: 100%;
+    display: block;
+    opacity: 0.9;
+    transform: scale(1.05);
+}
+
+.title {
+    font-family: "Cinzel", serif;
+    margin-bottom: 20px;
+}
+
+.subtitle {
+    font-family: "Great Vibes", serif;
+    font-size: 50px;
+    margin-top: 85px;
+}
+
+.profile-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: relative;
+}
+
+.profile-container {
+    position: relative;
+    margin-left: 85px;
+    width: 200px;
+    height: 200px;
+}
+
+.profile-container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.layer-1 {
+    width: 115%;
+    height: 115%;
+    margin-left: 20px;
+    margin-top: 20px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.layer-2 {
+    width: 135%;
+    height: auto;
+    z-index: 2;
+}
+
+.layer-3 {
+    width: 100%;
+    height: auto;
+    margin-left: 85px;
+    z-index: 3;
+}
+
+.info {
+    font-family: "Cinzel", serif;
+    font-size: 15px;
+}
+
+.info-waktu {
+    font-family: "Cinzel", serif;
+    font-size: 20px;
+}
+
+.info-tgl {
+    font-family: "Cinzel", serif;
+    font-size: 40px;
+}
+
+.info-bln {
+    font-family: "Cinzel", serif;
+    font-size: 28px;
+}
+
+.info-tempat {
+    margin-top: 15px;
+    font-family: "Cinzel", serif;
+    font-size: 15px;
+}
+
+.custom-btn {
+    background-color: #a220ff;
+    color: rgb(253, 250, 255);
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    border-radius: 25px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.custom-btn:hover {
+    background: hsl(266, 81%, 25%);
+    color: aliceblue;
+    transform: translateY(-2px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.custom-btn:active {
+    transform: translateY(0);
+}
+
+@media only screen and (max-width: 1280px) and (max-height: 800px) {
+    .profile-image {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        object-fit: cover;
+        position: relative;
+    }
+    
+    .profile-container {
+        position: relative;
+        margin-top: 40px;
+        margin-left: 89px;
+        width: 200px;
+        height: 200px;
+    }
+    
+    .profile-container img {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    
+    .layer-1 {
+        width: 115%;
+        height: 115%;
+        margin-left: 20px;
+        margin-top: 20px;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+    
+    .layer-2 {
+        width: 135%;
+        height: auto;
+        z-index: 2;
+    }
+    
+    .layer-3 {
+        width: 100%;
+        height: auto;
+        margin-left: 85px;
+        z-index: 3;
+    }
+
+    .info-und{
+        margin-right: 5px;
+    }
+
+    .title{
+        font-size: 40px;
+    }
+
+    .subtitle{
+        font-size: 40px;
+    }
+
+    .info{
+        font-size: 15px;
+    }
+
+    .info-laksana{
+        font-size: 15px;
+    }
+
+    .event-details{
+        margin-left: 50px;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+        padding: 15px;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    
+    .grid-item {
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .grid-item img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 8px;
+    }
+    
+    /* Special layout for the last two images */
+    .grid-item:nth-child(3) {
+        grid-column: 1 / -1;
+        height: 300px;
+    }
+    
+    .grid-item:nth-child(4) {
+        grid-column: 1 / -1;
+        height: 250px;
+    }
+
+    /* Layout responsive */
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    /* Kolom menjadi full width di mobile */
+    .col {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+}
+
+@media only screen and (max-width: 768px) and (max-height: 1024px) {
+    .profile-image {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        object-fit: cover;
+        position: relative;
+    }
+    
+    .profile-container {
+        position: relative;
+        margin-top: 40px;
+        margin-left: 200px;
+        width: 200px;
+        height: 200px;
+    }
+    
+    .profile-container img {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    
+    .layer-1 {
+        width: 109%;
+        height: 109%;
+        margin-left: 10px;
+        margin-top: 10px;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+    
+    .layer-2 {
+        width: 120%;
+        height: auto;
+        z-index: 2;
+    }
+    
+    .layer-3 {
+        width: 95%;
+        height: auto;
+        margin-left: 60px;
+        z-index: 3;
+    }
+
+    .info-und{
+        margin-right: 5px;
+    }
+
+    .subtitle{
+        font-size: 50px;
+    }
+
+    .info{
+        font-size: 18px;
+    }
+
+    .info-waktu{
+        font-size: 24px;
+    }
+
+    .info-tempat{
+        font-size: 18px;
+    }
+
+    .custom-btn {
+        background-color: #a220ff;
+        color: rgb(253, 250, 255);
+        font-family: 'Poppins', sans-serif;
+        border: none;
+        text-decoration: none;
+        padding: 1rem 2rem;
+        border-radius: 20px;
+        font-size: 1.2rem;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+    
+    .custom-btn:hover {
+        background: hsl(266, 81%, 25%);
+        color: aliceblue;
+        transform: translateY(-2px);
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    }
+    
+    .custom-btn:active {
+        transform: translateY(0);
+    }
+
+    /* Layout responsive */
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    /* Kolom menjadi full width di mobile */
+    .col {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+}
+
+@media only screen and (max-width: 390px) and (max-height: 844px) {
+    .title{
+        font-size: 30px;
+        margin-bottom: 5px;
+    }
+
+    .profile-image {
+        width: 160px;
+        height: 160px;
+        border-radius: 50%;
+        object-fit: cover;
+        position: relative;
+    }
+    
+    .profile-container {
+        position: relative;
+        margin-left: 107px;
+        width: 150px;
+        height: 150px;
+    }
+    
+    .profile-container img {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    
+    .layer-1 {
+        width: 105%;
+        height: 105%;
+        margin-left: 10px;
+        margin-top: 10px;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+    
+    .layer-2 {
+        width: 120%;
+        height: auto;
+        z-index: 2;
+    }
+    
+    .layer-3 {
+        width: 89%;
+        height: auto;
+        margin-left: 60px;
+        z-index: 3;
+    }
+
+    .info-und{
+        margin-right: 5px;
+    }
+    
+    .subtitle{
+        font-size: 45px;
+        margin-top: 25px;
+    }
+
+    .info{
+        font-size: 15px;
+    }
+
+    .info-waktu{
+        font-size: 20px;
+    }
+
+    .info-tempat{
+        font-size: 18px;
+    }
+
+    .info-tempat{
+        font-size: 15px;
+    }
+
+    .custom-btn {
+        background-color: #a220ff;
+        color: rgb(253, 250, 255);
+        font-family: 'Poppins', sans-serif;
+        border: none;
+        text-decoration: none;
+        padding: 1rem 1.5rem;
+        border-radius: 20px;
+        font-size: 1rem;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+    /* Layout responsive */
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    /* Kolom menjadi full width di mobile */
+    .col {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+}
+
+@media only screen and (max-width: 360px) and (max-height: 800px) {
+    .title{
+        font-size: 30px;
+        margin-bottom: 5px;
+    }
+
+    .profile-image {
+        width: 160px;
+        height: 160px;
+        border-radius: 50%;
+        object-fit: cover;
+        position: relative;
+    }
+    
+    .profile-container {
+        position: relative;
+        margin-left: 70px;
+        width: 150px;
+        height: 150px;
+    }
+    
+    .profile-container img {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    
+    .layer-1 {
+        width: 105%;
+        height: 105%;
+        margin-left: 10px;
+        margin-top: 10px;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+    
+    .layer-2 {
+        width: 120%;
+        height: auto;
+        z-index: 2;
+    }
+    
+    .layer-3 {
+        width: 89%;
+        height: auto;
+        margin-left: 60px;
+        z-index: 3;
+    }
+
+    .info-und{
+        margin-right: 5px;
+    }
+    
+    .subtitle{
+        font-size: 45px;
+        margin-top: 25px;
+    }
+
+    .info{
+        font-size: 15px;
+    }
+
+    .info-waktu{
+        font-size: 20px;
+    }
+
+    .info-tempat{
+        font-size: 18px;
+    }
+
+    .info-tempat{
+        font-size: 15px;
+    }
+
+    .custom-btn {
+        background-color: #a220ff;
+        color: rgb(253, 250, 255);
+        font-family: 'Poppins', sans-serif;
+        border: none;
+        text-decoration: none;
+        padding: 1rem 1.5rem;
+        border-radius: 20px;
+        font-size: 1rem;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+    /* Layout responsive */
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    /* Kolom menjadi full width di mobile */
+    .col {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+}
