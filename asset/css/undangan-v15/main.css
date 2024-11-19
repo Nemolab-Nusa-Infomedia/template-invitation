@@ -1,0 +1,936 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Great+Vibes&display=swap');
+
+body {
+    background-color: #3b4e14;
+}
+
+.item-image-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 75px;
+}
+
+.item-image-2 {
+    position: absolute;
+    top: 5px;
+    left: 50%;
+    width: 20%;
+    transform: translate(-50%);
+}
+
+.item-image-3 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 75px;
+}
+
+.text-invite{
+    font-family: "Averia Serif Libre", serif;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.35px;
+    align-items: center;
+}
+
+.title-invite{
+    font-family: "Averia Serif Libre", serif;
+    color: #FFD086;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 38.8px;
+    margin-bottom: 130px;
+}
+
+.img-cover{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.info-invite-1{
+    font-family: "Averia Serif Libre", serif;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.35px;
+    align-items: center;
+}
+
+.info-invite-2{
+    font-family: "Alex Brush", cursive;
+    color: #FF9C00;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 60px;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.info-invite-3{
+    font-family: "Alex Brush", cursive;
+    color: #FFD086;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.info-invite-4{
+    font-family: "Averia Serif Libre", serif;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.35px;
+    align-items: center;
+    margin-bottom: 15px;
+    margin-top: 80px;
+}
+
+.jadwal{
+    display: flex;
+    justify-content: center;
+}
+
+.alamat{
+    display: flex;
+    justify-content: center;
+}
+
+.kontak{
+    display: flex;
+    justify-content: center;
+}
+
+.detail-button {
+    font-family: "Averia Serif Libre", serif;
+    background-color: #FF9C00;
+    color: #000;
+    padding: 5px;
+    margin: 10px 15px;
+    border: none;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.detail-button:hover {
+    background-color: #FF9C00;
+}
+
+.detail-button svg {
+    margin: 0 60px;
+}
+
+.detail-content {
+    font-family: "Garamond", serif;
+    color: #B6986A;
+    margin-top: 10px;
+    display: none;
+    text-align: center;
+}
+
+.detail-content.active {
+    display: block;
+    animation: fadeIn 0.5s;
+}
+
+.detail-item {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 13.5px;
+    margin: 10px 0;
+    line-height: 1.6;
+}
+
+.subitem {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 16.88px;
+    color: #FFD086;
+    line-height: 1.6;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.open-button {
+    font-family: "Garamond", serif;
+    display: inline-block;
+    background-color: #FFBA4F;
+    color: #20231c;
+    padding: 12px 40px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    border: none;
+    margin: 20px 0;
+}
+
+
+.open-button:hover {
+    background-color: #dca046;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    color: white;
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.img-btm{
+    width: 100%;
+    display: block;
+    opacity: 0.9;
+    transform: scale(1.05);
+    margin-top: 80px;
+}
+
+@media only screen and (max-width: 1280px) and (max-height: 800px) {
+    .item-image-1 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 60px;
+    }
+    
+    .item-image-2 {
+        position: absolute;
+        top: 5px;
+        left: 50%;
+        width: 20%;
+        transform: translate(-50%);
+    }
+    
+    .item-image-3 {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 60px;
+    }
+
+    .text-invite{
+        margin-top: 15px;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 20.5px;
+    }
+    
+    .title-invite{ 
+        margin-top: 0;
+        font-size: 35px;
+        line-height: 40px;
+        margin-bottom: 90px;
+    }
+
+    .info-invite-1{
+        font-weight: 400;
+        font-size: 15px;
+    }
+    
+    .info-invite-2{
+        font-size: 50px;
+        line-height: 40px;
+    }
+
+    .info-invite-3{
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    .info-invite-4{
+        font-size: 15px;
+    }
+
+    .kontak{
+        margin-bottom: 50px;
+    }
+
+    .img-btn{ 
+        width: 200%;
+    }
+}
+
+@media only screen and (max-width: 820px) and (max-height: 1180px) {
+    .item-image-1 {
+        width: 100px;
+    }
+    
+    .item-image-2 {
+        width: 15%;
+    }
+    
+    .item-image-3 {
+        width: 100px;
+    }
+
+    .text-invite{
+        margin-top: 30px;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 20.5px;
+    }
+    
+    .title-invite{ 
+        margin-top: 0;
+        font-size: 40px;
+        line-height: 40px;
+        margin-bottom: 90px;
+    }
+
+    .info-invite-1{
+        font-weight: 400;
+        font-size: 20px;
+    }
+    
+    .info-invite-2{
+        font-size: 50px;
+        line-height: 40px;
+    }
+
+    .info-invite-3{
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    .info-invite-4{
+        font-size: 20px;
+    }
+
+    .detail-button {
+        font-family: "Averia Serif Libre", serif;
+        background-color: #FF9C00;
+        color: #000;
+        padding: 5px;
+        width: 70%;
+        margin: 10px 15px;
+        border: none;
+        text-decoration: none;
+        border-radius: 25px;
+        font-size: 20px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+    
+    .detail-button:hover {
+        background-color: #FF9C00;
+    }
+    
+    .detail-button svg {
+        margin: 0 80px;
+    }
+    
+    .detail-content {
+        font-family: "Garamond", serif;
+        color: #B6986A;
+        margin-top: 10px;
+        display: none;
+        text-align: center;
+    }
+    
+    .detail-content.active {
+        display: block;
+        animation: fadeIn 0.5s;
+    }
+    
+    .detail-item {
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 13.5px;
+        margin: 10px 0;
+        line-height: 1.6;
+    }
+    
+    .subitem {
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 16.88px;
+        color: #FFD086;
+        line-height: 1.6;
+    }
+    
+    @keyframes fadeIn {
+        from { opacity: 0; }
+        to { opacity: 1; }
+    }
+    
+    .open-button {
+        font-family: "Garamond", serif;
+        display: inline-block;
+        background-color: #FFBA4F;
+        color: #20231c;
+        padding: 12px 40px;
+        border-radius: 25px;
+        text-decoration: none;
+        font-weight: bold;
+        transition: all 0.3s ease;
+        border: none;
+        margin: 20px 0;
+    }
+    
+    
+    .open-button:hover {
+        background-color: #dca046;
+        transform: translateY(-2px);
+        box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        color: white;
+    }
+    
+    .kontak{
+        margin-bottom: 90px;
+    }
+
+    .img-btm{
+        margin: 0;
+        margin-left: 10px;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 768px) and (max-height: 1024px) {
+    .item-image-1 {
+        width: 100px;
+    }
+    
+    .item-image-2 {
+        width: 15%;
+    }
+    
+    .item-image-3 {
+        width: 100px;
+    }
+
+    .text-invite{
+        margin-top: 30px;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 20.5px;
+    }
+    
+    .title-invite{ 
+        margin-top: 0;
+        font-size: 40px;
+        line-height: 40px;
+        margin-bottom: 90px;
+    }
+
+    .info-invite-1{
+        font-weight: 400;
+        font-size: 20px;
+    }
+    
+    .info-invite-2{
+        font-size: 50px;
+        line-height: 40px;
+    }
+
+    .info-invite-3{
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    .info-invite-4{
+        font-size: 20px;
+    }
+
+    .detail-button {
+        font-family: "Averia Serif Libre", serif;
+        background-color: #FF9C00;
+        color: #000;
+        padding: 5px;
+        width: 70%;
+        margin: 10px 15px;
+        border: none;
+        text-decoration: none;
+        border-radius: 25px;
+        font-size: 20px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+    
+    .detail-button:hover {
+        background-color: #FF9C00;
+    }
+    
+    .detail-button svg {
+        margin: 0 80px;
+    }
+    
+    .detail-content {
+        font-family: "Garamond", serif;
+        color: #B6986A;
+        margin-top: 10px;
+        display: none;
+        text-align: center;
+    }
+    
+    .detail-content.active {
+        display: block;
+        animation: fadeIn 0.5s;
+    }
+    
+    .detail-item {
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 13.5px;
+        margin: 10px 0;
+        line-height: 1.6;
+    }
+    
+    .subitem {
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 16.88px;
+        color: #FFD086;
+        line-height: 1.6;
+    }
+    
+    @keyframes fadeIn {
+        from { opacity: 0; }
+        to { opacity: 1; }
+    }
+    
+    .open-button {
+        font-family: "Garamond", serif;
+        display: inline-block;
+        background-color: #FFBA4F;
+        color: #20231c;
+        padding: 12px 40px;
+        border-radius: 25px;
+        text-decoration: none;
+        font-weight: bold;
+        transition: all 0.3s ease;
+        border: none;
+        margin: 20px 0;
+    }
+    
+    
+    .open-button:hover {
+        background-color: #dca046;
+        transform: translateY(-2px);
+        box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        color: white;
+    }
+    
+    .kontak{
+        margin-bottom: 90px;
+    }
+
+    .img-btm{
+        margin: 0;
+        margin-left: 10px;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 390px) and (max-height: 844px) {
+    .item-image-1 {
+        width: 70px;
+    }
+    
+    .item-image-2 {
+        width: 20%;
+    }
+    
+    .item-image-3 {
+        width: 70px;
+    }
+
+    .text-invite{
+        margin-top: 0;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 20.5px;
+    }
+    
+    .title-invite{ 
+        margin-top: 0;
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 90px;
+    }
+
+    .info-invite-1{
+        font-weight: 400;
+        font-size: 14px;
+    }
+    
+    .info-invite-2{
+        font-size: 45px;
+        line-height: 30px;
+    }
+
+    .info-invite-3{
+        font-size: 35px;
+        line-height: 35px;
+    }
+
+    .info-invite-4{
+        font-size: 15px;
+    }
+
+    .detail-button {
+        font-family: "Averia Serif Libre", serif;
+        background-color: #FF9C00;
+        color: #000;
+        padding: 5px;
+        width: 100%;
+        margin: 10px 15px;
+        border: none;
+        text-decoration: none;
+        border-radius: 25px;
+        font-size: 15px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+    
+    .detail-button:hover {
+        background-color: #FF9C00;
+    }
+    
+    .detail-button svg {
+        margin: 0 10px;
+    }
+    
+    .detail-content {
+        font-family: "Garamond", serif;
+        color: #B6986A;
+        margin-top: 10px;
+        display: none;
+        text-align: center;
+    }
+    
+    .detail-content.active {
+        display: block;
+        animation: fadeIn 0.5s;
+    }
+    
+    .detail-item {
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 13.5px;
+        margin: 10px 0;
+        line-height: 1.6;
+    }
+    
+    .subitem {
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 16.88px;
+        color: #FFD086;
+        line-height: 1.6;
+    }
+    
+    @keyframes fadeIn {
+        from { opacity: 0; }
+        to { opacity: 1; }
+    }
+    
+    .open-button {
+        font-family: "Garamond", serif;
+        display: inline-block;
+        background-color: #FFBA4F;
+        color: #20231c;
+        padding: 12px 40px;
+        border-radius: 25px;
+        text-decoration: none;
+        font-weight: bold;
+        transition: all 0.3s ease;
+        border: none;
+        margin: 20px 0;
+    }
+    
+    
+    .open-button:hover {
+        background-color: #dca046;
+        transform: translateY(-2px);
+        box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        color: white;
+    }
+    
+    .kontak{
+        margin-bottom: 90px;
+    }
+
+    .img-btm{
+        margin: 0;
+        width: 200%;
+    }
+}
+
+@media only screen and (max-width: 375px) and (max-height: 812px) {
+    .item-image-1 {
+        width: 70px;
+    }
+    
+    .item-image-2 {
+        width: 20%;
+    }
+    
+    .item-image-3 {
+        width: 70px;
+    }
+
+    .text-invite{
+        margin-top: 0;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 20.5px;
+    }
+    
+    .title-invite{ 
+        margin-top: 0;
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 90px;
+    }
+
+    .info-invite-1{
+        font-weight: 400;
+        font-size: 14px;
+    }
+    
+    .info-invite-2{
+        font-size: 45px;
+        line-height: 30px;
+    }
+
+    .info-invite-3{
+        font-size: 35px;
+        line-height: 35px;
+    }
+
+    .info-invite-4{
+        font-size: 15px;
+    }
+
+    .detail-button {
+        font-family: "Averia Serif Libre", serif;
+        background-color: #FF9C00;
+        color: #000;
+        padding: 5px;
+        width: 100%;
+        margin: 10px 15px;
+        border: none;
+        text-decoration: none;
+        border-radius: 25px;
+        font-size: 15px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+    
+    .detail-button:hover {
+        background-color: #FF9C00;
+    }
+    
+    .detail-button svg {
+        margin: 0 10px;
+    }
+    
+    .detail-content {
+        font-family: "Garamond", serif;
+        color: #B6986A;
+        margin-top: 10px;
+        display: none;
+        text-align: center;
+    }
+    
+    .detail-content.active {
+        display: block;
+        animation: fadeIn 0.5s;
+    }
+    
+    .detail-item {
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 13.5px;
+        margin: 10px 0;
+        line-height: 1.6;
+    }
+    
+    .subitem {
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 16.88px;
+        color: #FFD086;
+        line-height: 1.6;
+    }
+    
+    @keyframes fadeIn {
+        from { opacity: 0; }
+        to { opacity: 1; }
+    }
+    
+    .open-button {
+        font-family: "Garamond", serif;
+        display: inline-block;
+        background-color: #FFBA4F;
+        color: #20231c;
+        padding: 12px 40px;
+        border-radius: 25px;
+        text-decoration: none;
+        font-weight: bold;
+        transition: all 0.3s ease;
+        border: none;
+        margin: 20px 0;
+    }
+    
+    
+    .open-button:hover {
+        background-color: #dca046;
+        transform: translateY(-2px);
+        box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        color: white;
+    }
+    
+    .kontak{
+        margin-bottom: 90px;
+    }
+
+    .img-btm{
+        margin: 0;
+        width: 200%;
+    }
+}
+
+@media only screen and (max-width: 360px) and (max-height: 800px) {
+    .item-image-1 {
+        width: 70px;
+    }
+    
+    .item-image-2 {
+        width: 20%;
+    }
+    
+    .item-image-3 {
+        width: 70px;
+    }
+
+    .text-invite{
+        margin-top: 0;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 20.5px;
+    }
+    
+    .title-invite{ 
+        margin-top: 0;
+        font-size: 30px;
+        line-height: 50px;
+        margin-bottom: 90px;
+    }
+
+    .info-invite-1{
+        font-weight: 400;
+        font-size: 14px;
+    }
+    
+    .info-invite-2{
+        font-size: 45px;
+    }
+
+    .info-invite-3{
+        font-size: 35px;
+    }
+
+    .info-invite-4{
+        font-size: 15px;
+    }
+
+    .detail-button {
+        font-family: "Averia Serif Libre", serif;
+        background-color: #FF9C00;
+        color: #000;
+        padding: 5px;
+        width: 100%;
+        margin: 10px 15px;
+        border: none;
+        text-decoration: none;
+        border-radius: 25px;
+        font-size: 15px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+    
+    .detail-button:hover {
+        background-color: #FF9C00;
+    }
+    
+    .detail-button svg {
+        margin: 0 10px;
+    }
+    
+    .detail-content {
+        font-family: "Garamond", serif;
+        color: #B6986A;
+        margin-top: 10px;
+        display: none;
+        text-align: center;
+    }
+    
+    .detail-content.active {
+        display: block;
+        animation: fadeIn 0.5s;
+    }
+    
+    .detail-item {
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 13.5px;
+        margin: 10px 0;
+        line-height: 1.6;
+    }
+    
+    .subitem {
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 16.88px;
+        color: #FFD086;
+        line-height: 1.6;
+    }
+    
+    @keyframes fadeIn {
+        from { opacity: 0; }
+        to { opacity: 1; }
+    }
+    
+    .open-button {
+        font-family: "Garamond", serif;
+        display: inline-block;
+        background-color: #FFBA4F;
+        color: #20231c;
+        padding: 12px 40px;
+        border-radius: 25px;
+        text-decoration: none;
+        font-weight: bold;
+        transition: all 0.3s ease;
+        border: none;
+        margin: 20px 0;
+    }
+    
+    
+    .open-button:hover {
+        background-color: #dca046;
+        transform: translateY(-2px);
+        box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        color: white;
+    }
+    
+    .kontak{
+        margin-bottom: 90px;
+    }
+
+    .img-btm{
+        margin: 0;
+        width: 200%;
+    }
+}
