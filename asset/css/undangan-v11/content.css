@@ -103,11 +103,11 @@ body{
 }
 
 .event-details {
-    background-color: #F3F2F7; 
+    background-color: #e3e3e8; 
     padding: 20px;
     border-radius: 10px;
     font-family: 'Poppins', sans-serif;
-    max-width: 400px;
+    width: 350px;
     margin: 0 auto;
     margin-left: 50px;
 }
@@ -210,7 +210,7 @@ body{
     .profile-container {
         position: relative;
         margin-top: 40px;
-        margin-left: 89px;
+        margin-left: 83px;
         width: 200px;
         height: 200px;
     }
@@ -264,6 +264,7 @@ body{
     }
 
     .event-details{
+        width: 340px;
         margin-left: 50px;
     }
 
@@ -325,7 +326,7 @@ body{
     .profile-container {
         position: relative;
         margin-top: 40px;
-        margin-left: 250px;
+        margin-left: 290px;
         width: 200px;
         height: 200px;
     }
@@ -477,20 +478,22 @@ body{
         margin-right: 5px;
     }
 
-    .title{
-        font-size: 40px;
-    }
-
     .subtitle{
-        font-size: 40px;
+        font-size: 45px;
     }
 
     .info{
-        font-size: 20px;
+        font-size: 25px;
     }
 
     .info-laksana{
         font-size: 20px;
+    }
+
+    .event-details{
+        font-size: 25px;
+        margin-left: 200px;
+        width: 50%;
     }
 
     .grid-container {
@@ -540,11 +543,6 @@ body{
 }
 
 @media only screen and (max-width: 390px) and (max-height: 844px) {
-    .title{
-        font-size: 30px;
-        margin-bottom: 5px;
-    }
-
     .profile-image {
         width: 160px;
         height: 160px;
@@ -593,12 +591,12 @@ body{
     }
     
     .subtitle{
-        font-size: 45px;
-        margin-top: 25px;
+        font-size: 40px;
+        margin-top: 5px;
     }
 
     .info{
-        font-size: 15px;
+        font-size: 13px;
     }
 
     .info-laksana{
@@ -618,7 +616,8 @@ body{
     }
 
     .event-details{
-        margin-left: 50px;
+        width: 85%;
+        margin-left: 30px;
     }
 
     .grid-container {
@@ -665,10 +664,10 @@ body{
     }
 }
 
-@media screen and (max-width: 360px) {
+@media only screen and (max-width: 360px) and (max-height: 800px) {
     .profile-image {
-        width: 200px;
-        height: 200px;
+        width: 160px;
+        height: 160px;
         border-radius: 50%;
         object-fit: cover;
         position: relative;
@@ -676,9 +675,9 @@ body{
     
     .profile-container {
         position: relative;
-        margin-left: 50px;
-        width: 200px;
-        height: 200px;
+        margin-left: 65px;
+        width: 170px;
+        height: 170px;
     }
     
     .profile-container img {
@@ -688,8 +687,8 @@ body{
     }
     
     .layer-1 {
-        width: 115%;
-        height: 115%;
+        width: 110%;
+        height: 110%;
         margin-left: 20px;
         margin-top: 20px;
         object-fit: cover;
@@ -705,60 +704,149 @@ body{
     .layer-3 {
         width: 100%;
         height: auto;
-        margin-left: 85px;
+        margin-left: 70px;
         z-index: 3;
     }
 
-    .info {
-        font-family: "Cinzel", serif;
+    .info-und{
+        margin-right: 5px;
+    }
+    
+    .subtitle{
+        font-size: 45px;
+        margin-top: 50px;
+    }
+
+    .info{
+        font-size: 13px;
+    }
+
+    .info-waktu{
+        font-size: 20px;
+    }
+
+    .info-tempat{
+        font-size: 18px;
+    }
+
+    .info-tempat{
         font-size: 15px;
     }
 
-    .event-details{
-        margin-left: 40px;
+    .custom-btn {
+        background-color: #a220ff;
+        color: rgb(253, 250, 255);
+        font-family: 'Poppins', sans-serif;
+        border: none;
+        text-decoration: none;
+        padding: 1rem 1.5rem;
+        border-radius: 20px;
+        font-size: 1rem;
+        cursor: pointer;
+        transition: background-color 0.3s;
     }
-    .grid-container {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 15px;
-        padding: 15px;
-        max-width: 1200px;
-        margin: 0 auto;
-    }
-    
-    .grid-item {
-        position: relative;
-        width: 100%;
-        height: 100%;
-    }
-    
-    .grid-item img {
-        width: 100%;
-        height: 100%;
+}
+
+@media only screen and (max-width: 320px) and (max-height: 568px) {
+    .profile-image {
+        width: 130px;
+        height: 130px;
+        border-radius: 50%;
         object-fit: cover;
-        border-radius: 8px;
+        position: relative;
     }
     
-    /* Special layout for the last two images */
-    .grid-item:nth-child(3) {
-        grid-column: 1 / -1;
-        height: 300px;
+    .profile-container {
+        position: relative;
+        margin-left: 75px;
+        width: 140px;
+        height: 140px;
     }
     
-    .grid-item:nth-child(4) {
-        grid-column: 1 / -1;
-        height: 250px;
+    .profile-container img {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    
+    .layer-1 {
+        width: 98%;
+        height: 98%;
+        margin-left: 15px;
+        margin-top: 15px;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+    
+    .layer-2 {
+        width: 120%;
+        height: auto;
+        z-index: 2;
+    }
+    
+    .layer-3 {
+        width: 80%;
+        height: auto;
+        margin-left: 70px;
+        z-index: 3;
     }
 
-    /* Layout responsive */
-    .row {
-        display: flex;
-        flex-direction: column;
+    .info-und{
+        margin-right: 5px;
+    }
+
+    .title{
+        font-size: 25px;
     }
     
-    /* Kolom menjadi full width di mobile */
-    .col {
-        width: 100%;
-        margin-bottom: 15px;
+    .subtitle{
+        font-size: 35px;
+        margin-top: 10px;
+    }
+
+    .info{
+        font-size: 12px;
+    }
+
+    .info-waktu{
+        font-size: 15px;
+    }
+
+    .info-tempat{
+        font-size: 16px;
+    }
+
+    .info-tempat{
+        font-size: 13px;
+    }
+
+    .info-laksana{
+        font-size: 12px;
+        margin-top: 35px;
+    }
+
+    .event-details{
+        font-size: 12px;
+    }
+
+    .event-date{
+        font-size: 13px;
+    }
+
+    .event-location{
+        font-size: 13px;
+    }
+
+    .custom-btn {
+        background-color: #a220ff;
+        color: rgb(253, 250, 255);
+        font-family: 'Poppins', sans-serif;
+        border: none;
+        text-decoration: none;
+        padding: 1rem 1.5rem;
+        border-radius: 20px;
+        font-size: 0.8rem;
+        cursor: pointer;
+        transition: background-color 0.3s;
     }
 }
