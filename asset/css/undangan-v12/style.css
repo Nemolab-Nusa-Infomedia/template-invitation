@@ -26,11 +26,13 @@ body {
 .bottom-left {
     bottom: 0;
     left: 0;
+    width: 150px;
 }
 
 .bottom-right {
     bottom: 0;
     right: 0;
+    width: 150px;
 }
 
 .cloud-pattern {
@@ -311,6 +313,17 @@ body {
         padding: 10px 30px;
         font-size: 14px;
     }
+    .bottom-left {
+        bottom: 0;
+        left: 0;
+        width: 100px;
+    }
+    
+    .bottom-right {
+        bottom: 0;
+        right: 0;
+        width: 100px;
+    }
 }
 
 /* Media Queries untuk device yang lebih kecil */
@@ -351,5 +364,17 @@ body {
     
     .card-2 {
         max-width: 240px;
+    }
+
+    .bottom-left {
+        bottom: 0;
+        left: 0;
+        width: 100px;
+    }
+    
+    .bottom-right {
+        bottom: 0;
+        right: 0;
+        width: 100px;
     }
 }
