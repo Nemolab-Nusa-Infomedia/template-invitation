@@ -1,270 +1,151 @@
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Great+Vibes&display=swap');
 
-
-body{
-    background-color: #387286;
-    color: #00477B;
-    font-family: "Poppins", serif;
-    overflow: auto;
-    scroll-behavior: smooth;
-    font-size: 12px;
+body {
+    background-color: #8EACCD;
 }
 
-body::-webkit-scrollbar {
-    display: none;
-}
-
-a{
-    text-decoration: none;
-}
-
-li{
-    list-style-type: none;
-}
-
-.modal-content {
-    background-color: transparent;
-    border: none;
-}
-
-.cover {
-    height: 100vh;
-    position: relative;
-    background-color: #b6c6e3;
-    overflow: hidden;
-}
-
-  
-.overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: radial-gradient(ellipse at center, transparent 30%, rgba(0, 0, 0, 0.4) 70%);
+.snowflakes {
+    color: #fff;
+    font-size: 1em;
+    font-family: Arial;
+    text-shadow: 0 0 1px #000;
+    position: fixed;
+    top: -20%;
+    animation: fall 10s linear infinite;
     z-index: 1;
 }
 
-.cover .item-image-1 {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    z-index: 5;
-}
-
-
-/* cover content */
-
-.cover-content{
-    z-index: 99;
-}
-
-.cover-content h3{
+.title{
+    margin-top: 25px;
+    margin-bottom: 70px;
     font-family: "Cinzel", serif;
-    font-size: 2rem;
+    font-weight: 600;
     color: #C13445;
 }
 
-.cover-content p.date{
-    font-size: 1rem;
-    font-weight: 500;
+.subtitle{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+    color: #00477B;
 }
 
-.cover-content a{
-    background-color: #FDA91E;
-    color: white;
+.info{
+    font-family: 'Poppins', sans-serif;
+    color: #00477B;
+    margin-bottom: 10px;
+    font-size: medium;
 }
 
-
-
-/* hujan */
-
-.hujan img{
-    width: 30px;
-    animation: hujan 7s linear infinite;
-}
-
-.hujan{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    position: absolute;
-    top: -70px;
-}
-
-@keyframes hujan{
-    0%{
-        transform: translateY(100);
-        opacity: 0;
-    }
-    50%{
-        
-        opacity: 1;
-    }
-    70%{
-        
-        opacity: 1;
-    }
-    100%{
-        transform: translateY(80vh);
-        opacity: 0;
-    }
-}
-
-.hujan img:nth-child(1){
-    animation-delay: 2s;
-}
-.hujan img:nth-child(2){
-    animation-delay: 7s;
-}
-.hujan img:nth-child(3){
-    animation-delay: 4s;
-}
-.hujan img:nth-child(4){
-    animation-delay: 1s;
-}
-.hujan img:nth-child(5){
-    animation-delay: 3s;
-}
-.hujan img:nth-child(6){
-    animation-delay: 6s;
-}
-.hujan img:nth-child(7){
-    animation-delay: 5s;
-}
-
-/* about content */
-.about{
-    background: linear-gradient(to bottom, #1a4e77 5%, #b6c6e3 65%);
-}
-
-.cover .item-image-about-content-1{
-    position: absolute;
-    top: 10px;
-    left: 0;
-    width: 100%;
-    z-index: 5;
-}
-
-/* address content */
-
-.cover .item-image-address-content-1{
-    position: absolute;
-    top: 10px;
-    left: 0;
-    width: 50px;
-    z-index: 5;
-}
-.cover .item-image-address-content-2{
-    position: absolute;
-    top: 100px;
-    right: 0;
-    width: 50px;
-    z-index: 5;
-}
-.cover .item-image-address-content-3{
-    position: absolute;
-    bottom: 30px;
-    left: 0;
-    width: 100px;
-    z-index: 5;
-}
-.cover .item-image-address-content-4{
-    position: absolute;
-    bottom: 100px;
-    right: 0;
-    width: 50px;
-    z-index: 5;
-}
-
-.address-content h3{
-    font-family: "Cinzel", serif;
-    font-size: 2rem;
-    color: #C13445;
-}
-
-.event-info {
-    background-color: white;
-    border-radius: 12px;
-    padding: 20px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+.info-jam{
+    font-family: 'Poppins', sans-serif;
+    color: #00477B;
     margin-top: 50px;
+    font-size: medium;
 }
-.icon-box {
-    background-color: #EDF4FF;
-    padding: 10px;
-    border-radius: 12px;
-    display: inline-block;
-}
-.info {
-    margin-left: 20px;
-}
-.info h5 {
-    font-weight: bold;
-    color: #343a40;
-}
-.info p {
-    color: #6c757d;
+
+.info-invate {
+    font-family: 'Poppins', sans-serif;
+    color: #00477B;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-size: medium;
 }
 
 
-/* date content */
-.countdown {
+.content {
+    position: relative;
+    z-index: 2;
+    padding: 2rem;
+    text-align: center;
+}
+
+
+.countdown-container {
     display: flex;
     justify-content: center;
-    gap: 20px;
-    margin-bottom: 30px;
+    gap: 1rem;
+    margin: 2rem 0;
 }
-.time-box {
-    background-color: white;
-    padding: 20px;
+
+.countdown-box {
+    background: white;
+    padding: 1rem;
     border-radius: 10px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    width: 80px;
-}
-.time-box h3 {
-    font-size: 20px;
-    margin: 0;
-    color: #003f7d;
-}
-.time-box p {
-    margin: 0;
-    color: #6c757d;
-    font-size: 10px;
-}
-.button-group {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-}
-.btn-custom {
-    padding: 10px 20px;
-    font-size: 18px;
-    border-radius: 30px;
-}
-.btn-gray {
-    background-color: #D3D3D3;
-    color: black;
-}
-.btn-yellow {
-    background-color: #FFAA00;
-    color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    min-width: 70px;
 }
 
-/* close content */
-.close{
-    background: linear-gradient(to bottom, #b6c6e3 10%, #1a4e77 65%);
+.countdown-value {
+    color: #1A4677;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.25rem;
 }
 
-.close-content h3{
-    font-family: "Cinzel", serif;
-    font-size: 2.5rem;
-    color: #C13445;
+.countdown-label {
+    color: #756b6b;
+    font-size: 0.8rem;
 }
 
+.button {
+    background-color: #FDA91E;
+    color: rgb(255, 255, 255);
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    border-radius: 25px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
 
+.button:hover {
+    background-color: #1557b0;
+}
 
+.santa-sleigh {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 100px;
+    height: 100px;
+    z-index: 3;
+}
 
+/* Styling untuk gambar utama */
+.main-image {
+    width: 425px; /* Base width, adjust as needed */
+    opacity: 0.9; /* Slight transparency to match watercolor effect */
+    transform: scale(1.05); /* Slight zoom on hover */
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    margin-top: 68px;
+    border-radius: 8px 8px 0 0;
+}
 
+@media (max-width: 480px) {
+    .countdown-container {
+        gap: 0.5rem;
+    }
+
+    .countdown-box {
+        min-width: 60px;
+        padding: 0.75rem;
+    }
+
+    .countdown-value {
+        font-size: 1.25rem;
+    }
+
+    .title {
+        font-size: 1.5rem;
+    }
+
+    .subtitle {
+        font-size: 1.25rem;
+    }
+}
