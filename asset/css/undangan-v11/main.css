@@ -360,8 +360,8 @@ body {
 
 @media only screen and (max-width: 768px) and (max-height: 1024px) {
     .profile-image {
-        width: 200px;
-        height: 200px;
+        width: 180px;
+        height: 180px;
         border-radius: 50%;
         object-fit: cover;
         position: relative;
@@ -370,7 +370,7 @@ body {
     .profile-container {
         position: relative;
         margin-top: 40px;
-        margin-left: 200px;
+        margin-left: 255px;
         width: 200px;
         height: 200px;
     }
@@ -382,16 +382,16 @@ body {
     }
     
     .layer-1 {
-        width: 109%;
-        height: 109%;
-        margin-left: 10px;
+        width: 115%;
+        height: 115%;
+        margin-left: 15px;
         margin-top: 10px;
         object-fit: cover;
         border-radius: 50%;
     }
     
     .layer-2 {
-        width: 120%;
+        width: 130%;
         height: auto;
         z-index: 2;
     }
