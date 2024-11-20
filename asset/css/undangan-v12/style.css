@@ -26,11 +26,13 @@ body {
 .bottom-left {
     bottom: 0;
     left: 0;
+    width: 150px;
 }
 
 .bottom-right {
     bottom: 0;
     right: 0;
+    width: 150px;
 }
 
 .cloud-pattern {
@@ -58,8 +60,8 @@ body {
 
 .image-frame {
     position: relative;
-    width: 400px; 
-    height: 550px; 
+    width: 300px; 
+    height: 450px; 
     overflow: hidden;
     margin: 0 auto;
 }
@@ -68,7 +70,7 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    width: 400px;
+    width: 300px;
 }
 
 .foreground-image {
@@ -258,4 +260,121 @@ body {
     left: 10px;
     color: #004d86;
     font-size: 14px;
+}
+
+
+/* Media Queries untuk Galaxy A12 dan device serupa */
+@media screen and (max-width: 720px) {
+    body {
+        padding: 10px;
+    }
+    
+    .tentang {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    
+    .tentang h3 {
+        font-size: 1.8rem;
+    }
+    
+    .text, .text1 {
+        margin-top: 40px;
+    }
+    
+    .event-details {
+        margin-top: 40px;
+    }
+    
+    .event-details h2 {
+        font-size: 1.6rem;
+    }
+    
+    .account-number {
+        font-size: 13px;
+        margin-top: 30px;
+    }
+    
+    .copy-btn {
+        padding: 2px 8px;
+        margin-top: 30px;
+    }
+    
+    .name, .expiry {
+        font-size: 12px;
+    }
+    
+    .cloud-pattern {
+        height: 50px;
+        margin-bottom: 30px;
+    }
+    
+    .open-button {
+        padding: 10px 30px;
+        font-size: 14px;
+    }
+    .bottom-left {
+        bottom: 0;
+        left: 0;
+        width: 100px;
+    }
+    
+    .bottom-right {
+        bottom: 0;
+        right: 0;
+        width: 100px;
+    }
+}
+
+/* Media Queries untuk device yang lebih kecil */
+@media screen and (max-width: 360px) {
+    .image-frame {
+        max-width: 240px;
+        width: 200px;
+        height: 360px;
+    }
+    
+    .background-frame {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 200px;
+    }
+    
+    .foreground-image {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, 0);
+        width: 80%;
+        height: auto;
+    }
+    
+    .text-center h1 {
+        font-size: 1.8rem;
+    }
+    
+    .countdown-item {
+        min-width: 45px;
+    }
+    
+    .countdown-item h3 {
+        font-size: 18px;
+    }
+    
+    .card-2 {
+        max-width: 240px;
+    }
+
+    .bottom-left {
+        bottom: 0;
+        left: 0;
+        width: 100px;
+    }
+    
+    .bottom-right {
+        bottom: 0;
+        right: 0;
+        width: 100px;
+    }
 }
