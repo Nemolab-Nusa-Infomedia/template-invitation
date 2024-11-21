@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Great+Vibes&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 .gradient {
-    background: linear-gradient(180deg, #2b4981 0%, #9fc2e8 50%, #E7F0FF 70%);
+    background: linear-gradient(180deg, #2b4981 0%, #cfe6fe 50%, #E7F0FF 70%);
     position: relative;
     overflow: hidden;
 }
@@ -74,9 +74,9 @@ body {
     font-family: 'Poppins', sans-serif;
     color: #FFFBF6;
     margin-bottom: 40px;
-    font-size: 17px;
-    font-weight: 500;
-    line-height: 18px;
+    font-size: 15px;
+    font-weight: 200;
+    line-height: 25px;
     align-items: center;
 }
 
@@ -142,7 +142,7 @@ body {
 .title-2 {
     font-weight: 700;
     font-family: 'Cinzel', serif;
-    color: #C13445;
+    color: #e5031e;
     font-size: 45px;
 }
 
@@ -220,13 +220,15 @@ body {
 
 .img-tree{
     width: 28%;
-    margin-left: 35px;
+    margin-top: 25px;
+    margin-left: 25px;
 }
 
 .img-gift{
     width: 20%;
     opacity: 0.9rem;
-    margin-left: 130px;
+    margin-top: 25px;
+    margin-left: 160px;
     margin-bottom: 100px;
 }
 
@@ -252,25 +254,85 @@ body {
     color: #676767;
 }
 
-@media (max-width: 480px) {
-    .countdown-container {
-        gap: 0.5rem;
-    }
+.time-invit{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 18px;
+    text-align: center;
+    color: #00477B;
+    margin-top: 45px;
+    margin-bottom: 35px;
+}
 
-    .countdown-box {
-        min-width: 60px;
-        padding: 0.75rem;
-    }
+.countdown-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 2rem 0;
+}
 
-    .countdown-value {
-        font-size: 1.25rem;
-    }
+.countdown-box {
+    background: white;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    min-width: 70px;
+}
 
-    .title {
-        font-size: 1.5rem;
-    }
+.countdown-value {
+    color: #1A4677;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.25rem;
+}
 
-    .subtitle {
-        font-size: 1.25rem;
-    }
+.countdown-label {
+    color: #756b6b;
+    font-size: 0.8rem;
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.toggle-button {
+    padding: 9px 18px;
+    border: none;
+    border-radius: 15px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 20px;
+    font-weight:300;
+    font-size: 14px;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(170, 165, 165);
+    transition: background-color 0.3s ease;
+}
+
+.toggle-button.active {
+    background-color: orange;
+    color: white;
+}
+
+.text-close{
+    font-family: "Cinzel", serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: center;
+    margin-top: 80px;
+    color: #B21808;
+}
+
+.info-close {
+    font-family: 'Poppins', sans-serif;
+    color: #00477B;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: center;
 }

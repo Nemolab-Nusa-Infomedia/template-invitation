@@ -15,7 +15,3 @@ function updateCountdown() {
         document.getElementById('seconds').textContent = seconds.toString().padStart(2, '0');
     }
 }
-
-// Update countdown immediately and then every second
-updateCountdown();
-setInterval(updateCountdown, 1000);
