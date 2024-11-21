@@ -4,15 +4,50 @@ body {
     background-color: #8EACCD;
 }
 
-.snowflakes {
-    color: #fff;
-    font-size: 1em;
-    font-family: Arial;
-    text-shadow: 0 0 1px #000;
-    position: fixed;
-    top: -20%;
-    animation: fall 10s linear infinite;
-    z-index: 1;
+.snow-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: -1;
+}
+
+.cover-content {
+    position: relative;
+    z-index: 2;
+}
+
+.snowflake {
+    position: absolute;
+    top: -10%;
+    animation: snowfall linear infinite;
+}
+
+.snowflake img {
+    width: 30px;
+    height: auto;
+}
+
+.snowflake:nth-child(1) { left: 10%; animation-duration: 10s; animation-delay: 0s; }
+.snowflake:nth-child(2) { left: 30%; animation-duration: 12s; animation-delay: 2s; }
+.snowflake:nth-child(3) { left: 50%; animation-duration: 8s; animation-delay: 4s; }
+.snowflake:nth-child(4) { left: 70%; animation-duration: 11s; animation-delay: 1s; }
+.snowflake:nth-child(5) { left: 90%; animation-duration: 9s; animation-delay: 3s; }
+.snowflake:nth-child(6) { left: 20%; animation-duration: 14s; animation-delay: 0s; }
+.snowflake:nth-child(7) { left: 40%; animation-duration: 18s; animation-delay: 4s; }
+.snowflake:nth-child(8) { left: 60%; animation-duration: 10s; animation-delay: 8s; }
+.snowflake:nth-child(9) { left: 80%; animation-duration: 13s; animation-delay: 2s; }
+.snowflake:nth-child(10) { left: 5%; animation-duration: 8s; animation-delay: 6s; }
+
+@keyframes snowfall {
+    0% {
+        transform: translateY(0) rotate(0deg);
+    }
+    100% {
+        transform: translateY(100vh) rotate(360deg);
+    }
 }
 
 .title{
