@@ -111,28 +111,6 @@ body {
     margin-left: 300px;
 }
 
-@media (max-width: 480px) {
-    .countdown-container {
-        gap: 0.5rem;
-    }
-
-    .countdown-box {
-        min-width: 60px;
-        padding: 0.75rem;
-    }
-
-    .countdown-value {
-        font-size: 1.25rem;
-    }
-
-    .title {
-        font-size: 1.5rem;
-    }
-
-    .subtitle {
-        font-size: 1.25rem;
-    }
-}
 
 .event-details {
     background-color: #F3F2F7;  
@@ -201,4 +179,61 @@ body {
     font-family: 'Poppins', sans-serif;
     color: #757575;  
     margin: 0;
+}
+
+.img-tree{
+    width: 28%;
+    margin-left: 35px;
+}
+
+.img-gift{
+    width: 20%;
+    opacity: 0.9rem;
+    margin-left: 130px;
+    margin-bottom: 100px;
+}
+
+.location{
+    font-family: 'Poppins', sans-serif;
+    margin-top: 35px;
+    margin-left: 15px;
+}
+
+.title-loc{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #00477B;
+}
+
+.subtitle-loc{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #676767;
+}
+
+@media (max-width: 480px) {
+    .countdown-container {
+        gap: 0.5rem;
+    }
+
+    .countdown-box {
+        min-width: 60px;
+        padding: 0.75rem;
+    }
+
+    .countdown-value {
+        font-size: 1.25rem;
+    }
+
+    .title {
+        font-size: 1.5rem;
+    }
+
+    .subtitle {
+        font-size: 1.25rem;
+    }
 }
