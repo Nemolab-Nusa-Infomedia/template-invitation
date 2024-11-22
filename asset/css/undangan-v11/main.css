@@ -5,8 +5,9 @@ body {
 }
 
 .img-top {
-    width: 100%;
+    width: 98%;
     display: block;
+    margin-left: 3px;
     opacity: 0.9;
     transform: scale(1.05);
 }
@@ -44,8 +45,8 @@ body {
 }
 
 .layer-1 {
-    width: 115%;
-    height: 115%;
+    width: 110%;
+    height: 110%;
     margin-left: 20px;
     margin-top: 20px;
     object-fit: cover;
@@ -139,8 +140,8 @@ body {
     }
     
     .layer-1 {
-        width: 115%;
-        height: 115%;
+        width: 110%;
+        height: 110%;
         margin-left: 20px;
         margin-top: 20px;
         object-fit: cover;
@@ -254,8 +255,8 @@ body {
     }
     
     .layer-1 {
-        width: 115%;
-        height: 115%;
+        width: 110%;
+        height: 110%;
         margin-left: 20px;
         margin-top: 20px;
         object-fit: cover;
@@ -382,8 +383,8 @@ body {
     }
     
     .layer-1 {
-        width: 115%;
-        height: 115%;
+        width: 110%;
+        height: 110%;
         margin-left: 15px;
         margin-top: 10px;
         object-fit: cover;
@@ -583,8 +584,8 @@ body {
     }
     
     .layer-1 {
-        width: 110%;
-        height: 110%;
+        width: 105%;
+        height: 105%;
         margin-left: 20px;
         margin-top: 20px;
         object-fit: cover;
