@@ -7,7 +7,7 @@
 .title {
     font-family: "Averia Serif Libre", serif;
     font-weight: 300;
-    font-size: 16px;
+    font-size: 10px;
     line-height: 19.4px;
     text-align: center;
     margin-top: 80px;
@@ -325,7 +325,7 @@
     margin-top: 8px;
 }
 
-@media only screen and (max-width: 834px) and (max-height: 1194px) {
+/* @media only screen and (max-width: 834px) and (max-height: 1194px) {
     .title{
         margin-top: 100px;
         margin-bottom: 125px;
@@ -548,10 +548,10 @@
         cursor: pointer;
         align-self: center;
     }
-}
+} */
 
 /* Media Query untuk iPad dan tablet */
-@media screen and (min-width: 721px) and (max-width: 1024px) {
+/* @media screen and (min-width: 721px) and (max-width: 1024px) {
 
     .img-carousel{
         margin: 0;
@@ -664,7 +664,7 @@
     .artist {
         font-size: 25px;
     }
-}
+} */
 
 /* @media only screen and (max-width: 390px) and (max-height: 844px) {
     .img-carousel{
