@@ -17,6 +17,7 @@
 
 .gallery-cell {
     counter-increment: gallery-cell;
+
 }
 
 .gallery-cell:hover {
@@ -53,14 +54,14 @@
     color: rgb(255, 255, 255);
 }
 
-.name {
+.name{
     font-family: "Alex Brush", serif;
     font-weight: 400;
     font-size: 48;
     line-height: 60px;
     text-align: center;
     color: #CFFF58;
-}
+  }
 
 .jadwal {
     display: flex;
@@ -262,7 +263,7 @@
 .audio-player {
     background-color: #3D3D3D;
     padding: 16px;
-    width: 320px;
+    width: 100%;
     display: grid;
     grid-template-columns: 1fr auto;
     gap: 10px;
@@ -324,6 +325,169 @@
     width: 24px;
     height: 24px;
     cursor: pointer;
+}
+
+@media only screen and (max-width: 834px) and (max-height: 1194px) {
+    .title{
+        margin-top: 100px;
+        margin-bottom: 125px;
+        font-size: 30px;
+    }
+
+    .subtitle{
+        font-size: 27px;
+    }
+
+    .name{
+        font-size: 35px;
+    }
+
+    .img-carousel{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .gallery-cell:hover {
+        transform: translateY(-25px) translateZ(0);
+    }
+
+    .detail-button{
+        font-size: 50px;
+    }
+
+    .detail-content {
+        font-family: "Averia Serif Libre", serif;
+        background-color: #992A2A;
+        padding: 20px;
+        text-align: center;
+        display: none;
+        animation: fadeIn 0.5s ease-in-out;
+        margin-bottom: 0;
+    }
+    
+    .additional-content {
+        font-family: "Averia Serif Libre", serif;
+        padding: 20px;
+        text-align: center;
+        animation: fadeIn 0.5s ease-in-out;
+        display: none;
+    }
+    
+    .detail-content.active {
+        display: block;
+    }
+    
+    .detail-content.active+.additional-content {
+        display: block;
+    }
+    
+    .detail-item p {
+        margin-top: 25px;
+        margin-bottom: 25px;
+        font-family: "Averia Serif Libre", serif;
+    }
+    
+    .mempelai {
+        color: #ffffff;
+    }
+    
+    .detail-item h2 {
+        margin-bottom: 10px;
+        font-family: "Alex Brush", serif;
+        color: #CFFF58;
+        font-size: 35px;
+        font-weight: 100;
+        line-height: 40px;
+    }
+    
+    .detail-item h1 {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        font-family: "Alex Brush", serif;
+        font-size: 35px;
+        color: #CFFF58;
+    }
+    
+    .section-title {
+        margin-bottom: 30px;
+        margin-top: 50px;
+        font-size: 30px;
+    }
+     
+    .location-section {
+        margin: 40px 0;
+    }
+    
+    .location-label {
+        color: #ffffff;
+        margin-bottom: 10px;
+    }
+    
+    .location-address {
+        color: #CFFF58;
+        margin-bottom: 20px;
+    }
+    
+    .maps-button {
+        background-color: #992A2A;
+        font-size: 13px;
+        border: none;
+        color: #ffffff;
+        padding: 10px 25px;
+        border-radius: 20px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        font-family: "Averia Serif Libre", serif;
+    }
+    
+    .maps-button:hover {
+        background-color: #d70707;
+    }
+    
+    .maps-icon {
+        margin: 0 5px;
+    }
+    
+    .quote-section {
+        margin-top: 40px;
+        padding: 20px;
+        max-width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .quote-text {
+        color: #ffffff;
+        font-family: "Averia Serif Libre", serif;
+        font-style: italic;
+        line-height: 1.6;
+        margin-bottom: 10px;
+    }
+    
+    .quote-source {
+        color: #CFFF58;
+        font-size: 16px;
+        font-family: "Averia Serif Libre", serif;
+    }
+    
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+        }
+    
+        to {
+            opacity: 1;
+        }
+    }
+
+    .audio-player{
+         width: 100%;
+    }
+    
+    .details{
+        font-size: 10px;
+    }
+    
 }
 
 @media only screen and (max-width: 820px) and (max-height: 1180px) {
@@ -390,13 +554,16 @@
 
 /* Media Query untuk iPad dan tablet */
 @media screen and (min-width: 721px) and (max-width: 1024px) {
+
+    .img-carousel{
+        margin: 0;
+        margin-bottom: 30px;
+        width: 55%;
+     } 
+
     .gallery-cell{
         margin-left: 5px;
         margin-right: 5px;
-    }
-
-    .wedding-title {
-        font-size: 25px;
     }
 
     .couple-names {
@@ -501,33 +668,211 @@
     }
 }
 
+@media only screen and (max-width: 390px) and (max-height: 844px) {
+    .img-carousel{
+        margin: 0;
+        margin-bottom: 30px;
+        width: 55%;
+     } 
+
+    .title{
+        font-size: 20px;
+    }
+
+    .subtitle{
+        margin-top: 20px;
+        font-size: 18px;
+    }
+
+    .name{
+        margin: 0;
+       font-size: 44px;
+       line-height: 60px;
+    }
+
+    .section-title {
+        margin-top: 15px;
+        margin-bottom: 30px;
+        font-size: 18px;
+    }
+
+    .location-address{
+        font-size: 15px;
+    }
+
+    .detail-button {
+        font-family: "Averia Serif Libre", serif;
+        background-color: #992A2A;
+        color: #ffffff;
+        padding: 12px 40px;
+        margin: 10px 15px;
+        margin-top: 25px;
+        margin-bottom: 40px;
+        border: none;
+        text-decoration: none;
+        border-radius: 25px;
+        font-size: 15px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+    
+    .detail-button svg {
+        margin-right: 15px;
+        margin-left: 15px;
+        color: #6DFA74;
+    }
+    
+    .detail-button:hover {
+        background-color: #bc1212;
+    }
+
+    .audio-player {
+        background-color: #3D3D3D;
+        padding: 16px;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr auto;
+        gap: 10px;
+    }
+    
+    .progress-container {
+        grid-column: 1 / -1;
+    }
+    
+    .progress-bar {
+        flex-grow: 1;
+        appearance: none;
+        background-color: #3e3e3e;
+        height: 6px;
+        border-radius: 3px;
+        outline: none;
+        cursor: pointer;
+    }
+    
+    .progress-bar::-webkit-slider-thumb {
+        appearance: none;
+        width: 12px;
+        height: 12px;
+        background-color: white;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+    
+    .details {
+        display: flex;
+        justify-content: space-between;
+        color: white;
+        font-weight: 700;
+        font-size: 15px;
+        margin-top: 8px;
+        margin-bottom: 10px;
+    }
+    
+    .track-info {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+    }
+    
+    .track-title {
+        font-weight: bold;
+        color: #ffffff;
+    }
+    
+    .artist {
+        font-size: 14px;
+        color: #b3b3b3;
+    }
+    
+    .play-btn {
+        background: url('https://img.icons8.com/ios-filled/50/ffffff/play.png') no-repeat center;
+        background-size: contain;
+        border: none;
+        width: 24px;
+        height: 24px;
+        cursor: pointer;
+    }
+}
+
 @media only screen and (max-width: 360px) and (max-height: 800px) {
     
     .title{
-        margin-bottom: 15px;
+        margin-top: 58px;
+        margin-bottom: 25px;
         font-size: 15px;
     }
 
     .subtitle{
-        font-size: 20px;
-        margin-bottom: 5px;
+        margin-top: 15px;
+        font-size: 15px;
+        margin-bottom: 10px;
     }
 
+    .name{
+        font-size: 20px;
+    }
+    .img-carousel{ 
+        margin-bottom: 30px;
+        width: 55%;
+     } 
+
     .gallery-cell{
-        margin-left: 5px;
-        margin-right: 5px;
+        margin-left: 2px;
+        margin-right: 2px;
     }
 
      .name{
-       font-size: 35px;
+        margin: 0;
+       font-size: 40px;
+       line-height: 60px;
+    }
+
+    .section-title {
+        margin-top: 15px;
+        margin-bottom: 30px;
+        font-size: 18px;
+    }
+
+    .location-address{
+        font-size: 15px;
     }
 
     .details {
         font-size: 17px;
     }
 
-    .img-carousel{
-        width: 57%;
+    .jadwal {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .detail-button {
+        font-family: "Averia Serif Libre", serif;
+        background-color: #992A2A;
+        color: #ffffff;
+        padding: 12px 40px;
+        margin: 10px 15px;
+        margin-top: 25px;
+        margin-bottom: 40px;
+        border: none;
+        text-decoration: none;
+        border-radius: 25px;
+        font-size: 15px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+    
+    .detail-button svg {
+        margin-right: 15px;
+        margin-left: 15px;
+        color: #6DFA74;
+    }
+    
+    .detail-button:hover {
+        background-color: #bc1212;
+    }
+
+    .audio-player{
         margin: 0;
-     } 
+    }
 }
