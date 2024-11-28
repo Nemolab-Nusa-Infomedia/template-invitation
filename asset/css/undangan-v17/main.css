@@ -553,7 +553,7 @@
 } */
 
 /* Media Query untuk iPad dan tablet */
-@media screen and (min-width: 721px) and (max-width: 1024px) {
+@media screen and (min-width: 721px) and (max-width: 1024px) { 
 
     .img-carousel{
         margin: 0;
@@ -665,6 +665,124 @@
     .track-title,
     .artist {
         font-size: 25px;
+    }
+
+    .title{
+        font-size: 20px;
+    }
+
+    .subtitle{
+        margin-top: 20px;
+        font-size: 18px;
+    }
+
+    .name{
+        margin: 0;
+       font-size: 44px;
+       line-height: 60px;
+    }
+
+    .section-title {
+        margin-top: 15px;
+        margin-bottom: 30px;
+        font-size: 18px;
+    }
+
+    .location-address{
+        font-size: 15px;
+    }
+
+    .detail-button {
+        font-family: "Averia Serif Libre", serif;
+        background-color: #992A2A;
+        color: #ffffff;
+        padding: 12px 40px;
+        margin: 10px 15px;
+        margin-top: 25px;
+        margin-bottom: 40px;
+        border: none;
+        text-decoration: none;
+        border-radius: 25px;
+        font-size: 15px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+    
+    .detail-button svg {
+        margin-right: 15px;
+        margin-left: 15px;
+        color: #6DFA74;
+    }
+    
+    .detail-button:hover {
+        background-color: #bc1212;
+    }
+
+    .audio-player {
+        background-color: #3D3D3D;
+        padding: 16px;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr auto;
+        gap: 10px;
+    }
+    
+    .progress-container {
+        grid-column: 1 / -1;
+    }
+    
+    .progress-bar {
+        flex-grow: 1;
+        appearance: none;
+        background-color: #3e3e3e;
+        height: 6px;
+        border-radius: 3px;
+        outline: none;
+        cursor: pointer;
+    }
+    
+    .progress-bar::-webkit-slider-thumb {
+        appearance: none;
+        width: 12px;
+        height: 12px;
+        background-color: white;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+    
+    .details {
+        display: flex;
+        justify-content: space-between;
+        color: white;
+        font-weight: 700;
+        font-size: 15px;
+        margin-top: 8px;
+        margin-bottom: 10px;
+    }
+    
+    .track-info {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+    }
+    
+    .track-title {
+        font-weight: bold;
+        color: #ffffff;
+    }
+    
+    .artist {
+        font-size: 14px;
+        color: #b3b3b3;
+    }
+    
+    .play-btn {
+        background: url('https://img.icons8.com/ios-filled/50/ffffff/play.png') no-repeat center;
+        background-size: contain;
+        border: none;
+        width: 24px;
+        height: 24px;
+        cursor: pointer;
     }
 }
 
