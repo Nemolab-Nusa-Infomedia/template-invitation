@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sawarabi+Mincho&family=Shippori+Mincho+B1&family=Tangerine:wght@400;700&display=swap');
+
+.lantern {
+    width: 100%;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+}
+
+.bismillah {
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.bismillah img {
+    width: 50%;
+}
+
+.title {
+    text-align: center;
+    color: #024136;
+    font-size: 50px;
+    margin-bottom: 24px;
+    font-family: "Tangerine", cursive;
+}
+
+.invitation-text {
+    text-align: center;
+    color: #333333;
+    font-size: 14px;
+    margin-bottom: 24px;
+    font-family: "Poppins", sans-serif;
+}
+
+.photo-container {
+    width: 150px;
+    margin: 0 auto 24px;
+    justify-content: center;
+    display: flex;
+}
+
+.child-photo {
+    width: 50%;
+    object-fit: cover;
+}
+
+.child-name {
+    text-align: center;
+    color: #000000;
+    font-size: 20px;
+    font-family: "Sawarabi Mincho", serif;
+    margin-bottom: 8px;
+}
+
+.parents-name {
+    text-align: center;
+    color: #333333;
+    font-size: 14px;
+    margin-bottom: 50px;
+    font-family: "Poppins", sans-serif;
+}
+
+.btn-container {
+    text-align: center;
+    margin-bottom: 32px;
+    font-family: "Poppins", sans-serif;
+    color: #ffffff;
+}
+
+.open-btn {
+    background-color: #065f46;
+    color: white;
+    border: none;
+    text-decoration: none;
+    padding: 8px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.open-btn:hover {
+    background-color: #064e3b;
+}
+
+.mosques {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mosque {
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+}
+
+@media (max-width: 480px) {
+    .photo-container {
+        width: 100px;
+    }
+}

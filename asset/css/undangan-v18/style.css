@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sawarabi+Mincho&family=Shippori+Mincho+B1&family=Tangerine:wght@400;700&display=swap');
+
+.title {
+    text-align: center;
+    color: #000000;
+    font-size: 15px;
+    margin-top: 175px;
+    margin-bottom: 24px;
+    font-family: "Shippori Mincho B1", serif;
+}
+
+.decorations {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.left-decoration {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: auto;
+    z-index: 1;
+}
+
+.corner-decoration {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    /* overflow: hidden; */
+}
+
+.bottom-right {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 250px;
+    height: auto;
+    z-index: 1;
+}
+
+.invitation-container {
+    position: relative;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.invitation-text {
+    text-align: center;
+    color: #333333;
+    font-size: 14px;
+    margin-bottom: 24px;
+    font-family: "Poppins", sans-serif;
+    position: relative;
+    z-index: 2;
+}
+
+.photo-container {
+    width: 150px;
+    margin: 0 auto 24px;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    z-index: 2;
+}
+
+.child-photo {
+    width: 200px;
+    object-fit: cover;
+}
+
+.child-name {
+    text-align: center;
+    color: #000000;
+    font-size: 25px;
+    font-family: "Sawarabi Mincho", serif;
+    margin-bottom: 8px;
+    position: relative;
+    z-index: 2;
+}
+
+.parents-name {
+    text-align: center;
+    color: #333333;
+    font-size: 12px;
+    margin-bottom: 150px;
+    font-family: "Poppins", sans-serif;
+    position: relative;
+    z-index: 2;
+}
+
+.additional-content{
+    background-color: #105F5F;
+    color: #ffffff;
+    text-align: center;
+}
+
+.vector {
+    width: 100%;
+    height: 40px;
+    background-repeat: repeat-x;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.tayakuran-text{
+    font-family: "Tangerine", serif;
+    font-size: 60px;
+}
+
+.tayakuran-title{
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    margin-bottom: 50px;
+}
+
+.event-details {
+    background-color: #ffffff2d;
+    padding: 10px 20px; /* Padding persegi panjang */
+    border-radius: 12px; /* Tetap ada sedikit lengkungan */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: 'Poppins', sans-serif;
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center; /* Pastikan teks berada di tengah */
+}
+
+.event-item {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Pusatkan konten secara horizontal */
+    margin-bottom: 0; /* Hilangkan margin bawah */
+}
+
+.event-icon {
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px; /* Sedikit spasi antara ikon dan teks */
+}
+
+.event-info {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Pastikan teks berada di tengah */
+}
+
+.event-date {
+    margin: 0; /* Hilangkan margin default */
+    font-size: 16px; /* Ukuran font */
+    color: #fff; /* Warna teks */
+}
+
+.location{
+    background-color: #ffffff2d;
+    padding: 10px 20px; 
+    border-radius: 12px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: 'Poppins', sans-serif;
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: left; 
+}
+
+.location-item{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin-bottom: 0; 
+}
+
+.location-icon{
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.location-add{
+    margin: 0; 
+    font-size: 16px; 
+    color: #fff; 
+}
+
+.atass {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    margin-top: 155px;
+    margin-bottom: 50px;
+}
+
+.atas {
+    width: 180px;
+    background-repeat: repeat-x;
+    background-size: contain;
+}
+
+.ucapan{
+    text-align: center;
+    color: #1E1E1E;
+    font-size: 14px;
+    margin-bottom: 24px;
+    font-family: "Poppins", sans-serif;
+    position: relative;
+}
+
+.family{
+    text-align: center;
+    color: #1E1E1E;
+    font-size: 14px;
+    margin-top: 60px;
+    font-family: "Poppins", sans-serif;
+    position: relative;
+}
+
+.salam{
+    text-align: center;
+    color: #1E1E1E;
+    font-size: 18px;
+    margin-top: 130px;
+    font-family: "Shippori Mincho B1", serif;
+    position: relative;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    background-color: #FAF8F0; 
+    margin: 0; 
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.rsvp-button {
+    background-color: #005F3B; 
+    color: #FFFFFF; 
+    font-family: 'Arial', sans-serif; 
+    font-size: 16px; 
+    padding: 10px 20px; 
+    border: none;
+    border-radius: 10px; 
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    transition: background-color 0.3s ease; 
+}
+
+.rsvp-button:hover {
+    background-color: #00472D; 
+}
+ 
