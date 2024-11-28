@@ -7,7 +7,7 @@ body {
 .img-top {
     width: 98%;
     display: block;
-    margin-left: 3px;
+    margin-left: 3 px;
     opacity: 0.9;
     transform: scale(1.05);
 }

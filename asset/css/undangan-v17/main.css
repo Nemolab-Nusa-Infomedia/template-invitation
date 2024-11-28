@@ -1,0 +1,533 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Allura&family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+.absolute{
+    min-height: 100vh;
+}
+
+.title {
+    font-family: "Averia Serif Libre", serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19.4px;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    color: rgb(255, 255, 255);
+}
+
+.gallery-cell {
+    counter-increment: gallery-cell;
+}
+
+.gallery-cell:hover {
+    transform: translateY(-20px) translateZ(0);
+}
+
+.flickity-enabled {
+    position: relative;
+}
+
+.flickity-enabled:focus {
+    outline: none;
+}
+
+.flickity-viewport {
+    overflow: hidden;
+    position: relative;
+    height: 100%;
+}
+
+.flickity-slider {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.subtitle {
+    font-family: "Averia Serif Libre", serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19.4px;
+    text-align: center;
+    margin-top: 50px;
+    color: rgb(255, 255, 255);
+}
+
+.name {
+    font-family: "Alex Brush", serif;
+    font-weight: 400;
+    font-size: 48;
+    line-height: 60px;
+    text-align: center;
+    color: #CFFF58;
+}
+
+.jadwal {
+    display: flex;
+    justify-content: center;
+}
+
+.detail-button {
+    font-family: "Averia Serif Libre", serif;
+    background-color: #992A2A;
+    color: #ffffff;
+    padding: 12px 40px;
+    margin: 10px 15px;
+    margin-bottom: 35px;
+    border: none;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.detail-button svg {
+    margin-right: 15px;
+    margin-left: 15px;
+    color: #6DFA74;
+}
+
+.detail-button:hover {
+    background-color: #bc1212;
+}
+
+.detail-content {
+    font-family: "Averia Serif Libre", serif;
+    background-color: #992A2A;
+    padding: 20px;
+    text-align: center;
+    display: none;
+    animation: fadeIn 0.5s ease-in-out;
+    margin-bottom: 0;
+}
+
+.additional-content {
+    font-family: "Averia Serif Libre", serif;
+    padding: 20px;
+    text-align: center;
+    animation: fadeIn 0.5s ease-in-out;
+    display: none;
+}
+
+.detail-content.active {
+    display: block;
+}
+
+.detail-content.active+.additional-content {
+    display: block;
+}
+
+.detail-item p {
+    margin: 5px 0;
+    font-family: "Averia Serif Libre", serif;
+}
+
+.mempelai {
+    color: #ffffff;
+}
+
+.detail-item h2 {
+    margin-bottom: 10px;
+    font-family: "Alex Brush", serif;
+    color: #CFFF58;
+    font-size: 35px;
+}
+
+.detail-item h1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: "Alex Brush", serif;
+    font-size: 35px;
+    color: #CFFF58;
+}
+
+.ortu {
+    color: #E6FFA7;
+}
+
+.section-title {
+    color: #ffffff;
+    margin-bottom: 30px;
+    font-family: "Averia Serif Libre", serif;
+}
+
+.event-container {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 40px;
+    margin-bottom: 40px;
+}
+
+.event-column {
+    flex: 1;
+    max-width: 600px;
+}
+
+.event-divider {
+    width: 1px;
+    height: 160px;
+    background-color: #ffffff;
+    opacity: 0.3;
+}
+
+.event-type {
+    color: #CFFF58;
+    font-size: 15px;
+    margin-bottom: 15px;
+    font-family: "Averia Serif Libre", serif;
+}
+
+.event-date,
+.event-time-label {
+    color: #C5C5C5;
+    font-size: 10px;
+    margin: 5px 0;
+}
+
+.event-day,
+.event-time {
+    color: #ffffff;
+    margin: 5px 0 15px 0;
+    font-size: 10px;
+}
+
+.location-section {
+    margin: 40px 0;
+}
+
+.location-label {
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.location-address {
+    color: #CFFF58;
+    margin-bottom: 20px;
+}
+
+.maps-button {
+    background-color: #992A2A;
+    font-size: 13px;
+    border: none;
+    color: #ffffff;
+    padding: 10px 25px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-family: "Averia Serif Libre", serif;
+}
+
+.maps-button:hover {
+    background-color: #d70707;
+}
+
+.maps-icon {
+    margin: 0 5px;
+}
+
+.quote-section {
+    margin-top: 40px;
+    padding: 20px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.quote-text {
+    color: #ffffff;
+    font-family: "Averia Serif Libre", serif;
+    font-style: italic;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.quote-source {
+    color: #CFFF58;
+    font-size: 16px;
+    font-family: "Averia Serif Libre", serif;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.audio-player {
+    background-color: #3D3D3D;
+    padding: 16px;
+    width: 320px;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 10px;
+}
+
+.progress-container {
+    grid-column: 1 / -1;
+}
+
+.progress-bar {
+    flex-grow: 1;
+    appearance: none;
+    background-color: #3e3e3e;
+    height: 6px;
+    border-radius: 3px;
+    outline: none;
+    cursor: pointer;
+}
+
+.progress-bar::-webkit-slider-thumb {
+    appearance: none;
+    width: 12px;
+    height: 12px;
+    background-color: white;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.details {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+    margin-top: 8px;
+    margin-bottom: 10px;
+}
+
+.track-info {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.track-title {
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.artist {
+    font-size: 14px;
+    color: #b3b3b3;
+}
+
+.play-btn {
+    background: url('https://img.icons8.com/ios-filled/50/ffffff/play.png') no-repeat center;
+    background-size: contain;
+    border: none;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 820px) and (max-height: 1180px) {
+    .title{
+        font-size: 25px;
+        margin-bottom: 50px;
+    }
+
+     .img-carousel{
+        margin: 0;
+        margin-bottom: 30px;
+        width: 55%;
+     } 
+
+     .subtitle{
+        font-size: 30px;
+     }
+
+     .gallery-cell:hover {
+        transform: translateY(-20px) translateZ(0);
+    }
+
+    .name{
+        margin-top: 50px;
+        font-size: 50px;
+        margin-bottom: 50px;
+    } 
+ 
+    .audio-player {
+        background-color: #3D3D3D;
+        padding: 16px;
+        width: 320px;
+        display: grid;
+        grid-template-columns: 1fr auto;
+        gap: 10px;
+    }
+
+    .track-info {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+    }
+
+    .track-title {
+        font-weight: bold;
+        color: #ffffff;
+    }
+
+    .artist{
+        font-size: 14px;
+        color: #b3b3b3;
+    }
+
+    .play-btn {
+        background: url('https://img.icons8.com/ios-filled/50/ffffff/play.png') no-repeat center;
+        background-size: contain;
+        border: none;
+        width: 24px;
+        height: 24px;
+        cursor: pointer;
+        align-self: center;
+    }
+}
+
+/* Media Query untuk iPad dan tablet */
+@media screen and (min-width: 721px) and (max-width: 1024px) {
+    .gallery-cell{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .wedding-title {
+        font-size: 25px;
+    }
+
+    .couple-names {
+        font-size: 82px;
+    }
+
+    .wedding-date {
+        font-size: 50px;
+    }
+
+    .kepada {
+        font-size: 25px;
+    }
+
+    .event-title p {
+        font-size: 20px;
+    }
+
+    .invitation-text {
+        font-size: 25px;
+        margin-top: 50px;
+    }
+
+    .event-details {
+        width: 400px;
+        height: 150px;
+    }
+
+    .detail-button {
+        font-size: 20px;
+    }
+
+    .mempelai {
+        font-size: 25px;
+    }
+
+    .ortu {
+        font-size: 30px;
+    }
+
+    .detail-item h2,
+    .detail-item h1 {
+        font-size: 60px;
+    }
+
+    .event-container {
+        gap: 30px;
+    }
+
+    .event-column {
+        padding: 0 20px;
+    }
+
+    .event-divider {
+        height: 260px;
+    }
+
+    .event-type {
+        font-size: 35px;
+    }
+
+    .event-date,
+    .event-time-label {
+        font-size: 20px;
+    }
+
+    .event-day,
+    .event-time {
+        color: #ffffff;
+        font-size: 25px;
+    }
+
+    .location-section p {
+        font-size: 30px;
+    }
+
+    .maps-button {
+        font-size: 20px;
+    }
+
+    .quote-source {
+        font-size: 25px;
+    }
+
+    .quote-section {
+        padding: 30px;
+        font-size: 25px;
+    }
+
+    .audio-player {
+        width: 400px;
+    }
+
+    .current-time,
+    .total-time {
+        font-size: 30px;
+    }
+
+    .track-title,
+    .artist {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 360px) and (max-height: 800px) {
+    
+    .title{
+        margin-bottom: 15px;
+        font-size: 15px;
+    }
+
+    .subtitle{
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+
+    .gallery-cell{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+     .name{
+       font-size: 35px;
+    }
+
+    .details {
+        font-size: 17px;
+    }
+
+    .img-carousel{
+        width: 57%;
+        margin: 0;
+     } 
+}
