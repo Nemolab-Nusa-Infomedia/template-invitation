@@ -490,7 +490,7 @@
     
 }
 
-@media only screen and (max-width: 820px) {
+/* @media only screen and (max-width: 820px) {
     .title{
         font-size: 25px;
         margin-bottom: 50px;
@@ -550,7 +550,7 @@
         cursor: pointer;
         align-self: center;
     }
-}
+} */
 
 /* Media Query untuk iPad dan tablet */
 @media screen and (min-width: 721px) and (max-width: 1024px) {
@@ -668,7 +668,7 @@
     }
 }
 
-@media only screen and (max-width: 390px) {
+/* @media only screen and (max-width: 390px) {
     .img-carousel{
         margin: 0;
         margin-bottom: 30px;
@@ -875,4 +875,4 @@
     .audio-player{
         margin: 0;
     }
-}
+} */
