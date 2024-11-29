@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Norican&display=swap');
+
+.row {
+    min-height: 100vh;
+}
+
+.atass {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 300px;
+}
+
+.atas {
+    position: absolute;
+    top: -40px;
+    width: 100%;
+    z-index: 1;
+}
+
+.bawahh {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 200px;
+}
+
+.bawah {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.halaman2 {
+    text-align: center;
+}
+
+.jadwal {
+    margin-top: 50px;
+}
+
+.invitation-text {
+    font-family: "Inter", sans-serif;
+    color: #B9330C;
+    font-size: 16px;
+}
+
+.info {
+    font-family: "Inria Serif", serif;
+    color: #C1755F;
+    font-size: 15px;
+}
+
+.jadwal-title {
+    font-family: "Norican", cursive;
+    color: #B9330C;
+    font-size: 20px;
+}
+
+.kehadiran {
+    font-family: "Inter", sans-serif;
+    color: #B9330C;
+    font-size: 18px;
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.open-button {
+    font-family: "Inria Serif", serif;
+    display: inline-block;
+    background-color: #C1755F;
+    color: white;
+    padding: 12px 40px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    border: none;
+    margin: 20px 0;
+}
+
+.open-button:hover {
+    background-color: #ae6754;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: white;
+}
+
+/* Galaxy A12 - Width: 720px */
+@media screen and (max-width: 720px) {
+    .atass {
+        margin-bottom: 300px;
+    }
+    
+    .bawahh {
+        margin-top: 150px;
+    }
+    
+    .invitation-text {
+        font-size: 14px;
+    }
+    
+    .info {
+        font-size: 13px;
+    }
+    
+    .jadwal-title {
+        font-size: 18px;
+    }
+    
+    .kehadiran {
+        font-size: 16px;
+        margin-top: 30px;
+        margin-bottom: 150px;
+    }
+    
+    .open-button {
+        padding: 10px 30px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 721px) and (max-width: 1024px) {
+    .atass {
+        margin-bottom: 520px;
+    }
+
+    .atas{
+        top: -95px;
+    }
+    
+    .invitation-text {
+        font-size: 25px;
+    }
+    
+    .info {
+        font-size: 25px;
+    }
+    
+    .jadwal-title {
+        font-size: 30px;
+    }
+    
+    .kehadiran {
+        font-size: 25px;
+        margin-top: 40px;
+        margin-bottom: 300px;
+    }
+    
+    .halaman2 {
+        padding: 0 40px;
+    }
+    
+    .open-button {
+        padding: 16px 55px;
+        font-size: 20px;
+    }
+}
