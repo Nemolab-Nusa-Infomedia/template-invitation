@@ -4,11 +4,19 @@ body{
     background-color: #D4BEE4;
 }
 
-.w-32 {
-    width: 100%; 
-    opacity: 0.9; 
+.img-top {
+    overflow: hidden;
+    width: 100%;
     display: block;
-    transform: scale(1.05); 
+    opacity: 0.9;
+}
+
+.img-btm {
+    overflow: hidden;
+    width: 100%;
+    display: block;
+    opacity: 0.9;
+    margin-top: 80px;
 }
 
 .title{
@@ -100,13 +108,13 @@ body{
 }
 
 .event-details {
-    background-color: #e3e3e8; 
+    background-color: #dbdbe0; 
     padding: 20px;
     border-radius: 10px;
     font-family: 'Poppins', sans-serif;
-    width: 350px;
+    width: 75%;
     margin: 0 auto;
-    margin-left: 50px;
+    margin-left: 40%;
 }
 
 .event-item {
