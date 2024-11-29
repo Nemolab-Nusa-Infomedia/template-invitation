@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Norican&display=swap');
+
+.row{
+    min-height: 100vh;
+}
+
+.atass {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 350px;
+}
+
+.atas {
+    position: absolute;
+    top: -40px;
+    width: 100%;
+    z-index: 1;
+}
+
+.bawahh {
+    position: relative;
+    width: 100%;
+    height: 130px;
+    overflow: hidden;
+}
+
+.bawah {
+    position: absolute;
+    bottom: -10px;
+    right: -35px;
+    width: 150px;
+    height: auto;
+    z-index: 1;
+}
+
+.bawah2 {
+    position: absolute;
+    bottom: -10px;
+    left: -35px;
+    width: 150px;
+    height: auto;
+    z-index: 1;
+}
+
+.invitation-text {
+    font-family: "Inria Serif", serif;
+    color: #C1755F;
+    text-align: center;
+    font-size: 15px;
+}
+
+.title{
+    font-family: "Norican", cursive;
+    color: #B9330C;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 45px;
+}
+
+.date {
+    font-family: "Inria Serif", serif;
+    color: #C1755F;
+    text-align: center;
+    font-size: 15px;
+}
+
+.date-title {
+    font-family: "Norican", cursive;
+    color: #5D6F44;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+
+.kehadiran{
+    font-family: "Inria Serif", serif;
+    color: #863535;
+    text-align: center;
+    font-size: 12px;
+}
+
+.kehadiran2{
+    font-family: "Inria Serif", serif;
+    color: #C1755F;
+    text-align: center;
+    font-size: 12px;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin-bottom: 70px;
+}
+
+.detail-button {
+    background-color: #B9330C;
+    color: white;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+
+
+.detail-button:hover {
+    background-color: #a5300c;
+}
+
+.star-icon {
+    display: inline-block;
+}
+
+.button-text {
+    margin: 0 45px; /* Memberikan jarak 20px di kiri dan kanan teks */
+    font-size: 11px;
+}
+
+@media screen and (max-width: 720px) {
+    .atass {
+        margin-bottom: 260px;
+    }
+    
+    .atas {
+        top: -45px;
+    }
+    
+    .bawahh {
+        height: 100px;
+    }
+    
+    .bawah, .bawah2 {
+        width: 120px;
+    }
+    
+    .title {
+        font-size: 32px;
+        margin-bottom: 30px;
+    }
+    
+    .invitation-text {
+        font-size: 13px;
+        padding: 0 15px;
+    }
+    
+    .date {
+        font-size: 13px;
+    }
+    
+    .date-title {
+        font-size: 20px;
+        margin-bottom: 35px;
+    }
+    
+    .kehadiran, .kehadiran2 {
+        font-size: 11px;
+        padding: 0 10px;
+    }
+    
+    .button-text {
+        margin: 0 30px;
+        font-size: 10px;
+    }
+    
+    .detail-button {
+        padding: 8px 20px;
+    }
+}
+
+/* iPad - Width: 768px to 1024px */
+@media screen and (min-width: 721px) and (max-width: 1024px) {
+    .atass {
+        margin-bottom: 545px;
+    }
+    
+    .atas{
+        top: -95px;
+    }
+
+    .bawahh {
+        height: 150px;
+    }
+    
+    .bawah, .bawah2 {
+        width: 180px;
+    }
+    
+    .title {
+        font-size: 55px;
+        margin-bottom: 50px;
+    }
+    
+    .invitation-text {
+        font-size: 25px;
+        padding: 0 30px;
+    }
+    
+    .date {
+        font-size: 25px;
+    }
+    
+    .date-title {
+        font-size: 30px;
+        margin-bottom: 60px;
+    }
+    
+    .kehadiran, .kehadiran2 {
+        font-size: 25px;
+        padding: 0 20px;
+    }
+    
+    .button-text {
+        margin: 0 60px;
+        font-size: 18px;
+    }
+    
+    .detail-button {
+        padding: 14px 42px;
+    }
+}
