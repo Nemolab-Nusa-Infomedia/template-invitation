@@ -108,13 +108,13 @@ body{
 }
 
 .event-details {
-    background-color: #e3e3e8; 
+    background-color: #dbdbe0; 
     padding: 20px;
     border-radius: 10px;
     font-family: 'Poppins', sans-serif;
     width: 75%;
     margin: 0 auto;
-   align-items: center;
+    margin-left: 15%;
 }
 
 .event-item {
