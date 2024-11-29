@@ -4,12 +4,19 @@ body{
     background-color: #D4BEE4;
 }
 
-
-.w-32 {
-    width: 100%; 
-    opacity: 0.9; 
+.img-top {
+    overflow: hidden;
+    width: 100%;
     display: block;
-    transform: scale(1.05); 
+    opacity: 0.9;
+}
+
+.img-btm {
+    overflow: hidden;
+    width: 100%;
+    display: block;
+    opacity: 0.9;
+    margin-top: 80px;
 }
 
 .title{
