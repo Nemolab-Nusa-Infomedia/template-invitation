@@ -5,7 +5,28 @@ body {
     background-color: #3b4e14;
 }
 
+.absolute{
+    min-height: 100vh;
+}
+
+.atass {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 300px;
+}
+
+.atas {
+    position: absolute;
+    top: -40px;
+    width: 100%;
+    z-index: 1;
+}
+
 .item-image-1 {
+    overflow: hidden;
     position: absolute;
     top: 0;
     left: 0;
@@ -13,6 +34,7 @@ body {
 }
 
 .item-image-2 {
+    overflow: hidden;
     position: absolute;
     top: 5px;
     left: 50%;
@@ -21,6 +43,7 @@ body {
 }
 
 .item-image-3 {
+    overflow: hidden;
     position: absolute;
     top: 0;
     right: 0;
@@ -187,7 +210,24 @@ body {
     margin-top: 20px;
 }
 
+.bawahh {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 200px;
+}
+
+.bawah {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    z-index: 1;
+}
+
 .img-btm{
+    overflow: hidden;
     width: 100%;
     display: block;
     opacity: 0.9;
@@ -195,7 +235,7 @@ body {
     margin-top: 80px;
 }
 
-@media only screen and (max-width: 1280px) and (max-height: 800px) {
+/* @media only screen and (max-width: 1280px) and (max-height: 800px) {
     .item-image-1 {
         position: absolute;
         top: 0;
@@ -258,7 +298,7 @@ body {
     .img-btn{ 
         width: 200%;
     }
-}
+} */
 
 /* @media only screen and (max-width: 820px) and (max-height: 1180px) {
     .item-image-1 {
