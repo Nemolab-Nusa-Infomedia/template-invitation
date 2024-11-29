@@ -9,22 +9,6 @@ body {
     min-height: 100vh;
 }
 
-.atass {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    margin-bottom: 300px;
-}
-
-.atas {
-    position: absolute;
-    top: -40px;
-    width: 100%;
-    z-index: 1;
-}
-
 .item-image-1 {
     overflow: hidden;
     position: absolute;
