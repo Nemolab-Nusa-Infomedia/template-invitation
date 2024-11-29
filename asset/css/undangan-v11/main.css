@@ -5,10 +5,18 @@ body {
 }
 
 .img-top {
+    overflow: hidden;
     width: 100%;
     display: block;
     opacity: 0.9;
-    
+}
+
+.img-btm {
+    overflow: hidden;
+    width: 100%;
+    display: block;
+    opacity: 0.9;
+    margin-top: 80px;
 }
 
 .title {
