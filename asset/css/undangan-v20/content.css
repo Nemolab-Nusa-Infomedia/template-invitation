@@ -104,12 +104,13 @@
 
 .custom-button:hover {
     background-color: transparent;
+    border: none;
     color: #b50000;
     /* Teks berubah menjadi merah */
 }
 
 .custom-button:hover .icon {
-    color: #b50000;
+    color: #ffffff;
     /* Ikon juga berubah merah */
 }
 

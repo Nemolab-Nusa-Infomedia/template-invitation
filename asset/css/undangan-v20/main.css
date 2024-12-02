@@ -43,14 +43,14 @@
 .title-2 {
     font-family: "Tangerine", serif;
     color: #F60000;
-    font-size: 45px;
+    font-size: 40px;
     font-weight: 700;
     margin-left: 180px;
 }
 
 .text-1 {
     font-family: 'Poppins', sans-serif;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 700;
     margin-top: 50px;
     line-height: 15px;
@@ -95,13 +95,14 @@
 }
 
 .custom-button:hover {
+    border: none;
     background-color: transparent;
     color: #b50000;
     /* Teks berubah menjadi merah */
 }
 
 .custom-button:hover .icon {
-    color: #b50000;
+    color: #ffffff;
     /* Ikon juga berubah merah */
 }
 
