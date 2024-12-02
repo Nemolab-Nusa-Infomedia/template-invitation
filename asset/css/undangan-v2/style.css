@@ -1,0 +1,580 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+.row{
+    background-image: url('../../img/undangan-v2/Rectangle\ 17.png');
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    min-height: 100vh;
+}
+
+.decorations {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.left-decoration {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: auto;
+    z-index: 1;
+}
+
+.corner-decoration {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    /* overflow: hidden; */
+}
+
+.bottom-right {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 250px;
+    height: auto;
+    z-index: 1;
+}
+
+.monogram {
+    width: 128px;
+    height: 128px;
+    margin: 40px auto;
+    position: relative;
+    margin-top: 125px;
+}
+
+.monogram div {
+    color: #000;
+    position: absolute;
+}
+
+.monogram .letter-g {
+    font-size: 64px;
+    font-family: 'Italianno', cursive;
+    top: 0;
+    left: 0;
+}
+
+.monogram .and {
+    font-size: 50px;
+    font-family: "Playfair Display", serif;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.monogram .letter-r {
+    font-size: 64px;
+    font-family: 'Italianno', cursive;
+    top: 50%;
+    bottom: 0;
+    right: 0;
+}
+
+.content {
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+.title{
+    font-family: "Nunito", sans-serif;
+    margin-top: 90px;
+    text-align: center;
+}
+
+.surat{
+    font-family: "Nunito", sans-serif;
+    font-style: italic;
+    margin-bottom: 200px;
+}
+
+.arab{
+    font-family: "Nunito", sans-serif;
+    margin-top: 230px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.salam{
+    font-family: 'Italianno', cursive;
+    margin-top: 19px;
+}
+
+.pembuka{
+    font-family: "Nunito", sans-serif;
+    font-size: 12px;
+    margin-top: 30px;
+}
+
+.mempelai{
+    font-family: 'Italianno', cursive;
+    font-size: 40px;
+}
+
+.ortu{
+    font-family: "Nunito", sans-serif;
+    font-size: 15px;
+}
+
+.nama h3{
+    font-family: "Playfair Display", serif;
+    font-size: 38px;
+}
+
+.nama{
+    margin-top: 50px;
+}
+
+/* Font Styles */
+.akad {
+    font-family: 'Italianno', cursive;
+    font-size: 32px;
+    margin-top: 220px;
+}
+
+/* Date Section Styles */
+.date-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.date-separator {
+    width: 2px;
+    height: 50px;
+    background-color: #000;
+}
+
+.date-item {
+    font-family: "Nunito", sans-serif;
+    font-size: 15px;
+}
+
+.date-item.center {
+    display: flex;
+    flex-direction: column;
+}
+
+.angka {
+    font-family: "Playfair Display", serif;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.bulan {
+    font-family: "Nunito", sans-serif;
+    font-size: 15px;
+}
+
+/* Time and Location Styles */
+.time {
+    margin: 10px 0 40px;
+    font-family: "Nunito", sans-serif;
+    font-size: 12px;
+}
+
+.lokasi {
+    font-family: "Nunito", sans-serif;
+    font-size: 12px;
+}
+
+/* Countdown Section Styles */
+.countdown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+    flex-wrap: wrap;
+    margin: 30px auto;
+    max-width: 100%;
+}
+
+.countdown-box {
+    background-color: #F5519E;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    min-width: 60px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.number {
+    font-size: 16px;
+    font-family: "Nunito", sans-serif;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.label {
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    margin-top: 5px;
+}
+
+/* Button Styles */
+.open-button {
+    position: relative;
+    display: flex;
+    font-family: "EB Garamond", serif;
+    background-color: #F5519E;
+    color: white;
+    padding: 12px 40px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    border: none;
+    margin: 20px 0;
+}
+
+.open-button:hover {
+    background-color: #f5519ec6;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    color: white;
+}
+  
+.doa{
+    font-family: 'Italianno', cursive;
+    font-size: 32px;
+    margin-top: 320px;
+}
+
+.title2{
+    font-size: 12px;
+    font-family: "Nunito", sans-serif;
+}
+
+.hr{
+    font-size: 15px;
+    font-family: "Nunito", sans-serif;
+    font-style: italic;
+}
+
+.ucapan {
+    font-family: "EB Garamond", serif;
+    display: inline-block;
+    background-color: #F5519E;
+    color: white;
+    padding: 5px 40px;
+    border-radius: 5px;
+    text-decoration: none;
+    /* font-weight: bold; */
+    transition: all 0.3s ease;
+    border: none;
+    margin: 20px 0;
+    margin-top: 15px;
+    margin-bottom: 100px;
+}
+
+.ucapan:hover {
+    background-color: #f5519ec6;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    color: white;
+}
+
+.boxs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.box {
+    width: 254px;
+    height: 143px;
+    background-color: #e6e6e6;
+    border-radius: 6px;
+    margin-bottom: 30px;
+}
+
+.main-text{
+    font-size: 12px;
+    font-family: "Nunito", sans-serif;
+    margin-top: 350px;
+}
+
+.arabic {
+    font-family: 'Italianno', cursive;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.happy-text {
+    margin: 30px 0;
+    font-size: 12px;
+    font-family: "Nunito", sans-serif;
+}
+
+.families {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    padding: 0 20px;
+}
+
+.family {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.family-title {
+    margin-bottom: 10px;
+    font-size: 10px;
+    font-family: "Nunito", sans-serif;}
+
+.family-names {
+    font-size: 12px;
+    font-family: "Nunito", sans-serif;
+    line-height: 1.4;
+}
+
+@media screen and (max-width: 720px) {
+    .left-decoration,
+    .bottom-right {
+        width: 150px; /* Reduced from 250px */
+    }
+
+    .monogram {
+        width: 100px; /* Reduced from 128px */
+        height: 100px; /* Reduced from 128px */
+        margin-top: 80px; /* Reduced from 125px */
+    }
+
+    .monogram .letter-g,
+    .monogram .letter-r {
+        font-size: 48px; /* Reduced from 64px */
+    }
+
+    .monogram .and {
+        font-size: 36px; /* Reduced from 50px */
+    }
+
+    .title {
+        margin-top: 60px; /* Reduced from 90px */
+        font-size: 18px;
+    }
+
+    .surat {
+        margin-bottom: 120px; /* Reduced from 200px */
+        font-size: 14px;
+    }
+
+    .arab {
+        margin-top: 150px; /* Reduced from 230px */
+        font-size: 14px;
+    }
+
+    .mempelai {
+        font-size: 32px; /* Reduced from 40px */
+    }
+
+    .nama h3 {
+        font-size: 30px; /* Reduced from 38px */
+    }
+
+    .ortu {
+        font-size: 13px; /* Reduced from 15px */
+        padding: 0 15px;
+    }
+
+    .akad {
+        font-size: 28px; /* Reduced from 32px */
+        margin-top: 150px; /* Reduced from 220px */
+    }
+
+    .date-container {
+        gap: 10px; /* Reduced from 15px */
+    }
+
+    .date-separator {
+        height: 40px; /* Reduced from 50px */
+    }
+
+    .date-item {
+        font-size: 13px; /* Reduced from 15px */
+    }
+
+    .angka {
+        font-size: 18px; /* Reduced from 21px */
+    }
+
+    .bulan {
+        font-size: 13px; /* Reduced from 15px */
+    }
+
+    .countdown {
+        gap: 8px; /* Reduced from 10px */
+        padding: 15px; /* Reduced from 20px */
+    }
+
+    .countdown-box {
+        min-width: 50px; /* Reduced from 60px */
+        padding: 8px; /* Reduced from 10px */
+    }
+
+    .number {
+        font-size: 14px; /* Reduced from 16px */
+    }
+
+    .label {
+        font-size: 9px; /* Reduced from 10px */
+    }
+
+    .open-button {
+        padding: 10px 30px; /* Reduced from 12px 40px */
+        font-size: 14px;
+    }
+
+    .doa {
+        font-size: 28px; /* Reduced from 32px */
+        margin-top: 250px; /* Reduced from 320px */
+    }
+
+    .title2 {
+        font-size: 11px; /* Reduced from 12px */
+        padding: 0 15px;
+    }
+
+    .hr {
+        font-size: 13px; /* Reduced from 15px */
+    }
+
+    .ucapan {
+        padding: 5px 30px; /* Reduced from 5px 40px */
+        font-size: 14px;
+    }
+
+    .box {
+        width: 220px; /* Reduced from 254px */
+        height: 120px; /* Reduced from 143px */
+    }
+
+    .main-text {
+        font-size: 11px; /* Reduced from 12px */
+        margin-top: 250px; /* Reduced from 350px */
+        padding: 0 15px;
+    }
+
+    .arabic {
+        font-size: 22px; /* Reduced from 25px */
+    }
+
+    .happy-text {
+        font-size: 11px; /* Reduced from 12px */
+        padding: 0 15px;
+    }
+
+    .families {
+        padding: 0 15px;
+    }
+
+    .family-title {
+        font-size: 9px; /* Reduced from 10px */
+    }
+
+    .family-names {
+        font-size: 11px; /* Reduced from 12px */
+    }
+}
+
+/* Untuk iPad Mini (Potrait & Landscape) */
+@media screen and (min-width: 768px) and (max-width: 834px) {
+    .monogram {
+        width: 110px;
+        height: 110px;
+        margin-top: 100px;
+    }
+
+    .monogram .letter-g,
+    .monogram .letter-r {
+        font-size: 50px;
+    }
+
+    .monogram .and {
+        font-size: 38px;
+    }
+
+    .open-button {
+        position: absolute;
+        margin-top: 150px;
+    }
+
+    .title {
+        font-size: 18px;
+        margin-top: 70px;
+    }
+
+    .akad {
+        font-size: 30px;
+        margin-top: 200px;
+    }
+
+    .doa {
+        font-size: 30px;
+        margin-top: 300px;
+    }
+
+    .ucapan {
+        padding: 8px 35px;
+        font-size: 16px;
+    }
+}
+
+/* Untuk iPad Pro 11 (Potrait & Landscape) */
+@media screen and (min-width: 834px) and (max-width: 1194px) {
+    .monogram {
+        width: 130px;
+        height: 130px;
+        margin-top: 120px;
+    }
+
+    .monogram .letter-g,
+    .monogram .letter-r {
+        font-size: 58px;
+    }
+
+    .monogram .and {
+        font-size: 42px;
+    }
+
+    .open-button {
+        position: absolute;
+        margin-top: 150px;
+    }
+
+    .title {
+        font-size: 20px;
+        margin-top: 80px;
+    }
+
+    .akad {
+        font-size: 32px;
+        margin-top: 220px;
+    }
+
+    .doa {
+        font-size: 32px;
+        margin-top: 320px;
+    }
+
+    .ucapan {
+        padding: 10px 40px;
+        font-size: 18px;
+    }
+}
