@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Arizonia&family=Cormorant+Infant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=DM+Serif+Display:ital@0;1&family=Jacques+Francois&display=swap');
 
-body{
+body {
     background-color: #99edfe;
     color: #22233A;
     font-family: "Poppins", sans-serif;
@@ -10,29 +10,30 @@ body{
 }
 
 body::-webkit-scrollbar {
-    display: none; /* Untuk Chrome, Safari, dan Edge */
+    display: none;
+    /* Untuk Chrome, Safari, dan Edge */
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-li{
+li {
     list-style-type: none;
 }
 
-.cover{
+.cover {
     height: 100vh;
     position: relative;
     overflow: hidden;
 }
 
-.cover .item-image-1{
+.cover .item-image-1 {
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 380px;
-    height: 97vh;
+    width: 100%;
+    height: 100vh;
     transform: translate(-50%, -50%);
 }
 
@@ -41,126 +42,312 @@ li{
     display: flex;
     align-items: flex-end;
     justify-content: center;
-  }
+}
 
-  .custom-text .letter-h {
-    font-size: 5rem; /* Large size for 'H' */
+.custom-text .letter-h {
+    font-size: 5rem;
+    /* Large size for 'H' */
     line-height: 1;
-  }
+    color: #0D3F6B;
+}
 
-  .custom-text .letter-r {
-    font-size: 3.5rem; /* Smaller size for 'R' */
+.custom-text .letter-r {
+    font-size: 3.5rem;
+    /* Smaller size for 'R' */
     line-height: 1;
-  }
+    color: #0D3F6B;
+}
 
-.cover-content{
+.antara{
+    font-size: 16px;
+}
+
+.cover-content {
     z-index: 10;
 }
 
-.cover-content p{
+.cover-content p {
     font-family: "Cormorant Infant", serif;
     font-size: 1rem;
 }
 
-.cover-content h3{
+.cover-content h3 {
     font-family: "DM Serif Display", serif;
     font-size: 1.3rem;
 }
 
-.cover-content a{
+.cover-content a {
     background-color: #274161;
     color: white;
     font-size: 14px;
 }
 
 /* Pembuka */
-.tentang-content p{
+.tentang-content p {
     font-family: "Cormorant Infant", serif;
     font-size: 1rem;
 }
 
 /* mempelai */
-
-.mempelai-content p{
+.mempelai-content p {
     font-family: "Cormorant Infant", serif;
 }
-
-.mempelai-content h3{
-    font-family: "Arizonia", cursive;
-    font-size: 1.2rem;
+.arab{
+    font-size: 16px;
 }
 
-.mempelai-content h4{
+.salam{
+    font-size: 12px;
+}
+
+.nama-mempelai h3{
+    font-size: 24px;
+    font-family: "Arizonia", cursive;
+}
+
+/* .mempelai-content h3 {
+    font-family: "Arizonia", cursive;
+    font-size: 1.2rem;
+} */
+
+.mempelai-content h4 {
     font-family: "Arizonia", cursive;
     font-size: 1.5rem;
+}
+
+.countdown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+    flex-wrap: wrap;
+    margin: 30px auto;
+    max-width: 100%;
+}
+
+.countdown-box {
+    background-color: #274161;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    min-width: 60px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.number {
+    font-size: 16px;
+    font-family: "Nunito", sans-serif;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.label {
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    margin-top: 5px;
+}
+
+/* Button Styles */
+.open-button {
+    position: relative;
+    display: flex;
+    font-family: "EB Garamond", serif;
+    background-color: #274161;
+    color: white;
+    padding: 12px 40px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    border: none;
+    margin: 20px 0;
+}
+
+.open-button:hover {
+    background-color: #274161d9;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    color: white;
+}
+
+.button-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.custom-button {
+    background-color: #274060; /* Warna biru tua */
+    color: white;
+    border: none;
+    border-radius: 10px; /* Rounded edges */
+    padding: 10px 20px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.custom-button i.icon {
+    font-size: 18px; /* Icon size */
+}
+
+.custom-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+}
+
+.custom-button:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+.gallery-container {
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    background: url('../asset/img/background.jpg') center/cover no-repeat;
+}
+
+.gallery-header h1 {
+    font-size: 30px;
+    color: #333;
+    margin-bottom: 20px;
+    font-family: 'Georgia', serif;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.gallery-item {
+    width: 100%;
+    padding-bottom: 100%;
+    background-color: #D9D9D9;
+    border-radius: 10px;
+    position: relative;
+}
+
+.gallery-item::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: #d9d9d9bf;
+    border-radius: 10px;
 }
 
 /* acara */
-.acara-content h3{
+.acara-content h3 {
     font-family: "Arizonia", cursive;
     font-size: 1.5rem;
 }
 
-p.tanggal-acara{
+p.tanggal-acara {
     color: #FFC147;
     font-size: 1rem;
 }
-p.jam-acara{
+
+p.jam-acara {
     font-size: 1rem;
 }
 
-.taggal-pernikahan span{
+.taggal-pernikahan span {
     font-size: 1rem;
 }
 
-.acara-content a.btn-lokasi{
+.acara-content a.btn-lokasi {
     background-color: #274161;
     color: white;
     font-size: 12px;
 }
 
-a.btn-lokasi i{
+a.btn-lokasi i {
     font-size: 12px;
 }
 
 
 /* close content */
-.close-content h3{
+.close-content h3 {
     font-family: "Arizonia", cursive;
     font-size: 1.5rem;
 }
 
-@media(max-width: 990px){
-    .cover .item-image-1{
-        width: 450px;
+@media screen and (max-width: 720px) {
+    body {
+        font-size: 10px; /* Sesuaikan ukuran font */
+    }
+
+    .cover .item-image-1 {
+        height: auto; /* Atur ulang jika diperlukan */
+    }
+
+    .antara {
+        font-size: 14px; /* Sesuaikan ukuran teks */
+    }
+
+    .nama-mempelai h3 {
+        font-size: 20px;
+    }
+
+    .countdown-box {
+        min-width: 50px; /* Kurangi lebar */
+        padding: 8px;
+    }
+
+    .button-container {
+        gap: 10px;
+    }
+
+    .acara-content h3 {
+        font-size: 1.2rem; /* Sesuaikan */
     }
 }
 
-@media(max-width: 450px){
-    .cover .item-image-1{
-        width: 330px;
-    }
-}
 
-@media(max-width: 330px){
-    .cover .item-image-1{
-        width: 280px;
+@media screen and (max-width: 1024px) {
+    body {
+        font-size: 12px; /* Ukuran font yang sedikit lebih besar */
     }
-    .cover-content-title h3{
-        font-size: 22px;
+
+    .cover {
+        height: 100vh;
     }
-    .image-cover{
-        width: 70px;
-        height: 70px;
+
+    .cover .item-image-1 {
+        width: 100%;
+        height: 100%;
     }
-    .image-cover-border{
-        width: 150px;
-        height: 150px;
+
+    .countdown-box {
+        min-width: 55px;
+        padding: 9px;
     }
-    .cover-content h3{
-        font-size: 16px;
+
+    .open-button {
+        position: absolute;
+        margin-top: 50%;
+        padding: 11px 35px;
     }
-    .cover-content a{
-        font-size: 8px;
+
+    .custom-button {
+        font-size: 9px;
+        padding: 9px 18px;
     }
 }
