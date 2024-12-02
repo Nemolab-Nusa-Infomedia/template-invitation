@@ -87,12 +87,14 @@
     font-family: "Nunito", sans-serif;
     margin-top: 90px;
     text-align: center;
+    font-size: 12px;
 }
 
 .surat{
     font-family: "Nunito", sans-serif;
     font-style: italic;
     margin-bottom: 200px;
+    font-size: 15px;
 }
 
 .arab{
@@ -121,6 +123,12 @@
 .ortu{
     font-family: "Nunito", sans-serif;
     font-size: 15px;
+}
+
+.ortu2{
+    font-family: "Nunito", sans-serif;
+    font-size: 15px;
+    margin-bottom: 150px;
 }
 
 .nama h3{
@@ -330,7 +338,7 @@
 
 .family {
     text-align: center;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
 }
 
 .family-title {
@@ -367,7 +375,7 @@
 
     .title {
         margin-top: 60px; /* Reduced from 90px */
-        font-size: 18px;
+        font-size: 12px;
     }
 
     .surat {
@@ -515,19 +523,63 @@
         margin-top: 150px;
     }
 
+    .surat {
+        font-size: 20px;
+    }
+
+    .arab,
+    .salam {
+        font-size: 40px;
+    }
+
+    .pembuka{
+        font-size: 20px;
+    }
+
+    .mempelai{
+        font-size: 60px;
+    }
+
+    .ortu,
+    .ortu2{
+        font-size: 20px;
+    }
+
     .title {
         font-size: 18px;
         margin-top: 70px;
     }
 
     .akad {
-        font-size: 30px;
+        font-size: 50px;
         margin-top: 200px;
     }
 
-    .doa {
+    .date-item,
+    .bulan{
+        font-size: 25px;
+    }
+
+    .angka{
         font-size: 30px;
+    }
+
+    .time,
+    .lokasi{
+        font-size: 20px;
+    }
+
+    .doa {
+        font-size: 42px;
         margin-top: 300px;
+    }
+
+    .title2{
+        font-size: 20px;
+    }
+
+    .hr{
+        font-size: 25px;
     }
 
     .ucapan {
@@ -553,6 +605,28 @@
         font-size: 42px;
     }
 
+    .surat {
+        font-size: 20px;
+    }
+
+    .arab,
+    .salam {
+        font-size: 40px;
+    }
+
+    .pembuka{
+        font-size: 20px;
+    }
+
+    .mempelai{
+        font-size: 60px;
+    }
+
+    .ortu,
+    .ortu2{
+        font-size: 20px;
+    }
+
     .open-button {
         position: absolute;
         margin-top: 150px;
@@ -564,17 +638,56 @@
     }
 
     .akad {
-        font-size: 32px;
+        font-size: 50px;
         margin-top: 220px;
     }
 
+    .date-item,
+    .bulan{
+        font-size: 25px;
+    }
+
+    .angka{
+        font-size: 30px;
+    }
+
+    .time,
+    .lokasi{
+        font-size: 20px;
+    }
+
     .doa {
-        font-size: 32px;
+        font-size: 42px;
         margin-top: 320px;
+    }
+
+    .title2{
+        font-size: 20px;
+    }
+
+    .hr{
+        font-size: 25px;
     }
 
     .ucapan {
         padding: 10px 40px;
         font-size: 18px;
+    }
+
+    .main-text{
+        font-size: 15px;
+    }
+
+    .arabic{
+        font-size: 30px;
+    }
+
+    .happy-text{
+        font-size: 20px;
+    }
+
+    .family-title,
+    .family-names{
+        font-size: 15px;
     }
 }
