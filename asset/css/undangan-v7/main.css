@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Arizonia&family=Cormorant+Infant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=DM+Serif+Display:ital@0;1&family=Jacques+Francois&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&family=Cormorant+Infant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=DM+Serif+Display:ital@0;1&family=Italianno&family=Jacques+Francois&family=Marck+Script&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
 body {
     background-color: #99edfe;
@@ -38,7 +38,7 @@ li {
 }
 
 .custom-text {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Jacques Francois", serif;
     display: flex;
     align-items: flex-end;
     justify-content: center;
@@ -60,6 +60,8 @@ li {
 
 .antara {
     font-size: 16px;
+    font-family: "Cormorant Infant", serif;
+    color: #22233A;
 }
 
 .cover-content {
@@ -69,11 +71,13 @@ li {
 .cover-content p {
     font-family: "Cormorant Infant", serif;
     font-size: 1rem;
+    color: #22233A;
 }
 
 .cover-content h3 {
     font-family: "DM Serif Display", serif;
     font-size: 1.3rem;
+    color: #0D3F6B;
 }
 
 .cover-content a {
@@ -95,13 +99,25 @@ li {
 
 .arab {
     font-size: 16px;
+    color: #0C234F;
+    font-family: "Nunito", sans-serif;
+
 }
 
 .salam {
     font-size: 12px;
+    color: #0C234F;
+    font-family: "Cormorant Infant", serif;
+}
+
+.maha{
+    font-size: 14px;
+    color: #0C234F;
+    font-family: "Cormorant Infant", serif;
 }
 
 .nama-mempelai h3 {
+    color: #0C234F;
     font-size: 24px;
     font-family: "Arizonia", cursive;
 }
@@ -112,6 +128,7 @@ li {
 } */
 
 .mempelai-content h4 {
+    color: #0C234F;
     font-family: "Arizonia", cursive;
     font-size: 1.5rem;
 }
@@ -288,8 +305,8 @@ li {
 }
 
 /* acara */
-.acara-content h3 {
-    font-family: "Arizonia", cursive;
+.acara-content h1 {
+    font-family: "Italianno", cursive;
     font-size: 1.5rem;
 }
 
