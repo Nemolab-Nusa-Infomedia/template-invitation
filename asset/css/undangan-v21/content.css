@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+.row{
+    min-height: 100vh;
+}
+
+.atass {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+     
+}
+
+.atas {
+    position: absolute;
+    top: -40px;
+    width: 100%;
+    z-index: 1;
+}
+
+.opening{
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 16.8px;
+    color: #487065;
+    margin-top: 300px;
+}
+
+.name{
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 43.17px;
+    color: #487065;
+    text-align: center;
+}
+
+.party{
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32.28px;
+    color: #34AD8C;
+    text-align: center;
+}
+
+.tgl{
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #34AD8C;
+    margin-top: 10%;
+    text-align: center;
+}
+
+.tgl-isi{
+    font-family: "Abril Fatface", serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #487065;
+    text-align: center;
+}
+
+.pesan-keluarga{
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #B4A669;
+    margin-top: 10%;
+    text-align: center;
+}
+
+.nama-pesan{
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    line-height: 35.17px;
+    font-weight: 700;
+    color: #8A7F50;
+    text-align: center;
+}
+
+.maps-button {
+    font-family: "Lato", sans-serif;
+    background-color: #34AD8C;
+    color: #ffffff;
+    padding: 12px 40px;
+    margin: 10px 15px;
+    border: none;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 13px;
+    line-height: 14.65px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-bottom: -25px;
+}
+
+.maps-button svg{
+    margin-right: 3%;
+}
+
+.maps-button:hover {
+    border: none;
+    background-color: transparent;
+    color: #487065;
+}
+
+.maps-button:hover svg{
+    color: #487065;
+}
+
+.img-btm{
+    overflow: hidden;
+    width: 100%;
+    display: block;
+   margin-bottom: -10px;
+}
+
+.audio-player {
+    background-color: #487065;
+    padding: 16px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.progress-container {
+    width: 100%;
+}
+
+.progress-bar {
+    width: 100%;
+    appearance: none;
+    background: #3e3e3e;
+    height: 6px;
+    border-radius: 3px;
+    outline: none;
+    cursor: pointer;
+}
+
+.progress-bar::-webkit-slider-thumb {
+    appearance: none;
+    width: 12px;
+    height: 12px;
+    background: white;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.details {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    color: #b3b3b3;
+}
+
+.track-info {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.track-title {
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.artist {
+    font-size: 14px;
+    color: #b3b3b3;
+}
+
+.play-btn {
+    background: url('https://img.icons8.com/ios-filled/50/ffffff/play.png') no-repeat center;
+    background-size: contain;
+    border: none;
+    width: 25px;
+    height: 24px;
+    cursor: pointer;
+    margin-top: 8px;
+    margin-left: 95%;
+}
+
+.text-penutup{
+    font-family: "Abril Fatface", serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #B4A669;
+    text-align: center;
+    margin-top: 15%;
+    margin-bottom: 10%;
+}
