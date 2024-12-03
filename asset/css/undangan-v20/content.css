@@ -103,14 +103,14 @@
 }
 
 .custom-button:hover {
-    background-color: transparent;
     border: none;
+    background-color: transparent;
     color: #b50000;
     /* Teks berubah menjadi merah */
 }
 
 .custom-button:hover .icon {
-    color: #ffffff;
+    color: #b50000;
     /* Ikon juga berubah merah */
 }
 
