@@ -1,0 +1,599 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&family=Marck+Script&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Parisienne&display=swap');
+
+.absolute{
+    min-height: 100vh;
+}
+
+.profile-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 300px;
+    margin: 100px auto;
+}
+
+.frame {
+    width: 550px;
+    height: 450px;
+    border-radius: 50%;
+    overflow: hidden;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+    position: relative;
+}
+
+.frame img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.flower-top {
+    position: absolute;
+    top: -50px;
+    right: -50px;
+    margin-right: 40%;
+    width: 245px;
+    z-index: 2;
+}
+
+.flower-btm {
+    position: absolute;
+    bottom: -20px;
+    left: -50px;
+    width: 240px;
+    margin-left: 35%;
+    z-index: 2;
+}
+
+.group-1{
+    position: relative;
+}
+
+.frame-img{
+    position: relative;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 5%;
+    width: 95%;
+}
+
+.text {
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.text-surat {
+    font-family: "Nunito", serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: black;
+}
+
+.nama-surah {
+    font-family: "Nunito", serif;
+    font-style: italic;
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 60px;  
+}
+
+.text-mempelai {
+    position: absolute;
+    top: 18%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.wed-name{
+    font-family: "Kaushan Script", cursive;
+}
+
+.name-1{
+    font-size: 35px;
+}
+
+.and{
+    font-size: 30px;
+    margin-left: 85%;
+}
+
+.name-2{
+    font-size: 35px;
+    margin-left: 130%;
+}
+
+.text-perkenalan{
+    font-family: "Nunito", serif;
+    margin-top: 40%;
+}
+
+.bhismillah{
+    font-size: 34px;
+    font-weight: 500;
+}
+
+.salam{
+    font-size: 15px;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.perkenalan{
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: 10%;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    display: grid;
+}
+  
+.couple {
+    display: flex;
+    align-items: center;
+}
+  
+.couple img {
+    width: 145px;
+    height: 145px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.couple-1 {
+    display: flex;
+    align-items: center;
+    margin-left: 2%;
+}
+  
+.couple-1 img {
+    width: 150px;
+    height: 145px;
+    border-radius: 50%;
+    margin-left: 3%;
+}
+
+.and-2{
+    font-family: "Kaushan Script", cursive;
+    font-size: 65px;
+    margin-right: 30%;
+}
+
+.nama-mempelai{
+    font-family: "Marck Script", serif;
+    font-weight: 300;
+    font-size: 25px;
+    text-align: left;
+}
+
+.nama-mempelai-laki{
+    font-family: "Marck Script", serif;
+    font-weight: 300;
+    font-size: 25px;
+    text-align: left;
+}
+
+.nama-ortu{
+    font-family: "Nunito", serif;
+    font: 400;
+    font-size: 15px;
+    text-align: left;
+    color: black;
+}
+
+
+.date-info {
+    font-family: "Nunito", serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: 400;
+    color: #000000;
+    margin-bottom: 10px;
+  }
+  
+  .date-info .day,
+  .date-info .month,
+  .date-info .year {
+    margin: 0 10px;
+  }
+  
+  .event-divider {
+    width: 1px;
+    height: 55px;
+    background-color: #000000;
+    opacity: 0.6;
+}
+
+.container-acara {
+    position: absolute;
+    top: 41%;
+}
+
+.waktu-acara{
+    position: relative;
+    font-family: "Nunito", serif;
+    left: 40%;
+}
+
+.text-akad-mempelai {
+    position: absolute;
+    top: 18%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text-akad{
+    font-family: "Nunito", serif;
+    margin-top: 37%;
+}
+
+.akad{
+    font-family: "Parisienne", serif;
+    font-weight: 400;
+    font-size: 45px;
+    color: black;
+}
+
+.container-countdown {
+    position: absolute;
+    top: 58%;
+    left: 17%;
+}
+
+.countdown-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 2rem 0;
+}
+
+.countdown-box {
+    background: #5ebcd6;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    min-width: 70px;
+}
+
+.countdown-value {
+    color: #000000;
+    font-family: "Livvic", serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin-bottom: 0.25rem;
+}
+
+.countdown-label {
+    color: #000000;
+    font-size: 0.8rem;
+}
+
+.container-location {
+    position: absolute;
+    top: 75%;
+    left: 30%;
+}
+
+.maps-button {
+    font-family: "Livvic", serif;
+    font-weight: 400;
+    background-color: #5ebcd6;
+    color: #000000;
+    padding: 12px 40px;
+    margin: 10px 15px;
+    border: none;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 13px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.maps-button:hover {
+    font-family: "Livvic", serif;
+    font-weight: 400;
+    border: none;
+    background-color: transparent;
+    color: #000000;
+}
+
+.maps-button:hover svg{
+    color: #000000;
+}
+
+.text-doa-mempelai {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title-doa{
+    font-family: "Nunito", serif;
+    font-weight: 600;
+    font-size: 25px;
+    font-style: italic;
+    left: 5%;
+}
+
+.container-doa {
+    position: absolute;
+    top: 35%;
+    left: 20%;
+    text-align: center;
+}
+
+.text-doa{
+    font-family: "Nunito", serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.hadis{
+    font-family: "Nunito", serif;
+    font-weight: 400;
+    font-size: 20px;
+    font-style: italic;
+    margin-top: 15%;
+}
+
+.arahan{
+    font-family: "Nunito", serif;
+    font-weight: 400;
+    font-size: 15px;
+    font-style: italic;
+    margin-top: 15%;
+}
+
+.container-konfirm {
+    position: absolute;
+    top: 63%;
+    left: 30%;
+    text-align: center;
+}
+
+.konfirm-button {
+    font-family: "Nunito", serif;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 14px;
+    background-color: #5ebcd6;
+    color: #000000;
+    padding: 14px 40px;
+    margin: 10px 15px;
+    border: none;
+    text-decoration: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.konfirm-button:hover {
+    font-family: "Nunito", serif;
+    font-weight: 500;
+    border: none;
+    background-color: transparent;
+    color: #000000;
+}
+
+.konfirm-button:hover svg{
+    color: #000000;
+}
+
+.text-mempelai-1 {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.wed-nama{
+    font-family: "Kaushan Script", cursive;
+}    
+
+.nama-1{
+    font-size: 35px;
+}    
+
+.dan{
+    font-size: 45px;
+    margin-left: 50%;
+}    
+
+.nama-2{
+    font-size: 35px;
+    margin-left: 80%;
+}    
+
+.container-penutup {
+    position: absolute;
+    top: 33%;
+    left: 18%;
+    text-align: center;
+}
+
+.text-penutup{
+    font-family: "Nunito", serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #000000;
+}
+
+.terimakasih{
+    font-family: "Nunito", serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #000000;
+}
+
+.keluarga{
+    font-family: "Nunito", serif;
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 20%;
+    color: #000000;
+}
+
+.container-keluarga {
+    position: absolute;
+    top: 57%;
+    left: 9%;
+    text-align: center;
+    font-family: "Nunito", serif;
+    font-weight: 400;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;  
+    gap: 20px; /* Jarak antara kolom */
+    text-align: center;
+    padding: 5px;
+}
+
+.item {
+    padding: 10px;
+}
+
+.title {
+    font-family: "Nunito", serif;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.circle{
+   width: 500px;
+   height: 500px;
+   background: url(../../img/undangan-v23/download-removebg-preview.png) no-repeat center/contain;
+   margin: 20px auto;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   position: relative;
+   border-radius: 20%;
+   margin-bottom: 100px;
+   margin-top: 50%;
+   margin-bottom: 50%;
+}
+
+.circle h1{
+    text-align: center;
+    font-family: "Kaushan Script", serif; 
+    font-weight: 400;
+    margin: 0;
+    line-height: 1,2rem;
+}
+
+.circle .name{
+    font-size: 36px;
+    color: #000000;
+    display: block;
+    transform: translate(-35%);
+}
+
+.circle .name2{
+    font-size: 36px;
+    color: #000000;
+    display: block;
+    transform: translate(40%);
+}
+
+.circle .symbol {
+    font-size: 36px;
+    color: #000000;
+    display: block;
+}
+
+.container-konfir {
+    position: absolute;
+    align-items: center;
+    top: 33%;
+    left: 21%;
+}
+
+.konfir{
+    font-family: "Parisienne", serif;
+    font-weight: 400;
+    font-size: 35px;
+    color: black;
+    text-align: center;
+}
+
+.form-container {
+    position: absolute;
+    align-items: center;
+    top: 35%;
+    margin: 50px auto;
+    padding: 20px;
+  }
+
+  form input, form textarea {
+    width: 75%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 2px solid #000; /* Garis hitam */
+    border-radius: 8px;
+    box-sizing: border-box;
+    background-color: transparent; /* Warna biru sangat muda */
+    font-size: 14px;
+  }
+
+  form input::placeholder{
+    color: #000;
+  }
+
+  form textarea::placeholder{
+    color: #000;
+  }
+  
+  form textarea {
+    resize: none; /* Mencegah pengguna mengubah ukuran textarea */
+  }
+
+  .container-ucapan {
+    position: absolute;
+    top: 70%;
+    left: 30%;
+    text-align: center;
+}
+
+.ucapan-button {
+    font-family: "Nunito", serif;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 14px;
+    background-color: #5ebcd6;
+    color: #000000;
+    padding: 14px 40px;
+    margin: 10px 15px;
+    border: none;
+    text-decoration: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.ucapan-button:hover {
+    font-family: "Nunito", serif;
+    font-weight: 500;
+    border: none;
+    background-color: transparent;
+    color: #000000;
+}
+
+.ucapan-button:hover svg{
+    color: #000000;
+}

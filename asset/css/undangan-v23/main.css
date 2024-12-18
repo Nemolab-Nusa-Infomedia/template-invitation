@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&family=Marck+Script&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Parisienne&display=swap');
+
+.absolute{
+    min-height: 100vh;
+}
+
+.gariskehidupan{
+    position: absolute;
+    background-color: #A0D9E9;
+    width: 41px;
+    height: 130%;
+    margin-left: 91px;
+}
+
+.flower {
+    position: absolute;
+    top: -50px; /* Atur nilai ini sesuai dengan ukuran gambar bunga */
+    left: 40%;
+    margin-top: 45%; /* Menggunakan 50% untuk menempatkan gambar di tengah */
+    transform: translateX(-50%); /* Menggunakan transform untuk menyesuaikan posisi horizontal */
+    width: 300px; /* Atur lebar gambar sesuai kebutuhan */
+    height: auto; /* Ini akan menjaga aspek rasio gambar */
+    transform-origin: top left; /* Atur titik pusat rotasi di bagian atas kiri gambar */
+    transform: translateX(-50%) rotate(15deg);
+}
+
+.wed-name{
+    font-family: "Kaushan Script", cursive;
+    line-height: 58.04px;
+    font-size: 40px;
+}
+
+.name-1{
+    margin-top: 5%;
+    font-size: 55px;
+    margin-left: 0;
+}
+
+.and{
+    font-size: 75px;
+    margin-left: 10%;
+}
+
+.name-2{
+    font-size: 55px;
+    margin-left: 25%;
+}
+
+.group-tamu{
+    margin-top: 60%;
+    margin-left: 15%;
+    margin-bottom: 25%;
+}
+
+.tamu{
+    font-family: "Livvic", serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.nama-tamu{
+    font-family: "Livvic", serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.custom-button {
+    font-family: "Livvic", serif;
+    padding: 10px 25px;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    background-color: #4F9EB4;
+    /* Warna merah */
+    border: 2px solid #4F9EB4;
+    /* Border merah */
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    outline: none;
+}
+
+.custom-button .icon {
+    color: #000000;
+    margin-right: 8px;
+}
+
+.custom-button:hover {
+    background-color: transparent;
+    color: #000000;
+    border: none;
+    /* Teks berubah menjadi merah */
+}
+
+.custom-button:hover .icon {
+    color: #000000;
+    /* Ikon juga berubah merah */
+}
+
+.custom-button:focus {
+    outline: none;
+}
