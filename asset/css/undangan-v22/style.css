@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Carattere&family=Fleur+De+Leah&family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+.row {
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #49688E, #C8DEFA);
+}
+
+.atass {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 200px;
+}
+
+.atas {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.bawahh {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.bawah {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+/* content1 */
+.content1 {
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.title-pembuka {
+    font-family: "Carattere", cursive;
+    font-size: 35px;
+    margin-top: 20px;
+}
+
+.child {
+    width: 182px;
+    height: 180px;
+    border-radius: 100px 100px 0 0;
+}
+
+.name {
+    font-family: "Fleur De Leah", cursive;
+    font-size: 50px;
+    margin-bottom: 300px;
+}
+
+/* content2 */
+.content2 {
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.title-2 {
+    font-family: "Carattere", cursive;
+    font-size: 45px;
+}
+
+.location,
+.time {
+    font-family: "Lora", serif;
+    font-size: 14px;
+}
+
+.date {
+    font-family: "Lora", serif;
+    font-size: 22px;
+}
+
+.timer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Lustria", serif;
+}
+
+.countdown {
+    display: flex;
+    gap: 10px;
+}
+
+.countdown .time-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.countdown .time-value {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: #4C689DDB;
+    color: #ffffff;
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.countdown .label {
+    font-size: 14px;
+    margin-top: 5px;
+    color: #ffffff;
+}
+
+.text-2 {
+    font-family: "Lora", serif;
+    font-size: 16px;
+}
+
+.lamp {
+    width: 299px;
+    height: 150px;
+    border-radius: 8px;
+}
+
+.button-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 300px;
+}
+
+.custom-button {
+    background-color: #4C689D5C;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-family: "Lustria", serif;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.custom-button i.icon {
+    font-size: 18px;
+}
+
+.custom-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+}
+
+.custom-button:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+/* content3 */
+
+/* content4 */
+.content4 {
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.title-doa {
+    font-family: "Carattere", cursive;
+    font-size: 50px;
+}
+
+.text-doa {
+    font-family: "Lora", serif;
+    font-size: 15px;
+}
+
+/* content5 */
+.content5 {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.title-tanda {
+    font-family: "Carattere", cursive;
+    font-size: 50px;
+}
+
+.boxs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 270px;
+}
+
+.box {
+    width: 283px;
+    height: 157px;
+    background-color: #D9D9D9;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* content6 */
+.content6 {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.title-penutup {
+    font-family: "Carattere", cursive;
+    font-size: 50px;
+}
+
+.family{
+    width: 286px;
+    height: 141px;
+    border-radius: 16px;
+}
+
+.text-penutup,
+.hormat{
+    font-family: "Lora", serif;
+    font-size: 16px;
+}
+
+.ortu{
+    margin-bottom: 300px;
+    font-family: "Fleur De Leah", cursive;
+    font-size: 24px;
+}

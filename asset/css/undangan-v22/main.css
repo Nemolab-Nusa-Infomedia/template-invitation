@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Carattere&family=Fleur+De+Leah&family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+.row{
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #49688E, #C8DEFA);
+}
+
+.atass {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 150px;
+}
+
+.atas {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.bawahh{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.bawah{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    z-index: 1;  
+}
+
+.home{
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.undangan{
+    font-family: "Lora", serif;
+    font-size: 20px;
+}
+
+.title{
+    font-family: "Carattere", cursive;
+    font-size: 50px;
+}
+
+.child{
+    width: 182px;
+    height: 180px;
+    border-radius: 100px 100px 0 0;
+}
+
+.name{
+    font-family: "Fleur De Leah", cursive;
+    font-size: 50px;
+}
+
+
+.invitation-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: #FFFFFF;
+    z-index: 2;
+    margin-bottom: 300px;
+}
+
+.invitation-card {
+    background: #4C689D70;
+    border-radius: 12px;
+    padding: 5px 100px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.invitation-card p {
+    font-family: "Livvic", sans-serif;
+    margin: 5px 0;
+    font-size: 18px;
+}
+
+.recipient {
+    font-size: 16px;
+    font-family: "Livvic", sans-serif;
+}
+
+.guest-name {
+    font-family: "Copse", serif;
+    font-size: 21px;
+}
+
+.btn-container {
+    text-align: center;
+    margin-bottom: 32px;
+    font-family: "Copse", serif;
+    color: #ffffff;
+    z-index: 2;
+}
+
+.open-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FBF9F1;
+    color: #474E68;
+    font-size: 16px;
+    text-decoration: none;
+    border: none;
+    border-radius: 9px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.open-btn:hover {
+    background-color: #fbf9f1d7;
+}
