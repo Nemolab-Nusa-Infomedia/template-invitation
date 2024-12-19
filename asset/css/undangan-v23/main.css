@@ -8,14 +8,19 @@
     position: absolute;
     background-color: #A0D9E9;
     width: 41px;
-    height: 130%;
+    height: 133%;
     margin-left: 91px;
+}
+
+.flowerr{
+    position: relative;
+
 }
 
 .flower {
     position: absolute;
     top: -50px; /* Atur nilai ini sesuai dengan ukuran gambar bunga */
-    left: 40%;
+    left: 43%;
     margin-top: 45%; /* Menggunakan 50% untuk menempatkan gambar di tengah */
     transform: translateX(-50%); /* Menggunakan transform untuk menyesuaikan posisi horizontal */
     width: 300px; /* Atur lebar gambar sesuai kebutuhan */
@@ -23,6 +28,7 @@
     transform-origin: top left; /* Atur titik pusat rotasi di bagian atas kiri gambar */
     transform: translateX(-50%) rotate(15deg);
 }
+
 
 .wed-name{
     font-family: "Kaushan Script", cursive;
