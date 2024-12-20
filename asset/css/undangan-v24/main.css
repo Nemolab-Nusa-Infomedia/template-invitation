@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Mountains+of+Christmas:wght@400;700&display=swap');
+
+.row{
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #99725B, #FFBE98);
+}
+
+.atass {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.atas {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.bawahh {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 100%; */
+    margin-top: 200px;
+}
+
+.bawah {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.text-center {
+    padding: 20px;
+    z-index: 999;
+}
+
+.undangan {
+    font-size: 15px;
+    color: #ffffff;
+    font-family: "Italiana", serif;
+}
+
+.text-center h1 {
+    font-family: "Mountains of Christmas", serif;
+    font-size: 3.5rem;
+    font-weight: bold;
+    background: linear-gradient(45deg, #F8D996, #FFA166);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text-center p {
+    font-family: "Italiana", serif;
+    font-size: 18px;
+    margin-top: 1rem;
+    color: #FBFAEA;
+}
+
+.text-center a {
+    background-color: #FFDEBC;
+    color: #99725B;
+    border: none;
+    font-size: 1rem;
+    z-index: 2;
+    cursor: pointer;
+    margin-bottom: 200px;
+}
+
+.family{
+    border-radius: 100px 100px 30px 30px;
+    width: 274px;
+}
