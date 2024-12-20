@@ -326,7 +326,7 @@
 .title-doa{
     font-family: "Nunito", serif;
     font-weight: 600;
-    font-size: 25px;
+    font-size: 22px;
     font-style: italic;
     left: 5%;
 }
@@ -334,7 +334,7 @@
 .container-doa {
     position: absolute;
     top: 35%;
-    left: 20%;
+    left: 11%;
     text-align: center;
 }
 
@@ -362,8 +362,8 @@
 
 .container-konfirm {
     position: absolute;
-    top: 63%;
-    left: 30%;
+    top: 65%;
+    left: 25%;
     text-align: center;
 }
 
@@ -422,8 +422,8 @@
 
 .container-penutup {
     position: absolute;
-    top: 33%;
-    left: 18%;
+    top: 39%;
+    left: 13%;
     text-align: center;
 }
 
@@ -445,17 +445,18 @@
     font-family: "Nunito", serif;
     font-weight: 400;
     font-size: 15px;
-    margin-top: 20%;
+    margin-top: 15%;
     color: #000000;
 }
 
 .container-keluarga {
     position: absolute;
-    top: 57%;
+    top: 53%;
     left: 9%;
     text-align: center;
     font-family: "Nunito", serif;
     font-weight: 400;
+    font-size: 13px;
 }
 
 .grid-container {
@@ -472,13 +473,13 @@
 
 .title {
     font-family: "Nunito", serif;
-    font-weight: 400;
+    font-weight: 700;
     margin-bottom: 5px;
 }
 
 .circle{
-   width: 500px;
-   height: 500px;
+   width: 450px;
+   height: 450px;
    background: url(../../img/undangan-v23/download-removebg-preview.png) no-repeat center/contain;
    margin: 20px auto;
    display: flex;
@@ -487,7 +488,7 @@
    position: relative;
    border-radius: 20%;
    margin-bottom: 100px;
-   margin-top: 50%;
+   margin-top: 40%;
    margin-bottom: 50%;
 }
 
@@ -523,7 +524,7 @@
     position: absolute;
     align-items: center;
     top: 33%;
-    left: 21%;
+    left: 15%;
 }
 
 .konfir{
@@ -567,7 +568,7 @@
 
   .container-ucapan {
     position: absolute;
-    top: 70%;
+    top: 75%;
     left: 30%;
     text-align: center;
 }
