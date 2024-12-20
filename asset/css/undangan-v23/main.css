@@ -2,6 +2,7 @@
 
 .absolute{
     min-height: 100vh;
+    overflow: hidden;
 }
 
 .gariskehidupan{
@@ -14,7 +15,6 @@
 
 .flowerr{
     position: relative;
-
 }
 
 .flower {

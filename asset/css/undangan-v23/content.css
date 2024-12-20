@@ -2,6 +2,7 @@
 
 .absolute{
     min-height: 100vh;
+    overflow: hidden;
 }
 
 .profile-container {
