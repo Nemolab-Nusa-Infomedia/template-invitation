@@ -334,14 +334,14 @@
 .container-doa {
     position: absolute;
     top: 35%;
-    left: 11%;
+    left: 13%;
     text-align: center;
 }
 
 .text-doa{
     font-family: "Nunito", serif;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 14px;
 }
 
 .hadis{
