@@ -1,0 +1,421 @@
+@import url('https://fonts.googleapis.com/css2?family=Glass+Antiqua&family=Lustria&display=swap');
+
+.row {
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #B1F3FF, #FFF2A9, #B5CFB7);
+}
+
+.atass {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 150px;
+}
+
+.atas {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.bawahh {
+    position: relative;
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+}
+
+.bawah {
+    position: absolute;
+    bottom: 0;
+    right: -100px;
+    width: 211px;
+    height: auto;
+    z-index: 1;
+}
+
+.bawah2 {
+    position: absolute;
+    bottom: 0;
+    left: -100px;
+    width: 211px;
+    height: auto;
+    z-index: 1;
+}
+
+
+/* content1 */
+.content1 {
+    text-align: center;
+}
+
+.salam {
+    font-size: 30px;
+    color: #4F8E8D;
+    font-family: "Glass Antiqua", serif;
+}
+
+.boxs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.box {
+    width: 315px;
+    height: 132px;
+    background-color: #D9D9D9;
+    border-radius: 100px 5px 100px 5px;
+}
+
+.text-salam {
+    font-size: 14px;
+    color: #ACA9A3;
+    font-family: "Lora", serif;
+}
+
+.name {
+    font-size: 40px;
+    color: #4F8E8D;
+    font-family: "Glass Antiqua", serif;
+}
+
+
+/* content2 */
+.content2 {
+    text-align: center;
+}
+
+.title-location {
+    color: #ACA9A3;
+    font-size: 36px;
+    font-family: "Glass Antiqua", serif;
+}
+
+.location {
+    color: #ACA9A3;
+    font-family: "Lustria", serif;
+    font-size: 18px;
+}
+
+.timer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Lustria", serif;
+}
+
+.countdown {
+    display: flex;
+    gap: 10px;
+}
+
+.countdown .time-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.countdown .time-value {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: #E8D579DB;
+    color: #ACA9A3;
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.countdown .label {
+    font-size: 14px;
+    margin-top: 5px;
+    color: #ACA9A3;
+}
+
+.dates {
+    color: #ACA9A3;
+    font-family: "Lustria", serif;
+}
+
+.date {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.time {
+    font-size: 18px;
+}
+
+.button-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.custom-button {
+    background-color: #E8D5795C;
+    color: #ACA9A3;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-family: "Lustria", serif;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.custom-button i.icon {
+    font-size: 18px;
+}
+
+.custom-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+}
+
+.custom-button:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+/* content3 */
+.content3 {
+    text-align: center;
+    z-index: 2;
+}
+
+.gallery{
+    font-family: "Glass Antiqua", serif;
+    font-size: 46px;
+    color: #ACA9A3;
+    margin-top: 50px;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: 188px 113px; /* Set fixed column widths */
+    gap: 15px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.grid-item {
+    background-color: #D9D9D9;
+}
+
+.item-1 {
+    width: 188px;
+    height: 128px;
+}
+
+.item-2 {
+    width: 113px;
+    height: 128px;
+    justify-self: end; /* Align to end of grid cell */
+}
+
+.item-3 {
+    width: 113px;
+    height: 128px;
+}
+
+.item-4 {
+    width: 188px;
+    height: 128px;
+    justify-self: end; /* Align to end of grid cell */
+    margin-right: 0; /* Offset to align with item 2 */
+}
+
+/* Galaxy A12 (720 x 1600px) */
+@media screen and (max-width: 720px) {
+    .gallery-grid {
+        grid-template-columns: 150px 90px;
+        gap: 10px;
+        padding: 15px;
+    }
+    
+    .item-1 {
+        width: 150px;
+        height: 102px;
+    }
+    
+    .item-2 {
+        width: 90px;
+        height: 102px;
+    }
+    
+    .item-3 {
+        width: 90px;
+        height: 102px;
+    }
+    
+    .item-4 {
+        width: 150px;
+        height: 102px;
+        margin-right: 0; /* Adjusted offset for smaller screen */
+    }
+}
+
+/* iPad (768px and up) */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .salam{
+        margin-top: 200px;
+    }
+
+    .text-salam{
+        font-size: 20px;
+    }
+
+    .title-location{
+        margin-top: 200px;
+    }
+
+    .gallery{
+        margin-top: 100px;
+    }
+    
+    .title-doa{
+        margin-bottom: 150px;
+    }
+
+    .text-doa{
+        font-size: 20px;
+    }
+
+    .title-penutup{
+        margin-top: 200px;
+    }
+
+    .gallery-grid {
+        grid-template-columns: 220px 132px;
+        gap: 20px;
+        padding: 25px;
+    }
+    
+    .item-1 {
+        width: 220px;
+        height: 150px;
+    }
+    
+    .item-2 {
+        width: 132px;
+        height: 150px;
+    }
+    
+    .item-3 {
+        width: 132px;
+        height: 150px;
+    }
+    
+    .item-4 {
+        width: 220px;
+        height: 150px;
+        margin-right: 0; /* Adjusted offset for iPad */
+    }
+}
+
+
+/* content4 */
+.content4 {
+    text-align: center;
+    z-index: 2;
+}
+
+.title-doa {
+    font-family: "Glass Antiqua", serif;
+    font-size: 46px;
+    color: #ACA9A3;
+    margin-top: 50px;
+}
+
+.text-doa {
+    font-family: "Lora", serif;
+    font-size: 14px;
+    color:  #ACA9A3;
+}
+
+.button-container2 {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.custom-button2 {
+    background-color: #4C689D5C;
+    color: #FFFFFF;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-family: "Lustria", serif;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.custom-button2 i.icon {
+    font-size: 18px;
+}
+
+.custom-button2:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+}
+
+.custom-button2:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+/* content5 */
+.content5 {
+    text-align: center;
+    color: #ACA9A3;
+}
+
+.title-penutup {
+    font-family: "Glass Antiqua", serif;
+    font-size: 46px;
+}
+
+.family{
+    width: 286px;
+    height: 141px;
+    border-radius: 16px;
+}
+
+.text-penutup,
+.hormat{
+    font-family: "Lora", serif;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.ortu{
+    font-family: "Glass Antiqua", serif;
+    font-size: 24px;
+}
