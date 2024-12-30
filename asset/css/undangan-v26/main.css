@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Italianno&family=Lora:ital,wght@0,400..700;1,400..700&family=Lustria&display=swap');
+
+.row {
+    min-height: 100vh;
+    background-color: #AA9AB0;
+}
+
+.atass {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.atas1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 72%;
+    z-index: 1;
+}
+
+.atas2 {
+    position: absolute;
+    top: 90px;
+    right: 5px;
+    width: 20%;
+    z-index: 2;
+}
+
+.atas3 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 60%;
+    z-index: 3;
+}
+
+.bawahh {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.bawah {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.content{
+    text-align: center;
+    z-index: 3;
+}
+
+.title{
+    color: #FAF7EC;
+    font-size: 36px;
+    font-family: "Italiana", serif;
+    margin-top: 200px;
+}
+
+.child{
+    width: 284px;
+    height: 150px;
+    border-radius: 100px 5px 100px 5px;
+}
+
+.name{
+    color: #FAF7EC;
+    font-size: 50px;
+    font-family: "Italianno", serif;
+}
+
+
+.invitation-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: #FFFFFF;
+    margin-bottom: 300px;
+}
+
+.invitation-card {
+    background: #FFE6E65C;
+    border-radius: 12px;
+    padding: 5px 80px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.invitation-card p {
+    font-family: "Livvic", sans-serif;
+    margin: 5px 0;
+    font-size: 18px;
+}
+
+.recipient {
+    font-size: 16px;
+    font-family: "Livvic", sans-serif;
+}
+
+.guest-name {
+    font-family: "Copse", serif;
+    font-size: 21px;
+}
+
+.btn-container {
+    text-align: center;
+    margin-bottom: 32px;
+    font-family: "Copse", serif;
+    color: #ffffff;
+    z-index: 2;
+}
+
+.open-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFEAE3;
+    color: #967982;
+    font-size: 16px;
+    text-decoration: none;
+    border: none;
+    border-radius: 9px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.open-btn:hover {
+    background-color: #ffeae3d6;
+}

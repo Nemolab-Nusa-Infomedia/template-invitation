@@ -1,0 +1,392 @@
+@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Italianno&family=Lora:ital,wght@0,400..700;1,400..700&family=Lustria&display=swap');
+
+.row {
+    min-height: 100vh;
+    background-color: #AA9AB0;
+}
+
+.atass {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.atas1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 72%;
+    z-index: 1;
+}
+
+.atas2 {
+    position: absolute;
+    top: 90px;
+    right: 5px;
+    width: 20%;
+    z-index: 2;
+}
+
+.atas3 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 60%;
+    z-index: 3;
+}
+
+.bawahh {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.bawah {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+
+/* content1 */
+.content1{
+    text-align: center;
+}
+
+.title-pembuka{
+    color: #FAF7EC;
+    font-size: 36px;
+    font-family: "Italiana", serif;
+    margin-top: 200px;
+}
+
+.salam{
+    color: #FFFFFF;
+    font-size: 35px;
+    font-family: "Italianno", serif;
+}
+
+.text-pembuka{
+    font-family: "Lora", serif;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.name{
+    color: #FFFFFF;
+    font-size: 50px;
+    font-family: "Italianno", serif;
+}
+
+.names{
+    color: #FFFFFF;
+    font-family: "Lora", serif;
+    margin-bottom: 350px;
+}
+
+.putra{
+    font-size: 20px;
+}
+
+.ortu{
+    font-size: 19px;
+}
+
+
+/* content2 */
+.content2 {
+    text-align: center;
+    z-index: 2;
+}
+
+.title-location {
+    color: #FAF7EC;
+    font-size: 36px;
+    font-family: "Italiana", serif;
+    margin-top: 200px;
+}
+
+.location {
+    color: #FFFFFF;
+    font-family: "Lustria", serif;
+    font-size: 18px;
+}
+
+.timer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Lustria", serif;
+}
+
+.countdown {
+    display: flex;
+    gap: 10px;
+}
+
+.countdown .time-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.countdown .time-value {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: #FFE6E6DB;
+    color: #ffffff;
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.countdown .label {
+    font-size: 14px;
+    margin-top: 5px;
+    color: #ffffff;
+}
+
+.dates{
+    color: #FBFAEA;
+    font-family: "Lustria", serif;
+}
+
+.date{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.time{
+    font-size: 18px;
+}
+
+.button-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 250px;
+}
+
+.custom-button {
+    background-color: #FFE6E65C;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-family: "Lustria", serif;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.custom-button i.icon {
+    font-size: 18px;
+}
+
+.custom-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+}
+
+.custom-button:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+/* content3 */
+.content3{
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.title-galeri{
+    font-size: 36px;
+    font-family: "Italiana", serif;
+    margin-top: 200px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto auto auto;
+    gap: 15px;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 300px;
+}
+
+.top-section {
+    grid-column: 1 / -1;
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 15px;
+}
+
+.middle-section {
+    grid-column: 1 / -1;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.bottom-section {
+    grid-column: 1 / -1;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 15px;
+}
+
+.grid-item {
+    background-color: #D9D9D9;
+    border-radius: 5px;
+    min-height: 120px;
+    width: 100%;
+}
+
+
+/* content4 */
+.content4{
+    text-align: center;
+    z-index: 3;
+    color: #FFFFFF;
+    margin-bottom: 150px;
+}
+
+.doa{
+    font-size: 36px;
+    font-family: "Italiana", serif;
+    margin-top: 250px;
+    margin-bottom: 50px;
+}
+
+.text{
+    font-family: "Lora", serif;
+    font-size: 15px;
+}
+
+.button-container {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.custom-button {
+    background-color: #4C689D5C;
+    /* Warna biru tua */
+    color: white;
+    border: none;
+    border-radius: 10px;
+    /* Rounded edges */
+    padding: 10px 20px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.custom-button i.icon {
+    font-size: 18px;
+    /* Icon size */
+}
+
+.custom-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+}
+
+.custom-button:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+/* content5 */
+.content5 {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.title-penutup {
+    font-size: 36px;
+    font-family: "Italiana", serif;
+    margin-top: 200px;
+}
+
+.family{
+    width: 286px;
+    height: 141px;
+    border-radius: 16px;
+    margin-bottom: 50px;
+}
+
+.text-penutup,
+.hormat{
+    font-family: "Lora", serif;
+    font-size: 16px;
+}
+
+.ortu{
+    margin-bottom: 300px;
+    font-family: "Italianno", serif;
+    font-size: 24px;
+}
+
+
+@media screen and (max-width: 720px) {
+    .text-pembuka{
+        font-size: 12px;
+    }
+
+    .doa{
+        font-size: 30px;
+    }
+
+    .text{
+        font-size: 12px;
+    }
+
+    .text-penutup{
+        font-size: 12px;
+    }
+
+    .title-galeri{
+        margin-top: 150px;
+    }
+
+    .grid-container{
+        margin-top: 50px;
+        margin-bottom: 300px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .grid-container {
+        max-width: 60%;
+    }
+
+    .grid-item {
+        min-height: 150px;
+    }
+}
