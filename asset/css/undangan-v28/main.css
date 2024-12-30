@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Fleur+De+Leah&family=Italiana&family=Lora:ital,wght@0,400..700;1,400..700&family=Love+Light&display=swap');
+
+.row {
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #867070, #201B1B);
+}
+
+.atass {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.atas {
+    position: absolute;
+    top: -125px;
+    width: 100%;
+    z-index: 1;
+}
+
+.photo {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.image {
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    top: 50px;
+}
+
+.bawahh {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 130px;
+}
+
+.bawah {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 165.18px;
+    height: auto;
+    z-index: 1;
+}
+
+.tengah {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    z-index: 1;
+}
+
+.bawah2 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 113.37px;
+    height: auto;
+    z-index: 1;
+}
+
+
+.content {
+    z-index: 999;
+    text-align: center;
+}
+
+.title {
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-family: "Italiana", serif;
+    margin-top: 200px;
+}
+
+.name {
+    color: #FFFFFF;
+    font-family: "Fleur De Leah", serif;
+}
+
+.mempelai {
+    font-size: 48px;
+}
+
+.dan{
+    font-size: 36px;
+}
+
+.invitation-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: #FFFFFF;
+    z-index: 999;
+    margin-bottom: 100px;
+}
+
+.invitation-card {
+    background: #FFE6E65C;
+    border-radius: 12px;
+    padding: 5px 100px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.invitation-card p {
+    font-family: "Livvic", sans-serif;
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.recipient {
+    font-size: 16px;
+    font-family: "Livvic", sans-serif;
+}
+
+.guest-name {
+    font-family: "Copse", serif;
+    font-size: 21px;
+}
+
+.btn-container {
+    text-align: center;
+    margin-bottom: 32px;
+    font-family: "Copse", serif;
+    color: #ffffff;
+    z-index: 2;
+}
+
+.open-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFEAE3;
+    color: #967982;
+    font-size: 16px;
+    text-decoration: none;
+    border: none;
+    border-radius: 9px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.open-btn:hover {
+    background-color: #ffeae3cf;
+}
+
+@media screen and (max-width: 720px) {
+    .invitation-card{
+        padding: 0 70px;
+    }
+}
