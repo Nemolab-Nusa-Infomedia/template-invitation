@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabriela&family=Irish+Grover&family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap');
+
+.container-fluid {
+    min-height: 100vh;
+    position: relative;
+}
+
+.atass {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+.item-image-1 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    opacity: 250%;
+}
+
+.title {
+    font-family: "Josefin Slab", serif;
+    font-weight: 400;
+    font-size: 50px;
+    font-style: italic;
+    color: #C2C195;
+    margin-top: 52%;
+}
+
+.img-content {
+    position: relative;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-content .profile {
+    position: relative;
+    border-radius: 120px 120px 10px 10px;
+    z-index: 1;
+}
+
+.text {
+    padding: 30px  100px;
+}
+
+.invitation-card {
+    background: #EFEAC370;
+    border-radius: 5px;
+    padding: 5px 0px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.invitation-card p {
+    font-family: "Istok Web", serif;
+    color: black;
+    font-weight: 400;
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+.recipient {
+    color: black;
+    font-size: 18px;
+    font-family: "Istok Web", serif;
+    font-weight: 400;
+}
+
+.bawahh {
+    position: relative;
+    width: 100%;
+    height: 215px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img-btm-kiri {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    opacity: 250%;
+}
+
+.btn-invit{
+    display: flex;
+    justify-content: center;
+}
+
+.custom-button {
+    position: absolute;
+    font-family: "Istok Web", serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 5px 25px;
+    background-color: #B6A44C;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    z-index: 1;
+}
+
+.custom-button:hover {
+    border: none;
+    background-color: transparent;
+    color: #ffffff;
+}

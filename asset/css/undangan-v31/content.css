@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabriela&family=Irish+Grover&family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap');
+
+.container-fluid {
+    min-height: 100vh;
+    position: relative;
+}
+
+.atass {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+.item-image-1 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    opacity: 250%;
+}
+
+.title {
+    font-family: "Josefin Slab", serif;
+    font-weight: 400;
+    font-size: 50px;
+    font-style: italic;
+    color: #C2C195;
+    margin-top: 52%;
+}
+
+.img-content {
+    position: relative;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-content .profile {
+    position: relative;
+    border-radius: 120px 120px 10px 10px;
+    z-index: 1;
+}
+
+.text {
+    margin-top: 40px;
+    padding: 20px; 
+}
+
+.text-invit-op{
+    font-family: "Istok Web", serif;
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 28.79px;
+}
+
+.text-invit-1{
+    font-family: "Irish Grover", serif;
+    font-weight: 400;
+    color: #66865B;
+    margin-top: 10%;
+    font-size: 50px;
+}
+
+.text-ortu{
+    font-family: "Istok Web", serif;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    line-height: 28.79px;
+    font-size: 18px;
+}
+
+.text1 {
+    margin-top: 20px;
+    padding: 20px; 
+}
+
+.text-page2{
+    margin-top: 50px;
+    padding: 50px; 
+}
+
+.text-invit-acara{
+    font-family: "Istok Web", serif;
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+    font-size: 23px;
+    line-height: 28.79px;
+}
+
+.event{
+    margin-top: 10%;
+    font-family: "Istok Web", serif;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.gmaps{
+    margin-top: 15%;
+    margin-bottom: 15%;
+}
+
+
+.gmaps iframe {
+    border-radius: 20px;
+    margin-bottom: 6%;
+}
+
+.btn-invit{
+    display: flex;
+    justify-content: center;
+}
+
+.custom-button {
+    position: absolute;
+    font-family: "Istok Web", serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 5px 25px;
+    background-color: #B6A44C;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    z-index: 1;
+}
+
+.custom-button:hover {
+    border: none;
+    background-color: transparent;
+    color: #ffffff;
+}
+
+.bawahh {
+    position: relative;
+    width: 100%;
+    height: 215px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img-btm {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    opacity: 250%;
+}
+
+.btn-invit{
+    display: flex;
+    justify-content: center;
+}
+
+.custom-button {
+    position: absolute;
+    font-family: "Istok Web", serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 5px 25px;
+    background-color: #B6A44C;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    z-index: 1;
+}
+
+.custom-button:hover {
+    border: none;
+    background-color: transparent;
+    color: #ffffff;
+}
+
+.text-page-4 {
+    margin-top: 50px;
+    padding: 20px 0 0; 
+}
+
+.text-invit-ucapan{
+    font-family: "Istok Web", serif;
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+    font-size: 23px;
+    line-height: 28.79px;
+    margin-bottom: 15%;
+}
+
+.countdown-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 2rem 0;
+    margin-bottom: 20%;
+}
+
+.countdown-box {
+    background: #C6B147;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    min-width: 70px;
+}
+
+.countdown-value {
+    color: #000000;
+    font-family: "Livvic", serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin-bottom: 0.25rem;
+}
+
+.countdown-label {
+    color: #000000;
+    font-size: 0.8rem;
+}
+
+.gallery {
+   margin-top: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px; /* Jarak antar elemen */
+}
+
+.gallery-item {
+    width: 267px;
+    height: 110px;
+    background-color: #c4c4c4; /* Abu-abu */
+}
+
+.form-container {
+    width: 100%;
+    max-width: 500px;
+    padding: 50px;
+  }
+
+  .form-field {
+    margin-bottom: 15px;
+  }
+
+  input, textarea {
+    width: 100%;
+    padding: 8px 12px;
+    border: 2px solid #FFFFFF;
+    border-radius: 15px;
+    background: transparent;
+    color: #FFFFFF;
+    font-size: 16px;
+    box-sizing: border-box;
+    outline: none;
+  }
+
+  textarea {
+    min-height: 100px;
+    resize: vertical;
+  }
+
+  input::placeholder,
+  textarea::placeholder {
+    color: #FFFFFF;
+    opacity: 0.7;
+  }
+
+  input:focus,
+  textarea:focus {
+    border-color: #FFF;
+    color: #FFFFFF;
+  }
+
+  .text-page-7 {
+    margin-top: 50px;
+    padding: 20px 0 0; 
+}
+
+  .text-invit-penutup{
+    font-family: "Istok Web", serif;
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28.79px;
+}
+
+  .event-1{
+      font-family: "Istok Web", serif;
+      color: rgb(255, 255, 255);
+      font-weight: 400;
+      font-size: 20px;
+      margin-top: 20%;
+  }
+
+  .text-ortu-1{
+    font-family: "Irish Grover", serif;
+    font-weight: 400;
+    color: #66865B;
+    font-size: 35px;
+}

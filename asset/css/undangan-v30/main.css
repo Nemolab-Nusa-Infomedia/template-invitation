@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&family=Gabriela&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Irish+Grover&family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&family=Medula+One&family=Meow+Script&display=swap');
+
+.row{
+    min-height: 100vh;
+}
+
+.atass{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+.item-image-kiri, .item-image-kanan {
+    width: 60%; /* Adjust as needed */
+    height: auto;
+}
+
+.item-image-kiri {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.item-image-kanan {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.title-invite{
+    font-family: "Medula One", serif;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 30px;
+    margin-top: 35%;
+}
+
+.info-invite-2{
+    font-family: "Meow Script", serif;
+    font-weight: 400;
+    font-size: 70px;
+    color: #C6B147;
+    line-height: 60px;
+    align-items: center;
+    margin-bottom: 100px;
+}
+ 
+.info-invite-4{
+    font-family: "Averia Serif Libre", serif;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 19.35px;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.jadwal{
+    display: flex;
+    justify-content: center;
+}
+
+.event{
+    margin-top: 5%;
+    font-family: "Boogaloo", serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: aliceblue;
+}
+
+.event-place{
+    font-family: "Boogaloo", serif;
+    font-weight: 400;
+    font-size: 35px;
+    color: #4D4D7F;
+}
+
+.event-location{
+    font-family: "Boogaloo", serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: aliceblue;
+}
+
+.countdown-container {
+    font-family: "Livvic", serif;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 2rem 0;
+}
+
+.countdown-box {
+    background: #C6B147;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    min-width: 70px;
+}
+
+.countdown-value {
+    color: #000000;
+    font-family: "Livvic", serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin-bottom: 0.25rem;
+}
+
+.countdown-label {
+    color: #000000;
+    font-size: 0.8rem;
+}
+
+.bawahh {
+    position: relative;
+    width: 100%;
+    height: 215px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bawah {
+    position: absolute;
+    bottom: -5px;
+    right: -20px;
+    width: 225px;
+    z-index: 1;
+}
+
+.bawah2 {
+    position: absolute;
+    bottom: -5px;
+    left: -20px;
+    width: 225px;
+    z-index: 1;
+}
+
+.gmaps iframe {
+    border-radius: 20px;
+    margin-bottom: 6%;
+}
+
+.detail-button {
+    font-family: "Inter", serif;
+    font-weight: 400;
+    font-size: 18px;
+    background-color: #C6B147;
+    color: #000;
+    padding: 10px 50px;
+    margin: 10px 15px;
+    border: none;
+    text-decoration: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.detail-button:hover {
+    background-color: #C6B147;
+}
+
+.detail-button svg {
+    margin: 0 60px;
+}
+
+.detail-content {
+    font-family: "Garamond", serif;
+    color: #B6986A;
+    margin-top: 10px;
+    display: none;
+    text-align: center;
+}
+
+.detail-content.active {
+    display: block;
+    animation: fadeIn 0.5s;
+}
+
+.detail-item {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 13.5px;
+    margin: 10px 0;
+    line-height: 1.6;
+}
+
+.subitem {
+    margin-top: 5%;
+    font-family: "Boogaloo", serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: aliceblue;
+    margin-bottom: 5%;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.open-button {
+    font-family: "Garamond", serif;
+    display: inline-block;
+    background-color: #FFBA4F;
+    color: #20231c;
+    padding: 12px 40px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    border: none;
+    margin: 20px 0;
+}
+
+.open-button:hover {
+    background-color: #dca046;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    color: white;
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btn-invit{
+    display: flex;
+    justify-content: center;
+}
+
+.custom-button {
+    position: absolute;
+    font-family: "Inter", serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 5px 25px;
+    background-color: #C6B147;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    z-index: 1;
+}
+
+.custom-button:hover {
+    border: none;
+    background-color: transparent;
+    color: #ffffff;
+}
