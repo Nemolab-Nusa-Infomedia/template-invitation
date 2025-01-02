@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Irish+Grover&family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=Jacques+Francois+Shadow&display=swap');
+
+.row{
+    min-height: 100vh;
+}
+
+.content-img{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    object-fit: cover;
+    filter: opacity(50%);
+}
+
+.container-img-top {
+    position: absolute;
+    z-index: 6;
+    top: 0;
+    left: 50%; /* Pusatkan secara horizontal */
+    transform: translate(-50%, 0); /* Koreksi posisi */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; /* Buat elemen menyesuaikan lebar */
+    height: auto; /* Sesuaikan tinggi dengan gambar */
+}
+
+.img--top {
+    width: 100%; /* Pastikan gambar memenuhi layout */
+    height: auto; /* Pertahankan aspek rasio gambar */
+    object-fit: cover; /* Pastikan gambar memenuhi container */
+    filter: contrast(100%);
+    opacity: 250%;
+}
+
+.content{
+    position: absolute;
+    top: 19%;
+    z-index: 1500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.content::before,
+.content::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 2px; /* Ketebalan garis */
+    height: 450%;
+    background-color: black; /* Warna garis */
+}
+
+.content::before {
+    left: 15px; /* Posisi garis di sisi kiri */
+}
+
+.content::after {
+    right: 15px; /* Posisi garis di sisi kanan */
+}
+
+.title{
+    font-family: "Jacques Francois Shadow", serif;
+    font-weight: 500;
+    color: black;
+    font-size: 50px;
+}
+
+.img-op{
+    position: absolute;
+    top: 110%;
+    width: 40%;
+}
+
+.hormat{
+    position: absolute;
+    top: 330%;
+    z-index: 1;
+    font-family: "Inter", serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24.2px;
+    color: rgb(0, 0, 0);
+}
+
+.tamu{
+    position: absolute;
+    top: 350%;
+    z-index: 1;
+    font-family: "Inter", serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28.78px;
+    color: rgb(0, 0, 0);
+}
+
+.custom-button {
+    font-family: "Inria Sans", serif;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 5px 25px;
+    position: absolute;
+    top: 430%;
+    background-color: #ce9b5e;
+    border: 2px solid #CDA36E;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    outline: none;
+}
+
+.custom-button .icon {
+    margin-right: 8px;
+}
+
+.custom-button:hover {
+    background-color: #b18a5a;
+    color: #000000;
+}
+
+.custom-button:focus {
+    outline: none;
+}

@@ -1,0 +1,592 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Instrument+Serif:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Irish+Grover&family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=Jacques+Francois+Shadow&display=swap');
+
+.row{
+    min-height: 100vh;
+}
+
+.content-img{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    object-fit: cover;
+    filter: opacity(30%);
+}
+
+.container-img-top {
+    position: absolute;
+    z-index: 6;
+    top: 0;
+    left: 50%; /* Pusatkan secara horizontal */
+    transform: translate(-50%, 0); /* Koreksi posisi */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; /* Buat elemen menyesuaikan lebar */
+    height: auto; /* Sesuaikan tinggi dengan gambar */
+}
+
+.img--top {
+    width: 100%; /* Pastikan gambar memenuhi layout */
+    height: auto; /* Pertahankan aspek rasio gambar */
+    object-fit: cover; /* Pastikan gambar memenuhi container */
+    filter: contrast(100%);
+    opacity: 250%;
+}
+
+.content{
+    position: absolute;
+    top: 19%;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.content::before,
+.content::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 2px; /* Ketebalan garis */
+    height: 425%;
+    background-color: black; /* Warna garis */
+}
+
+.content::before {
+    left: 15px; /* Posisi garis di sisi kiri */
+}
+
+.content::after {
+    right: 15px; /* Posisi garis di sisi kanan */
+}
+
+/* page home */
+
+.title{
+    font-family: "Jacques Francois Shadow", serif;
+    font-weight: 500;
+    color: black;
+    font-size: 50px;
+}
+
+.hormat{
+    position: absolute;
+    top: 400%;
+    z-index: 1;
+    font-family: "Inter", serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24.2px;
+    color: rgb(0, 0, 0);
+}
+
+.tamu{
+    position: absolute;
+    top: 430%;
+    z-index: 1;
+    font-family: "Inter", serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28.78px;
+    color: rgb(0, 0, 0);
+}
+
+/* page Profile */
+
+.salam-invit{
+    font-family: "Istok Web", serif;
+    font-weight: 500;
+    color: black;
+    font-size: 18px;
+}
+
+.img-op{
+    position: absolute;
+    top: 110%;
+    width: 60%;
+}
+
+.nama-invit{
+    position: absolute;
+    top: 385%;
+    z-index: 1;
+    font-family: "Irish Grover", serif;
+    font-weight: 400;
+    color: #8C4507;
+}
+
+.ortu{
+    position: absolute;
+    top: 420%;
+    z-index: 1;
+    font-family: "Inter", serif;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+}
+
+/* Page Event */
+
+.title{
+    position: relative;
+    font-family: "Jacques Francois Shadow", serif;
+    font-weight: 500;
+    color: black;
+    font-size: 50px;
+}
+
+.text-invit{
+    position: absolute;
+    font-family: "Instrument Serif", serif;
+    font-weight: 500;
+    font-size: 25px;
+    top: 125%;
+    z-index: 1;
+    color: black;
+}
+
+.waktu-invit{
+    position: absolute;
+    font-family: "Istok Web", serif;
+    font-weight: 500;
+    font-size: 25px;
+    top: 185%;
+    z-index: 100;
+    color: black;
+    opacity: 100%;
+}
+
+.tempat-invit{
+    position: absolute;
+    font-family: "Istok Web", serif;
+    font-weight: 500;
+    font-size: 19px;
+    top: 275%;
+    z-index: 100;
+    color: black;
+}
+
+/* Page Location */
+
+.content-location{
+    position: absolute;
+    top: 19%;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.content-location::before,
+.content-location::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 2px; /* Ketebalan garis */
+    height: 225%;
+    background-color: black; /* Warna garis */
+}
+
+.content-location::before {
+    left: 15px; /* Posisi garis di sisi kiri */
+}
+
+.content-location::after {
+    right: 15px; /* Posisi garis di sisi kanan */
+}
+
+.gmaps {
+    position: relative;
+    top: 20%;
+    border-radius: 20px;
+    margin-bottom: 6%;
+}
+
+.text-location{
+    position: absolute;
+    font-family: "Istok Web", serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: black;
+    z-index: 1;
+    top: 120%;
+}
+
+.custom-button {
+    font-family: "Inria Sans", serif;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 5px 25px;
+    position: absolute;
+    top: 140%;
+    background-color: #ce9b5e;
+    border: 2px solid #CDA36E;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    outline: none;
+}
+
+.custom-button .icon {
+    margin-right: 8px;
+}
+
+.custom-button:hover {
+    background-color: #b18a5a;
+    color: #000000;
+}
+
+.custom-button:focus {
+    outline: none;
+}
+
+/* Gallery */
+
+.content-gallery{
+    position: absolute;
+    top: 16%;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.content-gallery::before,
+.content-gallery::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 2px; /* Ketebalan garis */
+    height: 800%;
+    background-color: black; /* Warna garis */
+}
+
+.content-gallery::before {
+    left: 15px; /* Posisi garis di sisi kiri */
+}
+
+.content-gallery::after {
+    right: 15px; /* Posisi garis di sisi kanan */
+}
+
+.gallery-grid {
+    position: absolute;
+    top: 50%;
+    padding: 50px;
+    z-index: 1;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.gallery-item {
+    width: 100%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery-item-1 {
+    width: 210%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    object-fit: cover;
+    margin-bottom: 11%;
+}
+
+/* Page RSVP */
+
+.content-RSVP{
+    position: absolute;
+    top: 19%;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.content-RSVP::before,
+.content-RSVP::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 2px; /* Ketebalan garis */
+    height: 400%;
+    background-color: black; /* Warna garis */
+}
+
+.content-RSVP::before {
+    left: 15px; /* Posisi garis di sisi kiri */
+}
+
+.content-RSVP::after {
+    right: 15px; /* Posisi garis di sisi kanan */
+}
+
+.text-RSVP{
+    position: absolute;
+    font-family: "Joan", serif;
+    font-weight: 400;
+    color: #000000;
+    font-size: 35px;
+    top: 120%;
+    z-index: 1;
+}
+
+.text-RSVPP{
+    position: absolute;
+    font-family: "Joan", serif;
+    font-weight: 400;
+    color: #000000;
+    font-size: 19px;
+    top: 185%;
+}
+
+.custom-button-RSVP {
+    font-family: "Inria Sans", serif;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 5px 25px;
+    position: absolute;
+    top: 300%;
+    background-color: #ce9b5e;
+    border: 2px solid #CDA36E;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    outline: none;
+}
+
+.custom-button-RSVP .icon {
+    margin-right: 8px;
+}
+
+.custom-button-RSVP:hover {
+    background-color: #b18a5a;
+    color: #000000;
+}
+
+.custom-button-RSVP:focus {
+    outline: none;
+}
+
+/* Page Hadiah */
+
+.content-RSVP-1{
+    position: absolute;
+    top: 19%;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.content-RSVP-1::before,
+.content-RSVP-1::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 2px; /* Ketebalan garis */
+    height: 400%;
+    background-color: black; /* Warna garis */
+}
+
+.content-RSVP-1::before {
+    left: 15px; /* Posisi garis di sisi kiri */
+}
+
+.content-RSVP-1::after {
+    right: 15px; /* Posisi garis di sisi kanan */
+}
+
+.container-box {
+    position: absolute;
+    display: flex;
+    top: 168%;
+    flex-direction: column;
+    gap: 20px; /* Jarak antar kotak */
+    align-items: center;
+}
+
+.box {
+    width: 250px;
+    height: 125px;
+    border-radius: 15px;
+    background-color: lightgray;
+}
+
+.custom-button-RSVP-1 {
+    font-family: "Inria Sans", serif;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 5px 25px;
+    position: absolute;
+    top: 388%;
+    background-color: #ce9b5e;
+    border: 2px solid #CDA36E;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    outline: none;
+}
+
+.custom-button-RSVP-1 .icon {
+    margin-right: 8px;
+}
+
+.custom-button-RSVP-1:hover {
+    background-color: #b18a5a;
+    color: #000000;
+}
+
+.custom-button-RSVP-1:focus {
+    outline: none;
+}
+
+/* Page Penutup */
+
+.content-P{
+    position: absolute;
+    top: 19%;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.content-P::before,
+.content-P::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 2px; /* Ketebalan garis */
+    height: 400%;
+    background-color: black; /* Warna garis */
+}
+
+.content-P::before {
+    left: 15px; /* Posisi garis di sisi kiri */
+}
+
+.content-P::after {
+    right: 15px; /* Posisi garis di sisi kanan */
+}
+
+.text-P{
+    position: absolute;
+    font-family: "Joan", serif;
+    font-weight: 400;
+    color: #000000;
+    font-size: 18px;
+    top: 120%;
+    z-index: 1;
+}
+
+.text-PP{
+    position: absolute;
+    font-family: "Joan", serif;
+    font-weight: 400;
+    color: #000000;
+    font-size: 19px;
+    top: 250%;
+}
+
+.ortu-invit{
+    position: absolute;
+    top: 280%;
+    z-index: 1;
+    font-size: 25px;
+    font-family: "Irish Grover", serif;
+    font-weight: 400;
+    color: #8C4507;
+}
+
+/* bottom Nav */
+
+.fixed-menu-wrapper {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    font-family: "Inter", serif;
+    font-weight: 400;
+    font-size: 8.2px;
+    transform: translateX(-50%);
+    width: 33.3%; /* Menjamin menu tidak melebihi lebar viewport */
+    background-color: #CDA36E;
+    padding: 5px 0;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 999; /* Pastikan menu berada di atas konten lainnya */
+}
+
+.fixed-menu-wrapper .container {
+    max-width: 100%; /* Menyesuaikan lebar dengan container */
+    width: 100%; /* Lebar 100% dari wrapper */
+    padding: 0 15px; /* Memberi padding jika diperlukan */
+}
+
+.fixed-menu-wrapper .menu-items {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Menggunakan flexbox untuk tata letak horizontal */
+    justify-content: space-between; /* Menyebar item dengan jarak yang merata */
+    gap: 1.2rem; /* Sesuaikan gap jika perlu, bisa menggunakan gap-4 atau gap-2 */
+}
+
+.fixed-menu-wrapper .menu-items li {
+    text-align: center;
+    flex: 1;
+}
+
+.fixed-menu-wrapper .menu-items a {
+    text-decoration: none;
+    padding: 5px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    display: flex;
+    flex-direction: column; /* Menata ikon dan teks secara vertikal */
+    align-items: center; /* Menyelaraskan ikon dan teks ke tengah */
+}
+
+.fixed-menu-wrapper .menu-items a:hover {
+    background-color: #DCBF99;
+    border-radius: 10px;
+}
+
+.fixed-menu-wrapper .menu-items li.active{
+    background-color: #DCBF99;
+    border-radius: 10px;
+}
+
+
+@media(max-width: 768px){
+    .fixed-menu-wrapper{
+        font-size: 15px;
+        font-family: "Inter", serif;
+        width: 100%;
+    }
+
+    .fixed-menu-wrapper .menu-items {
+        gap: .2rem; /* Sesuaikan gap jika perlu, bisa menggunakan gap-4 atau gap-2 */
+    }
+
+    .fixed-menu-wrapper .menu-items a {
+        font-size: 10px;
+    }
+}
