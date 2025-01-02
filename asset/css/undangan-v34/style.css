@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Lustria&display=swap');
+
+.row {
+    min-height: 100vh;
+    background-color: #0F1035;
+}
+
+.atass {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 300px;
+}
+
+.atas1 {
+    position: absolute;
+    top: -60px;
+    width: 100%;
+    z-index: 0;
+}
+
+.atass1 {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 0;
+}
+
+.atas2 {
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    z-index: 2;
+}
+
+.atas3 {
+    position: absolute;
+    top: 200px;
+    width: 100%;
+    z-index: 3;
+}
+
+
+/* Add these to your existing CSS file */
+.decorative-elements {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* overflow: hidden; */
+}
+
+.santa-sleigh {
+    position: absolute;
+    z-index: 2;
+    left: 10px;
+    bottom: 0;
+    width: 111px;
+}
+
+.christmas-tree {
+    bottom: 0;
+    position: relative;
+    width: 350px;
+    /* margin: 20px auto; */
+    z-index: 1;
+}
+
+.presents {
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+    width: 131px;
+    height: auto;
+    z-index: 1;
+}
+
+
+/* content1 */
+.content1 {
+    text-align: center;
+    z-index: 2;
+    font-family: "Lustria", serif;
+}
+
+.title{
+    font-size: 40px;
+    font-weight: bold;
+    background: linear-gradient(45deg, #ED5A6E, #F8E5A6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.location {
+    color: #FBFAEA;
+    font-size: 17px;
+}
+
+.timer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.countdown {
+    display: flex;
+    gap: 10px;
+}
+
+.countdown .time-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.countdown .time-value {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: #E8D579DB;
+    color: #ffffff;
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.countdown .label {
+    font-size: 14px;
+    margin-top: 5px;
+    color: #ffffff;
+}
+
+.dates{
+    color: #FBFAEA;
+}
+
+.date{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.time{
+    font-size: 18px;
+}
+
+
+/* content2 */
+.container {
+    width: 300px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.viewer {
+    width: 284px;
+    height: 182px;
+    background-color: #D9D9D9;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+.button-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.custom-button {
+    background-color: #E8D5795C;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-family: "Lustria", serif;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.custom-button i.icon {
+    font-size: 18px;
+}
+
+.custom-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+}
+
+.custom-button:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+
