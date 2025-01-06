@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabriela&family=Judson:ital,wght@0,400;0,700;1,400&family=Knewave&family=Kreon:wght@300..700&family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+.row {
+    min-height: 100vh;
+}
+
+.atass {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item-image-atas {
+    width: 100%; /* Adjust as needed */
+    height: auto;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 100%;
+    margin-top: -30px;
+}
+
+.info-invite-2{
+    font-family: "Nunito", serif;
+    font-weight: 400;
+    font-size: 40px;
+    color: #258084;
+    align-items: center;
+    margin-top: 65%;
+    margin-bottom: 20px;
+}
+
+.info-invite-3{
+    font-family: "Kreon", serif;
+    font-weight: 400;
+    font-size: 17px;
+    color: #258084;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.img-profile{
+    width: 200px;
+    border-radius: 6%;
+    margin-bottom: 6%;
+}
+
+.name-invite{
+    font-family: "Judson", serif;
+    font-weight: 400;
+    font-size: 60px;
+    font-style: italic;
+    color: #2D3A56;
+    text-align: center;
+}
+
+.info-invite-parents{
+    font-family: "Kreon", serif;
+    font-weight: 400;
+    font-size: 17px;
+    color: #258084;
+    align-items: center;
+    margin-bottom: 150px;
+}
+
+.bawahh {
+    position: relative;
+    width: 100%;
+    height: 215px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bawah {
+    position: absolute;
+    bottom: -40px;
+    right: -78px;
+    width: 140%;
+    z-index: 1;
+}
+
+/* PAGE 2 */
+
+.info-invite-2-page2{
+    font-family: "Kreon", serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: #258084;
+    align-items: center;
+    margin-top: 65%;
+    margin-bottom: 20px;
+}
+
+.info-invite-3-page2{
+    font-family: "Kreon", serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: #258084;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.info-invite-4-page2{
+    font-family: "Kreon", serif;
+    font-weight: 400;
+    font-size: 19px;
+    color: #258084;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.countdown-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 2rem 0;
+    margin-bottom: 10%;
+}
+
+.countdown-box {
+    background: #50D4D9;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    min-width: 70px;
+}
+
+.countdown-value {
+    color: #ffffff;
+    font-family: "Livvic", serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin-bottom: 0.25rem;
+}
+
+.countdown-label {
+    color: #ffffff;
+    font-size: 0.8rem;
+}
+
+.btn-invit{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40%;
+}
+
+.custom-button {
+    position: absolute;
+    font-family: "Istok Web", serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 5px 25px;
+    background-color: #50D4D9;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    z-index: 999;
+}
+
+.custom-button:hover {
+    border: none;
+    background-color: transparent;
+    color: #50D4D9;
+}
+
+ /* PAGE 3 */
+ .gmaps{
+    margin-top: 75%;
+    margin-bottom: 15%;
+}
+
+
+.gmaps iframe {
+    border-radius: 20px;
+    margin-bottom: 6%;
+}
+ 
+/* PAGE 4 */
+
+.title-invite{
+    font-family: "Knewave", serif;
+    font-weight: 400;
+    font-size: 50px;
+    color: #69ADB0B2;
+    line-height: 60px;
+    align-items: center;
+    margin-top: 65%;
+    margin-bottom: 20px;
+}
+
+.gallery {
+     margin-top: 10%;
+     margin-bottom: 35%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     gap: 20px; /* Jarak antar elemen */
+ }
+ 
+ .gallery-item1 {
+     width: 297px;
+     height: 131px;
+     border-radius: 10px;
+     background-color: #c4c4c4; /* Abu-abu */
+ }
+
+ .gallery-item2 {
+     width: 297px;
+     height: 196px;
+     border-radius: 10px;
+     background-color: #c4c4c4; /* Abu-abu */
+ }
+
+/* page 5 */
+.img-profile2{
+    margin-top: 75%;
+    border-radius: 10px;
+ }
+
+ .text-page5{
+    font-family: "Kreon", serif;
+    font-weight: 400;
+    font-size: 17px;
+    color: #258084;
+    align-items: center;
+    margin-top: 10%;
+    margin-bottom: 50px;
+}
+
+/* PAGE 6 */
+
+.form-container {
+    width: 100%;
+    max-width: 500px;
+    padding: 50px;
+    margin-top: 65%;
+  }
+
+  .form-field {
+    margin-bottom: 15px;
+  }
+
+  input, textarea {
+    width: 100%;
+    padding: 8px 12px;
+    border: 2px solid #000000b2;
+    border-radius: 15px;
+    background: transparent;
+    color: #000000b2;
+    font-size: 16px;
+    box-sizing: border-box;
+    outline: none;
+  }
+
+  textarea {
+    min-height: 100px;
+    resize: vertical;
+  }
+
+  input::placeholder,
+  textarea::placeholder {
+    color: #000000b2;
+    opacity: 0.7;
+  }
+
+  input:focus,
+  textarea:focus {
+    border-color: #50D4D9;
+    color: #000000;
+  }
+
+  .btn-invit-submit{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40%;
+}
+
+.custom-button-submit {
+    position: absolute;
+    font-family: "Istok Web", serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 5px 50px;
+    background-color: #50D4D9;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    z-index: 999;
+}
+
+.custom-button-submit:hover {
+    border: none;
+    background-color: transparent;
+    color: #50D4D9;
+}
+
+/* PAGE 7 */
+
+ .text-page7{
+    font-family: "Kreon", serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #258084;
+    align-items: center;
+    margin-top: 75%;
+    margin-bottom: 50px;
+}
+
+.info-invite-parents-page7{
+    font-family: "Kreon", serif;
+    font-weight: 400;
+    font-size: 17px;
+    color: #258084;
+    align-items: center;
+    margin-bottom: 150px;
+}

@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabriela&family=Judson:ital,wght@0,400;0,700;1,400&family=Knewave&family=Kreon:wght@300..700&family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap');
+
+.row {
+    min-height: 100vh;
+}
+
+.atass {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item-image-atas {
+    width: 100%; /* Adjust as needed */
+    height: auto;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 100%;
+    margin-top: -30px;
+}
+
+.info-invite-2{
+    font-family: "Knewave", serif;
+    font-weight: 400;
+    font-size: 50px;
+    color: #69ADB0B2;
+    line-height: 60px;
+    align-items: center;
+    margin-top: 65%;
+    margin-bottom: 20px;
+}
+
+.img-profile{
+    width: 300px;
+    border-radius: 6%;
+}
+ 
+.text-op{
+    font-family: "Kreon", serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #258084;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.custom-button {
+    font-family: 'Poppins', sans-serif;
+    padding: 10px 25px;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    background-color: #50D4D9;
+    /* Warna merah */
+    border: 2px solid #50D4D9;
+    /* Border merah */
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    outline: none;
+    z-index: 999;
+}
+
+.custom-button .icon {
+    margin-right: 8px;
+}
+
+.custom-button:hover {
+    background-color: transparent;
+    color: #50D4D9;
+    /* Teks berubah menjadi merah */
+}
+
+.custom-button:hover .icon {
+    color: #50D4D9;
+    /* Ikon juga berubah merah */
+}
+
+.custom-button:focus {
+    outline: none;
+}
+
+.bawahh {
+    position: relative;
+    width: 100%;
+    height: 215px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bawah {
+    position: absolute;
+    bottom: -40px;
+    right: -78px;
+    width: 140%;
+    z-index: 1;
+}
