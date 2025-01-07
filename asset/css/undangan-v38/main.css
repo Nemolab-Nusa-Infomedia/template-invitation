@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Lustria&family=Mountains+of+Christmas:wght@400;700&display=swap');
+
+.row {
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #799094, #ACE5EF);
+}
+
+.atass {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.atas1 {
+    position: absolute;
+    top: -30px;
+    width: 100%;
+    z-index: 1;
+}
+
+.atas2 {
+    position: absolute;
+    top: 150px;
+    left: 15px;
+    width: 50%;
+    z-index: 2;
+}
+
+.atas3 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    z-index: 3;
+}
+
+.bawahh {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.bawah {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.content{
+    position: relative;
+    z-index: 2;
+}
+
+.christmas {
+    position: absolute;
+    font-family: "Mountains of Christmas", serif;
+    font-size: 50px;
+    font-weight: bold;
+    background: linear-gradient(to bottom, #FFF5C5DB, #827744DB);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    top: -20%;
+    right: 10%;
+}
+
+.party{
+    position: absolute;
+    font-family: "Mountains of Christmas", serif;
+    font-size: 45px;
+    font-weight: bold;
+    background: linear-gradient(to bottom, #FFF5C5DB, #827744DB);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    top: 0;
+    right: 10%;
+}
+
+.kiri{
+    position: absolute;
+    left: 5%;
+    top: 40%;
+}
+
+.desc {
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+}
+
+.button-container {
+    text-align: center;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 12px 25px;
+    background-color: #C7C89B;
+    color: #0d1b2a;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+    z-index: 2;
+}
+
+.button:hover {
+    background-color: #c2c5a5;
+}
