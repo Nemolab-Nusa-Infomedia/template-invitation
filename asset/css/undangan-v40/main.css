@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Lora:ital,wght@0,400..700;1,400..700&family=Luxurious+Script&display=swap');
+
+.row {
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #E1D6C5, #F49DB8);
+}
+
+.atass {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 250px;
+}
+
+.atas {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.bawahh {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.bawah {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.title {
+    text-align: center;
+    color: #6F3344;
+    font-size: 20px;
+    font-family: "Lora", serif;
+}
+
+.circle {
+    width: 300px; /* Ukuran frame lebih kecil */
+    height: 300px;
+    background: url('../../img/undangan-v40/circle.png') no-repeat center/contain;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border-radius: 50%;
+}
+
+.invitation-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: #FFFFFF;
+    z-index: 3;
+    margin-bottom: 250px;
+}
+
+.invitation-card {
+    background: #FFE6E65C;
+    border-radius: 12px;
+    padding: 5px 80px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.invitation-card p {
+    font-family: "Livvic", sans-serif;
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.recipient {
+    font-size: 16px;
+    font-family: "Livvic", sans-serif;
+}
+
+.guest-name {
+    font-family: "Copse", serif;
+    font-size: 21px;
+}
+
+.btn-container {
+    text-align: center;
+    margin-bottom: 32px;
+    font-family: "Copse", serif;
+    color: #ffffff;
+    z-index: 2;
+}
+
+.open-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFEAE3;
+    color: #967982;
+    font-size: 16px;
+    text-decoration: none;
+    border: none;
+    border-radius: 9px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.open-btn:hover {
+    background-color: #ffeae3cf;
+}

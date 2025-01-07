@@ -1,0 +1,424 @@
+@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Lora:ital,wght@0,400..700;1,400..700&family=Luxurious+Script&display=swap');
+
+.row {
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #E1D6C5, #F49DB8);
+}
+
+.atass {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.atas {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.bawahh {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.bawah {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+/* content1 */
+.content1 {
+    text-align: center;
+}
+
+.mempelai {
+    font-family: "Luxurious Script", serif;
+    font-size: 48px;
+    color: #6F3344;
+    margin-top: 50px;
+}
+
+.date {
+    font-family: "Luxurious Script", serif;
+    font-size: 30px;
+    color: #6F3344;
+}
+
+.text-pembuka {
+    color: #ffffff;
+    font-family: "Lora", serif;
+    font-size: 14px;
+}
+
+
+/* content2 */
+.content2 {
+    text-align: center;
+    z-index: 2;
+}
+
+.arab {
+    color: #6F3344;
+    font-size: 30px;
+    font-family: "Lora", serif;
+    margin-top: 100px;
+}
+
+.text-salam {
+    font-size: 12px;
+    font-family: "Lora", serif;
+    color: #FFFFFF;
+}
+
+.boxs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 315px;
+    height: 132px;
+    background-color: #D9D9D9;
+    border-radius: 100px 50px 100px 50px;
+}
+
+.name-mempelai {
+    font-family: "Luxurious Script", serif;
+    font-size: 48px;
+    color: #6F3344;
+    margin-bottom: 100px;
+}
+
+
+/* content3 */
+.invitation {
+    text-align: center;
+    z-index: 2;
+}
+
+.section {
+    margin-bottom: 20px;
+    margin-top: 70px;
+}
+
+.akad {
+    font-family: "Luxurious Script", serif;
+    font-size: 48px;
+    color: #6F3344;
+}
+
+.event-divider {
+    width: 1px;
+    height: 50px;
+    background-color: #000000;
+    opacity: 1;
+}
+
+.date-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    gap: 10px;
+}
+
+.date-info .day,
+.date-info .year {
+    font-family: "Lora", serif;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.datee {
+    font-family: "Lora", serif;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.date-info .date {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-family: "Lora", serif;
+}
+
+.lokasi,
+.time {
+    font-size: 12px;
+    color: #FFFFFF;
+    margin-top: 25px;
+}
+
+.add {
+    font-size: 14px;
+    color: #FFFFFF;
+    margin: 5px 0;
+}
+
+.invit {
+    font-family: "Lovers Quarrel", cursive;
+    font-size: 50px;
+    color: #647DB0;
+}
+
+.open-button {
+    font-family: "EB Garamond", serif;
+    display: inline-block;
+    background-color: #FFF2EE;
+    color: #967982;
+    padding: 8px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    border: none;
+    margin: 20px 0;
+    margin-bottom: 100px;
+}
+
+.open-button:hover {
+    background-color: #fff2eed9;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: #a98993;
+}
+
+.timer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Lustria", serif;
+}
+
+.countdown {
+    display: flex;
+    gap: 10px;
+}
+
+.countdown .time-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.countdown .time-value {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: #FFEAE3DB;
+    color: #FFFFFF;
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.countdown .label {
+    font-size: 14px;
+    margin-top: 5px;
+    color: #FFFFFF;
+}
+
+
+/* content4 */
+.content4 {
+    z-index: 2;
+    text-align: center;
+}
+
+.title-rsvp {
+    font-family: "Luxurious Script", serif;
+    font-size: 48px;
+    color: #6F3344;
+}
+
+.text-rsvp {
+    font-size: 12px;
+    font-family: "Lora", serif;
+    color: #FFFFFF;
+}
+
+.custom-button {
+    background-color: #FFEAE3;
+    /* Warna biru tua */
+    color: #967982;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    /* Rounded edges */
+    padding: 10px 20px;
+    font-family: "Lora", serif;
+    font-size: 10px;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.custom-button i.icon {
+    font-size: 18px;
+}
+
+.custom-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+}
+
+.custom-button:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+/* content5 */
+.content5 {
+    z-index: 2;
+    text-align: center;
+}
+
+.title-gallery {
+    font-family: "Luxurious Script", serif;
+    font-size: 48px;
+    color: #6F3344;
+}
+
+.gallery-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.gallery-item1 {
+    background-color: #d3d3d3;
+    width: 173px;
+    height: 127px;
+    aspect-ratio: 150 / 175;
+    /* Responsive rectangle */
+}
+
+.gallery-item2 {
+    background-color: #d3d3d3;
+    width: 124px;
+    height: 127px;
+    aspect-ratio: 150 / 175;
+    /* Responsive rectangle */
+}
+
+.gallery-item3 {
+    background-color: #d3d3d3;
+    width: 124px;
+    height: 127px;
+    aspect-ratio: 150 / 175;
+    /* Responsive rectangle */
+}
+
+.gallery-item4 {
+    background-color: #d3d3d3;
+    width: 173px;
+    height: 127px;
+    aspect-ratio: 150 / 175;
+    transform: translate(-27%);
+    /* Responsive rectangle */
+}
+
+.gallery-item-wide {
+    grid-column: span 2;
+    background-color: #d3d3d3;
+    width: 310px;
+    height: 130px;
+    aspect-ratio: 357 / 175;
+    /* Wide rectangle for center image */
+}
+
+@media (max-width: 720px) {
+    .gallery-grid {
+        transform: translateX(8%);
+    }
+
+    .gallery-item-wide {
+        grid-column: span 3;
+    }
+}
+
+
+/* content6 */
+.content6 {
+    z-index: 2;
+    text-align: center;
+}
+
+.nama-mempelai {
+    font-family: "Luxurious Script", serif;
+    font-size: 48px;
+    color: #6F3344;
+}
+
+.title-close {
+    font-size: 12px;
+    font-family: "Lora", serif;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.arabic {
+    font-family: "Italiana", serif;
+    font-size: 15px;
+    margin-top: 20px;
+    text-align: center;
+    color: #6F3344;
+}
+
+.happy-text {
+    text-align: center;
+    margin: 30px 0;
+    font-size: 12px;
+    font-family: "Lora", serif;
+    color: #FFFFFF;
+}
+
+.families {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    padding: 0 20px;
+}
+
+.family {
+    text-align: center;
+}
+
+.family-title {
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-family: "Lora", serif;
+    color: #FFFFFF;
+}
+
+.family-names {
+    font-size: 12px;
+    font-family: "Lora", serif;
+    line-height: 1.4;
+    color: #FFFFFF;
+}
