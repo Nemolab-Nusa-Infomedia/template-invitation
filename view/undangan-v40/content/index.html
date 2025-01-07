@@ -27,7 +27,7 @@
             </div>
 
             <div class="date" data-aos="fade-up" data-aos-duration="3000">
-                <p>01.01.25</p>
+                <p>01.01.26</p>
             </div>
 
             <div class="text-pembuka" data-aos="fade-up" data-aos-duration="3000">
@@ -106,7 +106,7 @@
                         <span>Januari</span>
                     </div>
                     <div class="event-divider"></div>
-                    <div class="year">2025</div>
+                    <div class="year">2026</div>
                 </div>
                 <p class="time" data-aos="fade-up" data-aos-duration="3000">Pukul: 09:00 WIB s/d Selesai</p>
             </div>
@@ -267,6 +267,36 @@
             <img src="../../../asset/img/undangan-v40/bawah.png" alt="hiasan" class="bawah">
         </div>
     </div>
+
+
+    <script>
+        // Set the date we're counting down to
+        const countdownDate = new Date("January 01, 2026 23:59:59").getTime();
+
+        // Update the countdown every second
+        const countdownInterval = setInterval(function () {
+            const now = new Date().getTime();
+            const distance = countdownDate - now;
+
+            // Calculate days, hours, minutes and seconds
+            const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            // Update the HTML elements
+            document.getElementById("days").textContent = days.toString().padStart(2, '0');
+            document.getElementById("hours").textContent = hours.toString().padStart(2, '0');
+            document.getElementById("minutes").textContent = minutes.toString().padStart(2, '0');
+            document.getElementById("seconds").textContent = seconds.toString().padStart(2, '0');
+
+            // If the countdown is over, clear the interval
+            if (distance < 0) {
+                clearInterval(countdownInterval);
+                document.querySelector(".countdown").innerHTML = "<h1>Waktu Habis</h1>";
+            }
+        }, 1000);
+    </script>
 
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
