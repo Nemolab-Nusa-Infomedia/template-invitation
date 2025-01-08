@@ -1,0 +1,493 @@
+@import url('https://fonts.googleapis.com/css2?family=Copse&family=Italianno&family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&family=Lora:ital,wght@0,400..700;1,400..700&family=Love+Light&family=Luxurious+Script&display=swap');
+
+.row {
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #FCCBDA, #967982);
+}
+
+.decorations {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 100px;
+}
+
+.left-decoration {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 265.49px;
+    height: auto;
+    z-index: 1;
+}
+
+.right-decoration {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 376px;
+    height: auto;
+    z-index: 1;
+}
+
+.bawahh {
+    position: relative;
+    width: 100%;
+    height: 130px;
+}
+
+.bawah {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 376px;
+    height: auto;
+    z-index: 1;
+}
+
+.bawah2 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 265.49px;
+    height: auto;
+    z-index: 1;
+}
+
+/* content1 */
+.title p {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 50px;
+    font-family: "Italianno", serif;
+}
+
+.romeo {
+    margin-top: 50px;
+}
+
+.text {
+    text-align: center;
+    color: #FFEAE3;
+    font-size: 16px;
+    font-family: "Lora", serif;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+
+
+/* content2 */
+.pembuka {
+    text-align: center;
+}
+
+.bismillah {
+    font-size: 36px;
+    font-family: "Love Light", cursive;
+    color: #000000;
+    margin-top: 100px;
+}
+
+.salam {
+    font-size: 16px;
+    font-family: "Lora", serif;
+    color: #FFEAE3;
+}
+
+.text2 {
+    text-align: center;
+    color: #FFEAE3;
+    font-size: 16px;
+    font-family: "Lora", serif;
+}
+
+.mempelai {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.pengantin,
+.dan {
+    text-align: center;
+    color: #FFFFFF;
+    font-family: "Italianno", serif;
+    font-size: 50px;
+}
+
+.ortu {
+    font-size: 15px;
+    font-family: "Lora", serif;
+    color: #FFEAE3;
+}
+
+
+/* content3 */
+.invitation {
+    text-align: center;
+    z-index: 2;
+}
+
+.section {
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.akad {
+    color: #FFFFFF;
+    font-size: 50px;
+    font-family: "Italianno", serif;
+}
+
+.event-divider {
+    width: 1px;
+    height: 50px;
+    background-color: #000000;
+    opacity: 0.3;
+}
+
+.date-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    gap: 10px;
+}
+
+.date-info .day,
+.date-info .year {
+    font-family: "Lora", serif;
+    font-size: 20px;
+    color: #FFEAE3;
+}
+
+.datee {
+    font-family: "Lora", serif;
+    font-size: 24px;
+    color: #FFEAE3;
+}
+
+.date-info .date {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+    color: #FFEAE3;
+    font-family: "Lora", serif;
+}
+
+.lokasi {
+    font-size: 14px;
+    color: #FFEAE3;
+    margin-top: 25px;
+}
+
+.time {
+    font-size: 14px;
+    color: #FFEAE3;
+    margin: 5px 0;
+}
+
+.add {
+    font-size: 14px;
+    color: #FFEAE3;
+    margin: 5px 0;
+}
+
+.invit {
+    font-family: "Lovers Quarrel", cursive;
+    font-size: 50px;
+    color: #647DB0;
+}
+
+.open-button {
+    font-family: "EB Garamond", serif;
+    display: inline-block;
+    background-color: #FFEAE3DB;
+    color: #967982;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    border: none;
+    margin: 20px 0;
+    margin-bottom: 100px;
+}
+
+.open-button:hover {
+    background-color: #ffeae3b9;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: #a98993;
+}
+
+.timer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Lustria", serif;
+}
+
+.countdown {
+    display: flex;
+    gap: 10px;
+}
+
+.countdown .time-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.countdown .time-value {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: #FFEAE3DB;
+    color: #FFFFFF;
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.countdown .label {
+    font-size: 14px;
+    margin-top: 5px;
+    color: #FFFFFF;
+}
+
+
+/* content4 */
+.content4 {
+    text-align: center;
+    z-index: 99;
+}
+
+.title-galeri {
+    color: #FFFFFF;
+    font-size: 50px;
+    font-family: "Italianno", serif;
+}
+
+.gallery-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.galeri {
+    display: grid;
+    grid-template-areas:
+        "large small"
+        "small large"
+        "large small";
+    grid-template-columns: 196px 119px;
+    gap: 20px;
+    justify-content: center;
+}
+
+.gallery-item {
+    background: #d9d9d9;
+    border: 2px solid #ccc;
+}
+
+.gallery-item.smalll {
+    width: 196px;
+    height: 136px;
+    margin-left: -75px;
+}
+
+.gallery-item.large {
+    grid-column: span 2;
+    height: 136px;
+}
+
+.gallery-item.small {
+    width: 119px;
+    height: 136px;
+}
+
+
+/* content5 */
+.lima {
+    z-index: 2;
+    margin-bottom: 150px;
+}
+
+.title-rsvp {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 50px;
+    font-family: "Italianno", serif;
+    margin-top: 200px;
+}
+
+.text-rsvp {
+    font-size: 15px;
+    font-family: "Lora", serif;
+    text-align: center;
+    color: #FFEAE3;
+}
+
+.custom-button {
+    background-color: #FFEAE3;
+    /* Warna biru tua */
+    color: #967982;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    /* Rounded edges */
+    padding: 10px 20px;
+    font-family: "Lora", serif;
+    font-size: 10px;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.custom-button i.icon {
+    font-size: 18px;
+}
+
+.custom-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+}
+
+.custom-button:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+/* content6 */
+.content6 {
+    text-align: center;
+}
+
+.title-tanda {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 50px;
+    font-family: "Italianno", serif;
+    margin-top: 50px;
+}
+
+.text-tanda {
+    color: #FFEAE3;
+    font-size: 15px;
+    font-family: "Lora", serif;
+}
+
+.boxs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.box {
+    width: 267px;
+    height: 144px;
+    background-color: #D9D9D9;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+
+/* content7 */
+.tujuh {
+    z-index: 2;
+    transform: translateY(20%);
+    margin-bottom: 150px;
+}
+
+.nama-mempelai {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 50px;
+    font-family: "Italianno", serif;
+}
+
+.title-close {
+    font-size: 12px;
+    font-family: "Lora", serif;
+    text-align: center;
+    color: #FFEAE3;
+}
+
+.arabic {
+    font-family: "Luxurious Script", serif;
+    font-size: 25px;
+    margin-top: 20px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.happy-text {
+    text-align: center;
+    margin: 30px 0;
+    font-size: 16px;
+    font-family: "Lora", serif;
+    color: #FFEAE3;
+}
+
+.families {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    padding: 0 20px;
+}
+
+.family {
+    text-align: center;
+    margin-bottom: 250px;
+}
+
+.family-title {
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-family: "Lora", serif;
+    color: #FFEAE3;
+}
+
+.family-names {
+    font-size: 15px;
+    font-family: "Lora", serif;
+    line-height: 1.4;
+    color: #FFEAE3;
+}
+
+
+/* Responsiveness for Galaxy A12 (360px) */
+@media screen and (max-width: 480px) {
+    .title-galeri{
+        margin-top: 100px;
+    }
+
+    .galeri {
+        margin-bottom: 150px;
+        grid-template-columns: 196px 119px;
+        grid-template-areas:
+            "large small"
+            "small large"
+            "large small";
+    }
+}
+
+/* Responsiveness for iPad (768px) */
+@media screen and (min-width: 768px) {
+    .galeri {
+        grid-template-columns: 196px 119px;
+        grid-template-areas:
+            "large small"
+            "small large"
+            "large small";
+    }
+}
