@@ -515,7 +515,7 @@
     color: #307B95;
 }
 
-@media (max-width: 720px) {
+@media screen and (max-width: 720px) {
     .title-pembuka,
     .text2,
     .text-rsvp,
