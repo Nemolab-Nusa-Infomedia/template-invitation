@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Love+Light&display=swap');
+
+.row {
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #FAF7EC, #94938C);
+}
+
+.atass {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 150px;
+}
+
+.atas {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.bawahh {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 200px;
+}
+
+.bawah {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.title {
+    text-align: center;
+    color: #334257;
+    font-size: 22px;
+    font-family: "Italiana", serif;
+    margin-bottom: 50px;
+}
+
+.circle {
+    width: 400px; /* Ukuran frame lebih kecil */
+    height: 400px;
+    background: url('../../img/undangan-v45/circle.png') no-repeat center/contain;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border-radius: 50%;
+}
+
+.circle h1 {
+    text-align: center;
+    font-family: "Love Light", cursive;
+    margin: 0;
+    line-height: 67.2px; /* Jarak antar baris lebih rapat */
+    transform: translateY(-30%);
+    font-weight: 400;
+}
+
+.circle .name {
+    font-size: 48px; /* Ukuran nama lebih kecil */
+    color: #A888B5; /* Warna biru kalem */
+    display: block;
+    transform: translate(-100%);
+    background: linear-gradient(to bottom, #FFFFFF, #000000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.circle .name2 {
+    font-size: 48px; /* Ukuran nama lebih kecil */
+    color: #A888B5; /* Warna biru kalem */
+    display: block;
+    transform: translate(100%);
+    background: linear-gradient(to bottom, #FFFFFF, #000000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.circle .symbol {
+    font-size: 48px; /* Ukuran simbol '&' lebih besar */
+    color: #A888B5; /* Warna ungu untuk simbol '&' */
+    display: block;
+    background: linear-gradient(to bottom, #FFFFFF, #000000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.invitation-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-bottom: 300px;
+    color: #FFFFFF;
+    z-index: 2;
+}
+
+.invitation-card {
+    background: #ACA9A3;
+    border-radius: 12px;
+    padding: 15px 80px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.invitation-card p {
+    font-family: "Livvic", sans-serif;
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.recipient {
+    font-size: 16px;
+    font-family: "Livvic", sans-serif;
+}
+
+.guest-name {
+    font-family: "Copse", serif;
+    font-size: 21px;
+}
+
+.btn-container {
+    text-align: center;
+    margin-bottom: 32px;
+    font-family: "Copse", serif;
+    color: #ffffff;
+    z-index: 2;
+}
+
+.open-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #7E7978;
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    border: none;
+    border-radius: 9px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.open-btn:hover {
+    background-color: #7e7978de;
+}
