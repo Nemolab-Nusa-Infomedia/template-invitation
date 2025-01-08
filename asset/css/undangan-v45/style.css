@@ -458,13 +458,13 @@
     color: #ffffff;
 }
 
-@media (max-width: 720px) {
+@media (max-width: 768px) {
     .container{
         transform: translateX(-8%);
     }
 
     .top-image{
         transform: translate(20%);
-        width: 280px;
+        width: 310px;
     }
 }
