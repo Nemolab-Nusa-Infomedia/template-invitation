@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Modern+Antiqua&display=swap');
+
+.row{
+    min-height: 100vh;
+}
+
+.atass{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+.item-image-kiri, .item-image-kanan {
+    width: 55%; /* Adjust as needed */
+    height: auto;
+}
+
+.item-image-kiri {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.item-image-kanan {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.item-image-kanan-bol {
+    width: 10%; /* Adjust as needed */
+    height: auto;
+    margin-top: 20%;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.item-image-kiri-bol {
+    position: absolute;
+    margin-top: 20%;
+    width: 15%;
+    left: 0;
+    top: 0;
+}
+
+.info-invite-2{
+    font-family: "Modern Antiqua", serif;
+    font-weight: 400;
+    font-size: 50px;
+    color: #ffffff;
+    line-height: 90px;
+    align-items: center;
+    margin-top: 55%;
+    margin-bottom: 10px;
+}
+ 
+.text-op{
+    font-family: "Modern Antiqua", serif;
+    font-weight: 400;
+    font-size: 17px;
+    color: #ffffff;
+    margin-top: 15%;
+    margin-bottom: 20%;
+}
+
+.bawahh {
+    position: relative;
+    width: 100%;
+    height: 215px;
+    margin-top: 360px;
+    display: flex;
+    justify-content: center;
+}
+
+.bawah {
+    position: absolute;
+    overflow: hidden;
+    bottom: -40px;
+    left: -30px;
+    right: 0;
+    width: 110%;
+    z-index: 1;
+}
+
+/* PAGE 2 */
+
+.event{
+    margin-top: 55%;
+    font-family: "Modern Antiqua", serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.event-place{
+    font-family: "Modern Antiqua", serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: #D13B3B;
+}
+
+.event-location{
+    font-family: "Modern Antiqua", serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.countdown-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 2rem 0;
+}
+
+.countdown-box {
+    background: #DC7272;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    min-width: 70px;
+}
+
+.countdown-value {
+    color: #ffffff;
+    font-family: "Modern Antiqua", serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    margin-bottom: 0.25rem;
+}
+
+.countdown-label {
+    font-family: "Modern Antiqua", serif;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 13px;
+}
+
+.btn-invit{
+    display: flex;
+    justify-content: center;
+}
+
+.custom-button {
+    position: absolute;
+    font-family: "Modern Antiqua", serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 5px 65px;
+    background-color: #DC7272;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    z-index: 1;
+}
+
+.custom-button:hover {
+    font-family: "Modern Antiqua", serif;
+    font-weight: 400;
+    border: none;
+    background-color: transparent;
+    color: #ffffff;
+}
+
+/* PAGE 4 */
+
+.event-page4{
+    margin-top: 50%;
+    font-family: "Modern Antiqua", serif;
+    font-weight: 400;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+}
+
+.gallery-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 100px);
+    gap: 10px;
+    padding: 20px;
+    background-color: black;
+    width: 400px;
+    height: 400px;
+    margin-left: 10%;
+}
+
+.gallery-item {
+    background-color: #ddd;
+    width: 100%;
+    height: 100%;
+}
+
+/* Specific item layouts */
+.item1 {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+.item2 {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+
+.item3 {
+    grid-column: 1 / 3;
+    grid-row: 2 / 3;
+}
+
+.item4 {
+    grid-column: 3 / 2;
+    grid-row: 3 / 4;
+}
+
+/* PAGE 5 */
+
+.img-page5{
+    width: 70%;
+    margin-top: 55%;
+}
+
+.text-page5{
+    margin-top: 5%;
+    font-family: "Modern Antiqua", serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+}
+
+/* PAGE 6 */
+
+.text-page6{
+    margin-top: 60%;
+    font-family: "Modern Antiqua", serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+}
+
+.center-page6{
+    font-family: "Modern Antiqua", serif;
+    font-weight: 400;
+    font-size: 45px;
+    color: #E82929;
+    margin-top: 7%;
+}
+
+.text-page6-1{
+    margin-top: 10%;
+    font-family: "Modern Antiqua", serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+}
+
+.text-page6-2{
+    margin-top: 10%;
+    font-family: "Modern Antiqua", serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 25%;
+}
+
+/* PAGE 7 */
+
+.event-page7{
+    margin-top: 60%;
+    font-family: "Modern Antiqua", serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+
+.form-container {
+    width: 100%;
+    max-width: 500px;
+    padding: 20px 80px 50px 80px;
+  }
+
+  .form-field {
+    margin-bottom: 15px;
+  }
+
+  input, textarea {
+    width: 100%;
+    padding: 8px 12px;
+    border: 2px solid #DC7272;
+    border-radius: 15px;
+    background: transparent;
+    color: #eb8383;
+    font-size: 15px;
+    box-sizing: border-box;
+    outline: none;
+  }
+
+  textarea {
+    min-height: 100px;
+    resize: vertical;
+  }
+
+  input::placeholder,
+  textarea::placeholder {
+    color: #ec9292;
+    opacity: 0.7;
+  }
+
+  input:focus,
+  textarea:focus {
+    border-color: #DC7272;
+    color: #DC7272;
+  }
