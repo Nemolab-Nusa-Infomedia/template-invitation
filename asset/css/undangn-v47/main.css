@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&family=Marcellus&family=Mea+Culpa&family=Meow+Script&display=swap');
+
+.row{
+    min-height: 100vh;
+}
+
+.atass{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    z-index: 999;
+}
+
+.item-image-tengah {
+    position: absolute;
+    left: 0;
+    top: -5px;
+    width: 100%;  
+    height: auto;
+    z-index: 999;
+}
+
+.item-image-kiri {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 45%;
+    height: auto;
+}
+
+.item-image-kanan {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 45%;
+    height: auto;
+}
+
+.info-invite-2{
+    font-family: "Meow Script", serif;
+    font-weight: 100;
+    font-size: 75px;
+    color: #ffffff;
+    line-height: 90.8px;
+    margin-bottom: 90px;
+    margin-top: 50%;
+}
+
+.tengah{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    z-index: 1;
+}
+
+.img-snow1 {
+    position: absolute;
+    left: -50px;
+    top: 0;
+    z-index: 1;
+}
+
+.img-snow2 {
+    position: absolute;
+    right: -50px;
+    top: 0;
+    margin-top: 70%;
+    z-index: 1;
+}
+
+.img-tengah{
+    position: absolute;
+    right: -24px;
+    width: 110%;
+    z-index: 999;
+}
+ 
+.text-op{
+    font-family: "Boogaloo", serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #ffffff;
+    margin-top: 60%;
+    margin-bottom: 10%;
+}
+
+.custom-button {
+    font-family: "Boogaloo", serif;
+    font-weight: 400;
+    padding: 10px 45px;
+    font-size: 22px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    background-color: #C6B147;
+    /* Warna merah */
+    border: 2px solid #C6B147;
+    /* Border merah */
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    outline: none;
+    z-index: 999;
+}
+
+.custom-button .icon {
+    margin-right: 8px;
+}
+
+.custom-button:hover {
+    background-color: transparent;
+    color: #C6B147;
+    /* Teks berubah menjadi merah */
+}
+
+.custom-button:focus {
+    outline: none;
+}
+
+.bawahh {
+    position: relative;
+    width: 100%;
+    height: 215px;
+    margin-top: 190px;
+    display: flex;
+    justify-content: center;
+}
+
+.bawah {
+    position: absolute;
+    overflow: hidden;
+    bottom: -40px;
+    left: -30px;
+    right: 0;
+    width: 130%;
+    z-index: 1;
+}

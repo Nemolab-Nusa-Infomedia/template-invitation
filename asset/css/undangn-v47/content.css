@@ -1,0 +1,418 @@
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&family=Marcellus&family=Mea+Culpa&family=Meow+Script&display=swap');
+
+.row{
+    min-height: 100vh;
+}
+
+.atass{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    z-index: 999;
+}
+
+.item-image-tengah {
+    position: absolute;
+    left: 0;
+    top: -5px;
+    width: 100%;  
+    height: auto;
+    z-index: 999;
+}
+
+.item-image-kiri {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 45%;
+    height: auto;
+}
+
+.item-image-kanan {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 45%;
+    height: auto;
+}
+
+.info-invite-2{
+    font-family: "Meow Script", serif;
+    font-weight: 100;
+    font-size: 65px;
+    color: #ffffff;
+    margin-bottom: 10px;
+    margin-top: 60%;
+    margin-left: 10%;
+}
+
+.tengah{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    z-index: 1;
+}
+
+.img-snow1 {
+    position: absolute;
+    left: -60px;
+    top: 0;
+    margin-top: 50%;
+    z-index: 1;
+}
+
+.text-op{
+    font-family: "Boogaloo", serif;
+    font-weight: 100;
+    font-size: 20px;
+    color: #ffffff;
+    margin-top: 5%;
+    margin-bottom: 70%;
+    margin-left: 10%;
+}
+
+.bawahh {
+    position: relative;
+    width: 100%;
+    height: 215px;
+    margin-top: 190px;
+    display: flex;
+    justify-content: center;
+}
+
+.bawah1 {
+    position: absolute;
+    overflow: hidden;
+    bottom: -0px;
+    left: -16px;
+    right: 0;
+    width: 68%;
+    z-index: 2;
+}
+
+.bawah2 {
+    position: absolute;
+    overflow: hidden;
+    bottom: -0px;
+    left: -16px;
+    right: 0;
+    width: 60%;
+    z-index: 2;
+}
+
+.bawah {
+    position: absolute;
+    overflow: hidden;
+    bottom: -40px;
+    left: 18%;
+    right: -200px;
+    width: 100%;
+    z-index: 1;
+}
+
+/* PAGE 2 */
+
+.event{
+    margin-top: 65%;
+    font-family: "Boogaloo", serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+}
+
+.event-place{
+    font-family: "Boogaloo", serif;
+    font-weight: 400;
+    font-size: 35px;
+    color: #D13B3B;
+}
+
+.event-location{
+    font-family: "Boogaloo", serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+}
+
+.countdown-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 2rem 0;
+    margin-bottom: 50%;
+}
+
+.countdown-box {
+    background: #C6B147;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    min-width: 70px;
+}
+
+.countdown-value {
+    color: #000000;
+    font-family: "Livvic", serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin-bottom: 0.25rem;
+}
+
+.countdown-label {
+    font-family: "Boogaloo", serif;
+    font-weight: 400;
+    color: #000000;
+    font-size: 15px;
+}
+
+.btn-invit{
+    display: flex;
+    justify-content: center;
+    margin-left: 20%;
+}
+
+.custom-button {
+    position: absolute;
+    font-family: "Boogaloo", serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 5px 65px;
+    background-color: #C6B147;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    z-index: 1;
+}
+
+.custom-button:hover {
+    font-family: "Boogaloo", serif;
+    font-weight: 400;
+    font-size: 20px;
+    border: none;
+    background-color: transparent;
+    color: #ffffff;
+}
+
+/* PAGE 3 */
+
+.event-page3{
+    margin-top: 60%;
+    font-family: "Boogaloo", serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    margin-left: 20%;
+}
+
+.event-place-3{
+    font-family: "Boogaloo", serif;
+    font-weight: 400;
+    font-size: 35px;
+    color: #D13B3B;
+    margin-left: 20%;
+}
+
+.gmaps iframe {
+    border-radius: 20px;
+    margin-bottom: 5%;
+    margin-left: 20%;
+}
+
+/* PAGE 4 */
+
+.event-page4{
+    margin-top: 50%;
+    font-family: "Boogaloo", serif;
+    font-weight: 400;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 100px;
+    gap: 15px;
+    width: 500px;
+    height: 500px;
+    padding: 10px;
+    margin-top: 10%;
+    margin-left: 20%;
+}
+
+.item {
+    background-color: #ccc;
+}
+
+.item-1 {
+    grid-column: span 1;
+}
+
+.item-2 {
+    grid-column: span 1;
+}
+
+.item-3 {
+    grid-column: span 1;
+    grid-row: 2 / 3;
+}
+
+.item-4 {
+    grid-column: span 1;
+    grid-row: 2 / 3;
+}
+
+.item-5 {
+    grid-column: span 2;
+}
+
+/* PAGE 5 */
+
+.img-page5{
+    width: 65%;
+    border-radius: 5%;
+    margin-top: 70%;
+    margin-left: 20%;
+}
+
+.text-page5{
+    margin-top: 5%;
+    font-family: "Boogaloo", serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    margin-left: 20%;
+}
+
+.btn-invitt{
+    display: flex;
+    justify-content: center;
+    margin-left: 20%;
+}
+
+.custom-buttonn {
+    position: absolute;
+    font-family: "Boogaloo", serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 5px 65px;
+    background-color: #C6B147;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    z-index: 1;
+}
+
+.custom-buttonn:hover {
+    font-family: "Boogaloo", serif;
+    font-weight: 400;
+    font-size: 20px;
+    border: none;
+    background-color: transparent;
+    color: #ffffff;
+}
+
+/* PAGE 6 */
+
+.text-page6{
+    margin-top: 70%;
+    font-family: "Boogaloo", serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(255, 253, 253);
+}
+
+.center-page6{
+    font-family: "Meow Script", serif;
+    font-weight: 00;
+    font-size: 55px;
+    color: #C6B147;
+    font-style: italic;
+    margin-top: 7%;
+}
+
+.text-page6-1{
+    margin-top: 10%;
+    font-family: "Boogaloo", serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(255, 250, 250);
+}
+
+.text-page6-2{
+    margin-top: 10%;
+    font-family: "Boogaloo", serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 30%;
+}
+
+/* PAGE 7 */
+
+.event-page6{
+    margin-top: 60%;
+    font-family: "Boogaloo", serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: #fff7f7;
+    margin-left: 15%;
+}
+
+.form-container {
+    width: 100%;
+    max-width: 500px;
+    padding: 20px 80px 50px 80px;
+    margin-left: 10%;
+  }
+
+  .form-field {
+    margin-bottom: 15px;
+  }
+
+  input, textarea {
+    width: 100%;
+    padding: 8px 12px;
+    border: 2px solid #C6B147;
+    border-radius: 15px;
+    background: transparent;
+    color: #C6B147;
+    font-size: 16px;
+    box-sizing: border-box;
+    outline: none;
+  }
+
+  textarea {
+    min-height: 100px;
+    resize: vertical;
+  }
+
+  input::placeholder,
+  textarea::placeholder {
+    color: #C6B147;
+    opacity: 0.7;
+  }
+
+  input:focus,
+  textarea:focus {
+    border-color: #C6B147;
+    color:#C6B147;
+  }
