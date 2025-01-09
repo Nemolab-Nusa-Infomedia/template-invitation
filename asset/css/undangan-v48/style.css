@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css2?family=Lustria&family=Mountains+of+Christmas:wght@400;700&display=swap');
+
+.row {
+    min-height: 100vh;
+}
+
+.atass {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 150px;
+}
+
+.atas {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.bawahh {
+    position: relative;
+    width: 100%;
+    height: 512px;
+    overflow: hidden;
+}
+
+.bawah {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 150px;
+    height: auto;
+    z-index: 1;
+}
+
+.middle {
+    position: absolute;
+    bottom: -30px;
+    left: 45%;
+    width: 160px;
+    height: auto;
+    z-index: 2;
+}
+
+.bawah2 {
+    position: absolute;
+    bottom: 0;
+    left: -210px;
+    width: 100%;
+    height: auto;
+    z-index: 1;
+}
+
+/* content1 */
+.content1 {
+    text-align: center;
+}
+
+.title-christmas {
+    font-family: "Mountains of Christmas", serif;
+    font-size: 3.5rem;
+    font-weight: bold;
+    background: linear-gradient(45deg, #999778, #FFFCC8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 50px;
+}
+
+.family1 {
+    border-radius: 100px 100px;
+    margin-top: 20px;
+}
+
+.text-pembuka {
+    font-size: 18px;
+    color: #FBFAEA;
+    font-family: "Lustria", serif;
+    margin-top: 20px;
+}
+
+
+/* content2 */
+.content2 {
+    text-align: center;
+    z-index: 2;
+}
+
+.title-location {
+    font-family: "Mountains of Christmas", serif;
+    font-size: 3.5rem;
+    font-weight: bold;
+    background: linear-gradient(45deg, #999778, #FFFCC8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 50px;
+}
+
+.location {
+    color: #FBFAEA;
+    font-family: "Lustria", serif;
+    font-size: 18px;
+}
+
+.timer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Lustria", serif;
+}
+
+.countdown {
+    display: flex;
+    gap: 10px;
+}
+
+.countdown .time-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.countdown .time-value {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: #E8D579DB;
+    color: #ffffff;
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.countdown .label {
+    font-size: 14px;
+    margin-top: 5px;
+    color: #ffffff;
+}
+
+.dates{
+    color: #FBFAEA;
+    font-family: "Lustria", serif;
+}
+
+.date{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.time{
+    font-size: 18px;
+}
+
+/* .button {
+    display: inline-block;
+    background-color: #E8D5795C;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.button:hover {
+    background-color: #e8d6793c;
+} */
+
+
+/* content3 */
+.content3{
+    text-align: center;
+    z-index: 2;
+}
+
+.title-greeting{
+    font-family: "Mountains of Christmas", serif;
+    font-size: 3.5rem;
+    font-weight: bold;
+    background: linear-gradient(45deg, #999778, #FFFCC8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 50px;
+}
+
+.family2 {
+    width: 284px;
+    height: 156px;
+    border-radius: 100px 100px 50px 50px;
+}
+
+.text-greeting{
+    font-size: 15px;
+    color: #FBFAEA;
+    font-family: "Lustria", serif;
+    margin-top: 20px;
+}
+
+.button-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.custom-button {
+    background-color: #E8D5795C;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-family: "Lustria", serif;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.custom-button i.icon {
+    font-size: 18px;
+}
+
+.custom-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+}
+
+.custom-button:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+/* content4 */
+.content4{
+    text-align: center;
+}
+
+.title-memories{
+    font-family: "Mountains of Christmas", serif;
+    font-size: 3.5rem;
+    font-weight: bold;
+    background: linear-gradient(45deg, #999778, #FFFCC8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 50px;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+    margin: auto;
+    max-width: 500px;
+}
+
+.grid-item1 img {
+    width: 70%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.grid-item4 img {
+    width: 70%;
+    left: 100px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.grid-item2 img {
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transform: translateX(-35px);
+    /* Geser ke kiri */
+}
+
+.grid-item3 img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transform: translateX(30px);
+    /* Geser ke kiri */
+}
+
+/* Placeholder images for demo */
+.placeholder {
+    width: 100%;
+    height: 100%;
+    background-color: #f5f5f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #999;
+}
+
+
+/* content5 */
+.content5{
+    text-align: center;
+}
+
+.title-penutup{
+    font-family: "Mountains of Christmas", serif;
+    font-size: 3.5rem;
+    font-weight: bold;
+    background: linear-gradient(45deg, #999778, #FFFCC8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 50px;
+}
+
+.text-penutup{
+    color: #FBFAEA;
+    font-family: "Lustria", serif;
+}
+
+.words{
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+
+.seeu,
+.text-fam{
+    font-size: 15px;
+}
+
+@media screen and (max-width: 720px) {
+    .middle{
+        left: 130px;
+    }
+
+    .title-christmas,
+    .title-greeting,
+    .title-location,
+    .title-memories,
+    .title-penutup{
+        font-size: 48px;
+    }
+
+    .text-pembuka,
+    .text-greeting{
+        font-size: 14px;
+    }
+
+    .location{
+        font-size: 16px;
+    }
+
+    .grid-item1 img {
+        transform: translateX(12px);
+    }
+
+    .grid-item2 img {
+        transform: translateX(-20px);
+    }
+
+    .words{
+        font-size: 14px;
+    }
+}
