@@ -172,6 +172,70 @@
 
 
 /* content3 */
+.content3 {
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.title-galeri {
+    font-family: "Carattere", cursive;
+    font-size: 50px;
+}
+
+.gallery-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 250px;
+}
+
+.galeri {
+    display: grid;
+    grid-template-areas:
+        "large small"
+        "small large"
+        "large small";
+    grid-template-columns: 196px 119px;
+    gap: 20px;
+    justify-content: center;
+}
+
+.gallery-item {
+    background: #d9d9d9;
+    border: 2px solid #ccc;
+}
+
+.gallery-item.smalll {
+    width: 196px;
+    height: 136px;
+    margin-left: -75px;
+}
+
+.gallery-item.large {
+    grid-column: span 2;
+    height: 136px;
+}
+
+.gallery-item.small {
+    width: 119px;
+    height: 136px;
+}
+
+.gallery-item.small img {
+    width: 119px;
+    height: 136px;
+}
+
+.gallery-item.smalll img {
+    width: 196px;
+    height: 136px;
+}
+
+.gallery-item img {
+    width: 196px;
+    height: 136px;
+}
 
 /* content4 */
 .content4 {
@@ -227,19 +291,19 @@
     font-size: 50px;
 }
 
-.family{
+.family {
     width: 286px;
     height: 141px;
     border-radius: 16px;
 }
 
 .text-penutup,
-.hormat{
+.hormat {
     font-family: "Lora", serif;
     font-size: 16px;
 }
 
-.ortu{
+.ortu {
     margin-bottom: 300px;
     font-family: "Fleur De Leah", cursive;
     font-size: 24px;
