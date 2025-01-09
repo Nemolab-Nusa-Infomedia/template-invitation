@@ -4,14 +4,12 @@
     min-height: 100vh;
 }
 
-.gariskehidupan{
+.gariskehidupan {
     position: absolute;
-    background-color: #A0D9E9;
-    width: 41px;
-    height: 200%;
-    margin-left: 91px;
+    margin-left: -150px;
+    height: 100%;
+    z-index: 1;
 }
-
 
 .flowerr{
     position: relative;
