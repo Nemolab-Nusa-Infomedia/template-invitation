@@ -1,0 +1,397 @@
+@import url('https://fonts.googleapis.com/css2?family=Lovers+Quarrel&family=Lustria&display=swap');
+
+.row {
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #E7F0DC, #858A7F);
+}
+
+.atass {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.atas1 {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+.atas2 {
+    position: absolute;
+    top: 85px;
+    width: 100%;
+    z-index: 1;
+}
+
+
+/* Add these to your existing CSS file */
+.decorative-elements {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* overflow: hidden; */
+}
+
+.santa-sleigh {
+    position: absolute;
+    z-index: 2;
+    left: 10px;
+    bottom: 0;
+    width: 111px;
+}
+
+.christmas-tree {
+    bottom: 0;
+    position: relative;
+    width: 350px;
+    /* margin: 20px auto; */
+    z-index: 1;
+}
+
+.presents {
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+    width: 131px;
+    height: auto;
+    z-index: 1;
+}
+
+.santaterbang {
+    position: absolute;
+    z-index: 2;
+    left: 10px;
+    width: 235px;
+    bottom: 350px;
+}
+
+
+/* content1 */
+.content {
+    text-align: center;
+}
+
+.title {
+    color: #A02334;
+    font-size: 40px;
+    font-family: "Lustria", serif;
+    margin-top: 200px;
+}
+
+/* .image-container {
+    width: 245px;
+    overflow: hidden;
+    background-color: #d0dbd0;
+    border-radius: 50% 100%;
+    clip-path: ellipse(60% 50% at 50% 50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+} */
+
+.text {
+    text-align: center;
+    font-size: 16px;
+    font-family: "Lustria", serif;
+    color: #1F4529;
+    margin-bottom: 100px;
+}
+
+/* content2 */
+.content2 {
+    text-align: center;
+}
+
+.title-lokasi {
+    font-size: 48px;
+    color: #A02334;
+    margin-top: 200px;
+    font-family: "Lustria", serif;
+}
+
+.subtitle {
+    font-size: 16px;
+    color: #1F4529;
+    margin-bottom: 15px;
+    font-family: "Lustria", serif;
+}
+
+.address {
+    font-size: 16px;
+    color: #1F4529;
+    margin-bottom: 15px;
+    font-family: "Lustria", serif;
+}
+
+.countdown-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-family: "Lustria", serif;
+}
+
+.countdown-box {
+    background-color: #98B4A6DB;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    min-width: 60px;
+}
+
+.countdown-number {
+    font-size: 24px;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.countdown-label hr {
+    color: black;
+}
+
+.countdown-label {
+    font-size: 14px;
+    color: #ffffff;
+    margin: 5px 0 0 0;
+    text-transform: uppercase;
+}
+
+.date {
+    font-size: 20px;
+    color: #A02334;
+    font-family: "Lustria", serif;
+}
+
+.time {
+    font-size: 18px;
+    color: #1F4529;
+    margin-bottom: 20px;
+    font-family: "Lustria", serif;
+}
+
+.button {
+    display: inline-block;
+    background-color: #5B71665C;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 150px;
+}
+
+.button:hover {
+    background-color: #5b716689;
+}
+
+/* content3 */
+.ucapan {
+    text-align: center;
+}
+
+.title-ucapan {
+    font-size: 48px;
+    color: #A02334;
+    margin-top: 200px;
+    font-family: "Lustria", serif;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.family-image {
+    width: 80%;
+    max-width: 300px;
+}
+
+.button-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.custom-button {
+    background-color: #5B71665C;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    /* Rounded edges */
+    padding: 10px 20px;
+    font-family: "Lustria", serif;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s, box-shadow 0.2s;
+    margin-bottom: 150px;
+}
+
+.custom-button i.icon {
+    font-size: 18px;
+    /* Icon size */
+}
+
+.custom-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+}
+
+.custom-button:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* .decorative-elements img {
+    animation: float 4s infinite ease-in-out;
+} */
+
+/* @keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+} */
+
+/* content4 */
+.content4 {
+    text-align: center;
+}
+
+.title-penutup {
+    font-size: 16px;
+    color: #1F4529;
+    font-family: "Lustria", serif;
+    margin-top: 250px;
+}
+
+.natal {
+    font-size: 64px;
+    color: #A02334;
+    font-family: "Lovers Quarrel", cursive;
+}
+
+.title-penutup2 {
+    font-size: 16px;
+    color: #1F4529;
+    font-family: "Lustria", serif;
+    margin-bottom: 150px;
+}
+
+@media screen and (max-width: 720px) {
+    .atas2{
+        top: 70px;
+    }
+
+    .title {
+        font-size: 28px;
+        margin-top: 150px;
+    }
+
+    .text {
+        font-size: 14px;
+        margin-bottom: 100px;
+    }
+
+    .title-lokasi {
+        font-size: 40px;
+    }
+
+    .countdown-box {
+        padding: 8px 16px;
+        min-width: 50px;
+    }
+
+    .countdown-number {
+        font-size: 20px;
+    }
+
+    .countdown-label {
+        font-size: 12px;
+    }
+
+    .button,
+    .custom-button {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+
+    .family-image {
+        width: 100%;
+        max-width: 250px;
+    }
+
+    .title-penutup {
+        margin-top: 200px;
+        font-size: 14px;
+    }
+
+    .natal {
+        font-size: 48px;
+    }
+}
+
+/* Responsiveness for iPad (768px width) */
+/* @media (max-width: 1024px) {
+    .title {
+        font-size: 36px;
+        margin-top: 180px;
+    }
+
+    .text, .subtitle, .address {
+        font-size: 16px;
+        margin-bottom: 75px;
+    }
+
+    .countdown-box {
+        padding: 10px 18px;
+        min-width: 60px;
+    }
+
+    .countdown-number {
+        font-size: 22px;
+    }
+
+    .countdown-label {
+        font-size: 13px;
+    }
+
+    .button, .custom-button {
+        padding: 10px 18px;
+        font-size: 16px;
+    }
+
+    .family-image {
+        width: 90%;
+        max-width: 300px;
+    }
+
+    .title-penutup, .title-penutup2 {
+        margin-top: 230px;
+        font-size: 16px;
+    }
+
+    .natal {
+        font-size: 56px;
+    }
+} */
