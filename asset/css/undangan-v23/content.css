@@ -11,6 +11,7 @@
     align-items: center;
     max-width: 300px;
     margin: 100px auto;
+    top: 6%;
 }
 
 .frame {
@@ -116,12 +117,12 @@
 }
 
 .bhismillah{
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 500;
 }
 
 .salam{
-    font-size: 15px;
+    font-size: 10px;
     font-weight: 500;
     font-style: italic;
 }
@@ -599,4 +600,183 @@
 
 .ucapan-button:hover svg{
     color: #000000;
+}
+
+@media screen and (max-width: 390px) {
+    .name-1{
+        font-size: 20px;
+    }
+    
+    .and{
+        font-size: 30px;
+        margin-left: 85%;
+    }
+    
+    .name-2{
+        font-size: 20px;
+        margin-left: 130%;
+    }
+
+    .text-perkenalan{
+        font-family: "Nunito", serif;
+        margin-top: 50%;
+    }
+
+    .bhismillah{
+        font-size: 20px;
+        font-weight: 500;
+    }
+    
+    .salam{
+        font-size: 10px;
+        font-weight: 500;
+        font-style: italic;
+    }
+    
+    .perkenalan{
+        font-size: 12px;
+        font-weight: 500;
+        margin-bottom: 10%;
+    }
+
+    .text-surat {
+        font-family: "Nunito", serif;
+        font-size: 12px;
+        font-weight: 500;
+        color: black;
+    }
+    
+    .container {
+        position: absolute;
+        top: 54%;
+        left: 10%;
+        display: grid;
+    }
+
+    .couple img {
+        width: 95px;
+        height: 95px;
+        border-radius: 50%;
+        margin-right: 10px;
+    }
+
+    .couple-1 img {
+        width: 95px;
+        height: 95px;
+        border-radius: 50%;
+        margin-left: 1%;
+        margin-bottom: 10%;
+    }
+
+    .and-2{
+        font-family: "Kaushan Script", cursive;
+        font-size: 30px;
+        margin-right: 30%;
+    }
+
+    .nama-mempelai{
+        font-family: "Marck Script", serif;
+        font-weight: 300;
+        font-size: 15px;
+        text-align: left;
+    }
+    
+    .nama-mempelai-laki{
+        font-family: "Marck Script", serif;
+        font-weight: 300;
+        font-size: 15px;
+        text-align: left;
+    }
+
+    .nama-ortu{
+        font-family: "Nunito", serif;
+        font: 400;
+        font-size: 10px;
+        text-align: left;
+        color: black;
+    }
+    
+    .text-akad{
+        font-family: "Nunito", serif;
+        margin-top: 33%;
+    }
+
+    .akad{
+        font-family: "Parisienne", serif;
+        font-weight: 400;
+        font-size: 25px;
+        color: black;
+    }
+    
+    .date-info {
+        font-family: "Nunito", serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 30px;
+        font-weight: 400;
+        color: #000000;
+        margin-bottom: 10px;
+      }
+      
+      .date-info .day,
+      .date-info .month,
+      .date-info .year {
+        margin: 0 10px;
+      }
+
+      .waktu-acara{
+        position: relative;
+        font-family: "Nunito", serif;
+        font-size: 12px;
+        left: 25%;
+    }
+
+    .frame-img{
+        position: relative;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        margin-left: 5%;
+        width: 102%;
+    }
+
+    .container-countdown {
+        position: absolute;
+        top: 60%;
+        transform: translateX(18%);
+    }
+
+    .countdown-container {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        gap: 0.5rem;
+        margin-left: -5px;
+    }
+    
+    .countdown-box {
+        background: #5ebcd6;
+        padding: 15px;
+        border-radius: 10px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    
+    .countdown-value {
+        color: #000000;
+        font-family: "Livvic", serif;
+        font-weight: 400;
+        font-size: 15px;
+        margin-bottom: 0.25rem;
+    }
+    
+    .countdown-label {
+        color: #000000;
+        font-size:10px;
+    }
+    
+    .container-location {
+        position: absolute;
+        top: 77%;
+        left: 18%;
+    }
 }
