@@ -447,19 +447,20 @@
 }
 
 .family-names {
-    font-size: 15px;
+    font-size: 12px;
     font-family: "Lora", serif;
     line-height: 1.4;
     color: #ffffff;
 }
 
-@media (max-width: 768px) {
-    .container {
-        transform: translateX(-8%);
+ /* Galaxy A12 (720 x 1600) */
+ /* @media screen and (max-width: 720px) {
+    .grid-container {
+        padding: 10px;
     }
 
-    .top-image {
-        transform: translate(22%);
-        width: 310px;
+    .middle-box,
+    .bottom-box {
+        height: 120px;
     }
-}
+} */
