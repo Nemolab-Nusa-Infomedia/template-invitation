@@ -29,6 +29,7 @@
 }
 
 .wed-name{
+    position: absolute;
     font-family: "Kaushan Script", cursive;
     line-height: 58.04px;
     font-size: 30px;
@@ -36,25 +37,26 @@
 }
 
 .name-1{
-    margin-top: 5%;
+    margin-top: 15%;
     font-size: 55px;
-    margin-left: 0;
+    margin-left: 120%;
 }
 
 .and{
     font-size: 75px;
-    margin-left: 10%;
+    margin-left: 165%;
 }
 
 .name-2{
     font-size: 55px;
-    margin-left: 30%;
+    margin-left: 185%;
 }
 
 .group-tamu{
-    margin-top: 60%;
-    margin-left: 15%;
-    margin-bottom: 25%;
+    position: relative;
+    margin-top: 110%;
+    margin-left: 25%;
+    margin-bottom: 30%;
 }
 
 .tamu{
