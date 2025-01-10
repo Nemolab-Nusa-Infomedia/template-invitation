@@ -320,13 +320,13 @@
     grid-column: 1 / -1;
     display: grid;
     grid-template-columns: repeat(2, 171px);
-    gap: 20px;
+    gap: 5px;
     justify-content: center;
 }
 
 .top-box {
     height: 148px;
-    background-color: #D9D9D9;
+    background-color: #c9c9c9;
     border-radius: 5px;
     grid-column: span 1;
 }
@@ -336,13 +336,13 @@
     grid-column: 1 / -1;
     display: grid;
     grid-template-columns: 103px 135px 103px;
-    gap: 20px;
+    gap: 5px;
     justify-content: center;
 }
 
 .middle-box {
     height: 148px;
-    background-color: #D9D9D9;
+    background-color: #c9c9c9;
     border-radius: 5px;
 }
 
@@ -351,13 +351,13 @@
     grid-column: 1 / -1;
     display: grid;
     grid-template-columns: repeat(2, 171px);
-    gap: 20px;
+    gap: 5px;
     justify-content: center;
 }
 
 .bottom-box {
     height: 148px;
-    background-color: #D9D9D9;
+    background-color: #c9c9c9;
     border-radius: 5px;
 }
 
