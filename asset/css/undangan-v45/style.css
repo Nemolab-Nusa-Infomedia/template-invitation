@@ -39,7 +39,7 @@
 
 
 /* content1 */
-.title p{
+.title p {
     background: linear-gradient(to bottom, #FFFFFF, #3B3B34);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -90,7 +90,8 @@
     text-align: center;
     background: linear-gradient(to bottom, #FFFFFF, #3B3B34);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;    font-size: 50px;
+    -webkit-text-fill-color: transparent;
+    font-size: 50px;
     font-family: "Love Light", cursive;
 }
 
@@ -243,71 +244,52 @@
 
 
 /* content4 */
-.title-galeri{
-    background: linear-gradient(to bottom, #FFFFFF, #3B3B34);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-align: center;
-    font-size: 50px;
-    font-family: "Love Light", cursive;
+.galeri {
+    padding: 20px;
+    position: relative;
 }
 
-.container {
-    width: 322px;
+.grid-container {
+    display: grid;
+    grid-gap: 5px;
+    max-width: 1200px;
     margin: 0 auto;
-    padding: 10px;
-    box-sizing: border-box;
-    transform: translateX(50%, 50%);
-    gap: 10px;
-    margin-bottom: 200px;
+    padding: 20px;
 }
 
-.top-image {
-    width: 322px;
+/* Top Banner */
+.banner {
+    grid-column: 1 / -1;
     height: 134px;
-    background-color: white;
-    margin-bottom: 10px;
-    transform: translate(25%);
-    border-radius: 6px;
+    border: 1px solid #ccc;
+    background-color: #FFFFFF;
 }
 
-.middle-row {
-    display: flex;
-    /* justify-content: space-between; */
-    margin-bottom: 10px;
-    margin-left: 17.5%;
+/* Middle Section */
+.middle-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     gap: 5px;
 }
 
 .middle-box {
-    width: 156px;
     height: 140px;
-    background-color: white;
-    border-radius: 6px;
+    border: 1px solid #ccc;
+    background-color: #FFFFFF;
 }
 
-.bottom-row {
-    display: flex;
-    border-radius: 6px;
-    /* justify-content: space-between; */
+/* Bottom Section */
+.bottom-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     gap: 5px;
-    margin-left: 17.5%;
 }
 
-.bottom-left {
-    width: 156px;
+.bottom-box {
     height: 140px;
-    background-color: white;
-    border-radius: 6px;
+    border: 1px solid #ccc;
+    background-color: #FFFFFF;
 }
-
-.bottom-right {
-    width: 156px;
-    height: 140px;
-    background-color: white;
-    border-radius: 6px;
-}
-
 
 /* content5 */
 .lima {
@@ -459,11 +441,11 @@
 }
 
 @media (max-width: 768px) {
-    .container{
+    .container {
         transform: translateX(-8%);
     }
 
-    .top-image{
+    .top-image {
         transform: translate(22%);
         width: 310px;
     }
