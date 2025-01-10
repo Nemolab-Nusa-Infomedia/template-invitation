@@ -20,7 +20,7 @@
     position: absolute;
     top: -50px; /* Atur nilai ini sesuai dengan ukuran gambar bunga */
     left: 43%;
-    margin-top: 45%; /* Menggunakan 50% untuk menempatkan gambar di tengah */
+    margin-top: 55%; /* Menggunakan 50% untuk menempatkan gambar di tengah */
     transform: translateX(-50%); /* Menggunakan transform untuk menyesuaikan posisi horizontal */
     width: 300px; /* Atur lebar gambar sesuai kebutuhan */
     height: auto; /* Ini akan menjaga aspek rasio gambar */
