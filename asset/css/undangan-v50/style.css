@@ -1,0 +1,480 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Kaushan+Script&family=Marcellus&family=Milonga&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Parisienne&family=Passions+Conflict&display=swap');
+
+.row {
+    min-height: 100vh;
+    background: #2B394D;
+}
+
+.decorations {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    /* margin-bottom: 200px; */
+}
+
+.left-decoration {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 376px;
+    height: auto;
+    z-index: 1;
+}
+
+.right-decoration {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 376px;
+    height: auto;
+    z-index: 1;
+}
+
+.bawahh {
+    position: relative;
+    width: 100%;
+    height: 130px;
+}
+
+.bawah {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 376px;
+    height: auto;
+    z-index: 1;
+}
+
+.bawah2 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 376px;
+    height: auto;
+    z-index: 1;
+}
+
+
+/* content1 */
+.content1 {
+    text-align: center;
+    color: #FFFFFF;
+    font-family: "Marcellus", serif;
+}
+
+.text {
+    font-size: 16px;
+    margin-top: 300px;
+}
+
+.surat {
+    font-size: 20px;
+    margin-bottom: 200px;
+}
+
+
+/* content2 */
+.content2 {
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.title-arab {
+    font-family: "Nunito", serif;
+    font-size: 24px;
+    margin-top: 250px;
+}
+
+.text-salam {
+    font-family: "Marcellus", serif;
+    font-size: 12px;
+}
+
+.mempelai {
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+
+.nama {
+    font-family: "Milonga", serif;
+    font-size: 20px;
+}
+
+.ortu {
+    font-family: "Marcellus", serif;
+    font-size: 13px;
+}
+
+.dan {
+    font-family: "Marcellus", serif;
+    font-size: 64px;
+}
+
+
+/* content3 */
+
+
+
+
+/* content4 */
+.invitation {
+    text-align: center;
+    z-index: 2;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.akad {
+    font-family: "Parisienne", serif;
+    font-size: 50px;
+    color: #FFFFFF;
+    margin: 10px 0;
+    margin-top: 250px;
+}
+
+.event-divider {
+    width: 1px;
+    height: 50px;
+    background-color: #FFFFFF;
+    opacity: 1;
+}
+
+.date-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    gap: 10px;
+}
+
+.date-info .day,
+.date-info .year {
+    font-family: "Marcellus", serif;
+    font-size: 36px;
+    color: #FFFFFF;
+}
+
+.datee {
+    font-family: "Marcellus", serif;
+    font-size: 36px;
+    color: #FFFFFF;
+}
+
+.date-info .date {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+    color: #FFFFFF;
+    font-family: "Marcellus", serif;
+}
+
+.lokasi {
+    font-size: 12px;
+    color: #FFFFFF;
+    margin-top: 25px;
+    font-family: "Marcellus", serif;
+}
+
+.time {
+    font-size: 12px;
+    color: #FFFFFF;
+    margin: 5px 0;
+    font-family: "Marcellus", serif;
+}
+
+.add {
+    font-size: 12px;
+    color: #FFFFFF;
+    margin: 5px 0;
+    font-family: "Marcellus", serif;
+}
+
+.countdown-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-family: "Marcellus", serif;
+    margin-bottom: 150px;
+}
+
+.countdown-box {
+    background-color: #A4C4F2D6;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-align: center;
+    min-width: 60px;
+}
+
+.countdown-number {
+    font-size: 24px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.countdown-label hr {
+    color: black;
+}
+
+.countdown-label {
+    font-size: 14px;
+    color: #000;
+    margin: 5px 0 0 0;
+    font-family: "Marcellus", serif;
+}
+
+
+/* content5 */
+.content5 {
+    text-align: center;
+    z-index: 3;
+}
+
+.gmaps {
+    margin-top: 350px;
+    margin-bottom: 50px;
+}
+
+.gmaps iframe {
+    border-radius: 20px;
+    margin-bottom: 6%;
+}
+
+.btn-invit {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-invit {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 300px;
+}
+
+.custom-button {
+    position: absolute;
+    font-family: "Istok Web", serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000;
+    text-decoration: none;
+    padding: 5px 25px;
+    background-color: #A4C4F2A6;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    z-index: 1;
+}
+
+.custom-button:hover {
+    border: none;
+    background-color: #8daad2a6;
+    color: #000;
+}
+
+
+
+/* content6 */
+.content6{
+    margin-bottom: 600px;
+}
+.gallery-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-top: 300px;
+}
+
+.gallery-frame {
+    position: absolute;
+    background-color: #D9D9D9;
+    border-radius: 15px;
+}
+
+/* Position and size each frame */
+.frame-1 {
+    top: 0;
+    left: 50px;
+    width: 127px;
+    height: 125px;
+}
+
+.frame-2 {
+    top: 0;
+    left: 230px;
+    width: 145px;
+    height: 208px;
+}
+
+.frame-3 {
+    top: 150px;
+    left: 30px;
+    width: 164px;
+    height: 219px;
+}
+
+.frame-4 {
+    top: 240px;
+    right: 120px;
+    width: 127px;
+    height: 125px;
+}
+
+.frame-5 {
+    top: 400px;
+    left: 20px;
+    width: 235px;
+    height: 125px;
+}
+
+/* Galaxy A12 (360px x 800px) */
+@media screen and (max-width: 767px) {
+    .frame-1 {
+        top: 0;
+        left: 50px;
+    }
+    
+    .frame-2 {
+        top: 0;
+        left: 210px;
+    }
+    
+    .frame-3 {
+        top: 150px;
+        left: 30px;
+    }
+    
+    .frame-4 {
+        top: 240px;
+        right: 10px;
+    }
+    
+    .frame-5 {
+        top: 400px;
+        left: 20px;
+    }
+}
+
+/* iPad Air (820px x 1180px) */
+@media (min-width: 600px) and (max-width: 820px) {
+  .gallery {
+    grid-template-columns: 1fr 1fr 1fr; /* 3 kolom */
+    gap: 15px;
+  }
+
+  .gallery-item {
+    border-radius: 10px;
+  }
+
+  .size-127x125,
+  .size-164x219,
+  .size-235x125,
+  .size-145x208 {
+    width: 100%;
+    height: auto;
+  }
+}
+
+
+/* content7 */
+.content7 {
+    z-index: 2;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.title-rsvp {
+    font-size: 24px;
+    text-align: center;
+    font-family: "Marcellus", serif;
+    margin-top: 350px;
+}
+
+.text-rsvp {
+    font-size: 12px;
+    font-family: "Marcellus", serif;
+    text-align: center;
+    margin-bottom: 250px;
+}
+
+.button {
+    justify-content: center;
+    display: flex;
+}
+
+.custom-button {
+    background-color: #A4C4F2A6;
+    color: #000;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    padding: 8px 15px;
+    font-family: "Marcellus", serif;
+    font-size: 12px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.custom-button i.icon {
+    font-size: 12px;
+}
+
+.custom-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+}
+
+.custom-button:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+/* content8 */
+.content8 {
+    z-index: 2;
+    color: #FFFFFF;
+}
+
+.title-close {
+    margin-top: 350px;
+    font-size: 12px;
+    font-family: "Marcellus", serif;
+    text-align: center;
+}
+
+.happy-text {
+    text-align: center;
+    margin: 30px 0;
+    font-size: 12px;
+    font-family: "Marcellus", serif;
+}
+
+.families {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    padding: 0 20px;
+}
+
+.family {
+    text-align: center;
+    margin-bottom: 250px;
+}
+
+.family-title {
+    margin-bottom: 10px;
+    font-size: 10px;
+    font-family: "Nunito", serif;
+}
+
+.family-names {
+    font-size: 10px;
+    font-family: "Nunito", serif;
+    line-height: 1.4;
+}
