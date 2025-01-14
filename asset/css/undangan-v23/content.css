@@ -609,6 +609,310 @@
     color: #000000;
 }
 
+@media screen and (max-width: 820px) {
+
+    /* PAGE 1 */
+    
+    .profile-container {
+        top: 6%;
+    }
+    
+    /* PAGE 2 */
+    
+        .text-surat {
+            font-size: 25px;
+            margin-top: -100px;
+            margin-left: -35px;
+            margin-right: -40px;
+        }
+
+        .nama-surah{
+            margin-top: 20%;
+            font-size: 40px;
+        }
+    
+    /* PAGE 3 */
+        .name-1 {
+            font-size: 65px;
+        }
+        
+        .and {
+            font-size: 65px;
+            margin-left: 85%;
+        }
+        
+        .name-2 {
+            font-size: 65px;
+            margin-left: 130%;
+        }
+    
+        .text-perkenalan {
+            margin-top: 46%;
+        }
+    
+        .bhismillah {
+            font-size: 55px;
+            margin-right: -40px;
+        }
+        
+        .salam {
+            font-size: 23px;
+            margin-left: -65px;
+            margin-right: -80px;
+        }
+        
+        .perkenalan {
+            font-size: 22px;
+            margin-left: -70px;
+            margin-right: -80px;
+        }
+        
+        .container { 
+            top: 50%;
+            left: 10%;
+        }
+    
+        .couple img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            margin-right: 6%;
+            margin-left: 3%;
+        }
+    
+        .couple-1 img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            margin-left: 4%;
+            margin-bottom: 10%;
+        }
+    
+        .and-2 {
+            font-size: 70px;
+            margin-right: 30%;
+        }
+    
+        .couple-info {
+            margin-left: 10%;
+        }
+    
+        .nama-mempelai {
+            font-size: 35px;
+        }
+        
+        .nama-mempelai-laki{
+            font-size: 35px;
+        }
+    
+        .nama-ortu {
+            font-size: 20px;
+        }
+    
+    /* PAGE 4 */
+    
+        .text-akad {
+            margin-top: 40%;
+        }
+    
+        .akad {
+            font-size: 55px;
+        }
+        
+        .date-info {
+            font-size: 45px;
+            margin-bottom: 5%;
+        }
+          
+        .date-info .day,
+        .date-info .month,
+        .date-info .year {
+            margin: 0 15px;
+        }
+    
+        .waktu-acara {
+            font-size: 22px;
+            left: 49%;
+        }
+    
+        .frame-img {
+            margin-top: 10%;
+            margin-bottom: 10%;
+            width: 95%;
+        }
+    
+        .container-countdown {
+            top: 60%;
+            transform: translateX(25%);
+        }
+    
+        .countdown-container {
+            gap: 1rem;
+            margin: 2rem 0;
+            margin-left: 28%;
+        }
+
+        .countdown-value {
+            font-size: 25px;
+            margin-bottom: 0.25rem;
+        }
+        
+        .countdown-label { 
+            font-size:10px;
+        }
+        
+        .container-location {
+            top: 77%;
+            left: 18%;
+        }
+    
+    /* PAGE 5 */
+    
+        .text-doa-mempelai {
+            top: 32%;
+            left: 50%;
+            transform: translate(-10%, -10%);
+        }
+        
+        .title-doa{
+            font-size: 20px;
+            margin-left: -80px;
+            margin-right: -100px;
+        }
+        
+        .container-doa {
+            top: 37%;
+        }
+        
+        .text-doa{
+            font-size: 12px;
+            margin-right: -100px;
+        }
+    
+        .hadis{
+            font-size: 20px;
+            margin-top: 15%;
+            margin-right: -100px;
+        }
+    
+        .arahan{
+            font-size: 13px;
+            margin-top: 15%;
+            margin-bottom: 20%;
+            margin-right: -100px;
+        }
+    
+        .container-konfirm {
+            top: 65%;
+            left: 20%;
+        }
+    
+    /* PAGE 6 */
+    
+        .text-mempelai-1 {
+            top: 23%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        
+        .container-penutup {
+            top: 34%;
+        }
+    
+        .text-penutup{
+            font-size: 12.5px;
+            margin-left: -2px;
+            margin-right: -20px;
+        }
+        
+        .terimakasih{
+            font-size: 12.5px;
+            margin-left: 3%;
+        }
+        
+        .keluarga{
+            font-size: 15px;
+            margin-top: 5%;
+        }
+        
+        .container-keluarga {
+            top: 53%;
+            left: 5%;
+            font-size: 13px;
+        }
+        
+        .grid-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;  
+            gap: 15px; /* Jarak antara kolom */
+            padding: 5px;
+        }
+        
+        .item {
+            padding: 10px;
+        }
+        
+        .title {
+            margin-bottom: 5px;
+        }
+    
+    /* PAGE 7 */
+    
+        .circle {
+            width: 360px;
+            height: 360px;
+            margin: 20px auto;
+            margin-bottom: 100px;
+            margin-top: 45%;
+            margin-bottom: 50%;
+         }
+         
+        .circle h1 {
+             font-size: 15px;
+         }
+         
+        .circle .name {
+             font-size: 30px;
+             color: #000000;
+             display: block;
+             transform: translate(-35%);
+         }
+         
+        .circle .name2 {
+             font-size: 30px;
+         }
+         
+        .circle .symbol {
+             font-size: 30px;
+         }
+    
+    /* PAGE 8 */
+    
+        .container-konfir { 
+            top: 33%;
+        }
+        
+        .konfir{
+            font-size: 26px;
+            margin-left: -2px;
+            margin-right: -275px;
+        }
+        
+        .form-container {
+            top: 35%;
+            margin: 20px auto;
+            padding: 25px;
+          }
+        
+        .container-ucapan {
+            position: absolute;
+            top: 75%;
+            left: 22%;
+            text-align: center;
+        }
+        
+    }
+
 @media screen and (max-width: 390px) {
 
 /* PAGE 1 */
