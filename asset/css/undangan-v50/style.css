@@ -279,92 +279,40 @@
 
 
 /* content6 */
-.content6{
-    margin-bottom: 600px;
+.galeri{
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 200px;
+    font-family: "Kaushan Script", serif;
+    font-size: 48px;
 }
-.gallery-container {
-    position: relative;
-    width: 100%;
-    height: auto;
-    margin-top: 300px;
-}
-
-.gallery-frame {
-    position: absolute;
-    background-color: #D9D9D9;
-    border-radius: 15px;
-}
-
-/* Position and size each frame */
-.frame-1 {
-    top: 0;
-    left: 50px;
-    width: 127px;
-    height: 125px;
-}
-
-.frame-2 {
-    top: 0;
-    left: 230px;
-    width: 145px;
-    height: 208px;
-}
-
-.frame-3 {
-    top: 150px;
-    left: 30px;
-    width: 164px;
-    height: 219px;
-}
-
-.frame-4 {
-    top: 240px;
-    right: 120px;
-    width: 127px;
-    height: 125px;
-}
-
-.frame-5 {
-    top: 400px;
-    left: 20px;
-    width: 235px;
-    height: 125px;
-}
-
-/* Galaxy A12 (360px x 800px) */
-@media screen and (max-width: 800px) {
-    .frame-1 {
-        top: 0;
-        left: 50px;
-    }
-    
-    .frame-2 {
-        top: 0;
-        left: 210px;
-    }
-    
-    .frame-3 {
-        top: 150px;
-        left: 30px;
-    }
-    
-    .frame-4 {
-        top: 240px;
-        right: 10px;
-    }
-    
-    .frame-5 {
-        top: 400px;
-        left: 20px;
-    }
-}
-
-@media screen and (max-width: 844px) {
-    .frame-4 {
-        top: 240px;
-        right: 20px;
-    }
-}
+.content6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 99;
+  }
+  
+  .grid-container {
+    display: grid;
+    gap: 10px;
+    grid-template-rows: repeat(4, auto);
+    grid-template-columns: repeat(2, 1fr);
+    width: 90%;
+    max-width: 400px;
+    aspect-ratio: 3 / 4;
+    padding: 10px;
+  }
+  
+  .grid-item {
+    background: #ccc;
+    border-radius: 20px;
+  }
+  
+  /* Responsiveness */
+  @media (min-width: 600px) {
+  }
+  
 
 
 /* content7 */
