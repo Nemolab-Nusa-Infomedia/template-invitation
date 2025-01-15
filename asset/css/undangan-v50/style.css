@@ -332,7 +332,7 @@
 }
 
 /* Galaxy A12 (360px x 800px) */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 800px) {
     .frame-1 {
         top: 0;
         left: 50px;
@@ -359,24 +359,11 @@
     }
 }
 
-/* iPad Air (820px x 1180px) */
-@media screen and (min-width: 768px) and (max-width: 1180px) {
-    .gallery {
-    grid-template-columns: 1fr 1fr 1fr; /* 3 kolom */
-    gap: 15px;
-  }
-
-  .gallery-item {
-    border-radius: 10px;
-  }
-
-  .size-127x125,
-  .size-164x219,
-  .size-235x125,
-  .size-145x208 {
-    width: 100%;
-    height: auto;
-  }
+@media screen and (max-width: 844px) {
+    .frame-4 {
+        top: 240px;
+        right: 20px;
+    }
 }
 
 
