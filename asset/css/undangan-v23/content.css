@@ -9,14 +9,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 300px;
     margin: 100px auto;
     top: 6%;
 }
 
 .frame {
-    width: 550px;
-    height: 450px;
+    width: 240px;
+    height: 460px;
     top: 50%;
     border-radius: 50%;
     overflow: hidden;
@@ -613,8 +612,34 @@
 
     /* PAGE 1 */
     
-    .profile-container {
-        top: 6%;
+    .frame {
+        width: 500px;
+        height: 800px;
+        top: 50%;
+    }
+    
+    .frame img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    .flower-top {
+        position: absolute;
+        top: -50px;
+        right: -20px;
+        margin-right: 40%;
+        width: 348px;
+        z-index: 2;
+    }
+    
+    .flower-btm {
+        position: absolute;
+        bottom: -20px;
+        left: -15px;
+        width: 344px;
+        margin-left: 35%;
+        z-index: 2;
     }
     
     /* PAGE 2 */
@@ -742,28 +767,48 @@
         }
     
         .container-countdown {
+            position: absolute;
             top: 60%;
-            transform: translateX(70%);
-        }
-    
-        .countdown-container {
-            gap: 1rem;
-            margin: 2rem 0;
-            margin-left: 28%;
-        }
-
-        .countdown-value {
-            font-size: 25px;
-            margin-bottom: 0.95rem;
+            left: 16%;
+            transform: translateX(25%);
         }
         
-        .countdown-label { 
-            font-size:20px;
+        .countdown-container {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin: 2rem 0;
+        }
+        
+        .countdown-box {
+            background: #5ebcd6;
+            padding: 1rem;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            min-width: 60px;
+        }
+        
+        .countdown-value {
+            color: #000000;
+            font-family: "Livvic", serif;
+            font-weight: 400;
+            font-size: 30px;
+            margin-bottom: 0.25rem;
+        }
+        
+        .countdown-label {
+            color: #000000;
+            font-size: 20px;
         }
         
         .container-location {
-            top: 77%;
-            left: 18%;
+            top: 75%;
+            left: 32%;
+        }
+
+        .maps-button {
+            font-size: 20px;
         }
     
     /* PAGE 5 */
@@ -775,70 +820,89 @@
         }
         
         .title-doa{
-            font-size: 20px;
-            margin-left: -80px;
-            margin-right: -100px;
+            font-size: 40px;
+            margin-left: -155px;
+            margin-right: -10px;
         }
         
         .container-doa {
-            top: 37%;
+            top: 40%;
         }
         
         .text-doa{
-            font-size: 12px;
+            font-size: 25px;
             margin-right: -100px;
         }
     
         .hadis{
-            font-size: 20px;
+            font-size: 40px;
             margin-top: 15%;
             margin-right: -100px;
         }
     
         .arahan{
-            font-size: 13px;
+            font-size: 24px;
             margin-top: 15%;
             margin-bottom: 20%;
             margin-right: -100px;
         }
     
         .container-konfirm {
-            top: 65%;
-            left: 20%;
+            top: 70%;
+            left: 32%;
+        }
+
+        .konfirm-button {
+            font-size: 20px;
+            padding: 14px 40px;
+            margin: 10px 15px;
         }
     
-    /* PAGE 6 */
+    /* PAGE 6 */  
+        
+        .nama-1{
+            font-size: 50px;
+        }    
+        
+        .dan{
+            font-size: 60px;
+            margin-left: 50%;
+        }    
+        
+        .nama-2{
+            font-size: 55px;
+            margin-left: 80%;
+        }    
     
         .text-mempelai-1 {
-            top: 23%;
-            left: 50%;
+            top: 21%;
+            left: 45%;
             transform: translate(-50%, -50%);
         }
         
         .container-penutup {
             top: 34%;
+            left: 15%;
         }
     
         .text-penutup{
-            font-size: 12.5px;
-            margin-left: -2px;
-            margin-right: -20px;
+            font-size: 25px;
         }
         
         .terimakasih{
-            font-size: 12.5px;
-            margin-left: 3%;
+            margin-top: 10%;
+            font-size: 25px;
         }
         
         .keluarga{
-            font-size: 15px;
+            font-size: 25px;
             margin-top: 5%;
         }
         
         .container-keluarga {
             top: 53%;
-            left: 5%;
-            font-size: 13px;
+            left: 12%;
+            font-size: 23px;
         }
         
         .grid-container {
@@ -859,67 +923,100 @@
     /* PAGE 7 */
     
         .circle {
-            width: 360px;
-            height: 360px;
+            width: 660px;
+            height: 660px;
             margin: 20px auto;
             margin-bottom: 100px;
             margin-top: 45%;
             margin-bottom: 50%;
          }
          
-        .circle h1 {
-             font-size: 15px;
-         }
-         
         .circle .name {
-             font-size: 30px;
+             font-size: 50px;
              color: #000000;
              display: block;
-             transform: translate(-35%);
+             transform: translate(-20%);
          }
          
         .circle .name2 {
-             font-size: 30px;
+             font-size: 50px;
          }
          
         .circle .symbol {
-             font-size: 30px;
+             margin-top: 7%;
+             font-size: 55px;
          }
     
     /* PAGE 8 */
     
         .container-konfir { 
             top: 33%;
+            margin-left: 7%;
         }
         
         .konfir{
-            font-size: 26px;
-            margin-left: -2px;
-            margin-right: -275px;
+            font-size: 50px;
         }
         
         .form-container {
-            top: 35%;
+            top: 37%;
             margin: 20px auto;
-            padding: 25px;
+            padding: 45px;
+        }
+
+        form input, form textarea {
+            font-size: 22px;
           }
         
-        .container-ucapan {
-            position: absolute;
-            top: 75%;
-            left: 22%;
-            text-align: center;
-        }
         
+        .container-ucapan {
+            top: 66%;
+            left: 33%;
+        }
+
+        .ucapan-button {
+            font-size: 24px;
+            padding: 14px 40px;
+            margin: 10px 15px;
+        }    
     }
 
 @media screen and (max-width: 390px) {
 
 /* PAGE 1 */
+.profile-container {
+     margin-top: 15%;
+}
 
-    .profile-container {
-        top: 3%;
-    }
+.frame {
+    width: 240px;
+    height: 460px;
+    top: 20%;
+}
+
+.frame img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.flower-top {
+    position: absolute;
+    top: -30px;
+    right: -30px;
+    margin-right: 40%;
+    width: 205px;
+    z-index: 2;
+}
+
+.flower-btm {
+    position: absolute;
+    bottom: -20px;
+    left: -25px;
+    width: 200px;
+    margin-left: 35%;
+    z-index: 2;
+}
 
 /* PAGE 2 */
 
@@ -1224,9 +1321,39 @@
 
 /* PAGE 1 */
 
-    .profile-container {
-        top: 8%;
-    }
+.profile-container {
+    margin-top: 20%;
+}
+
+.frame {
+   width: 240px;
+   height: 460px;
+   top: 20%;
+}
+
+.frame img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+
+.flower-top {
+   position: absolute;
+   top: -30px;
+   right: -30px;
+   margin-right: 40%;
+   width: 205px;
+   z-index: 2;
+}
+
+.flower-btm {
+   position: absolute;
+   bottom: -20px;
+   left: -30px;
+   width: 200px;
+   margin-left: 35%;
+   z-index: 2;
+}
 
 /* PAGE 2 */
 
