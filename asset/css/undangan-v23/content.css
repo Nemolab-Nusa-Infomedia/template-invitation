@@ -743,7 +743,7 @@
     
         .container-countdown {
             top: 60%;
-            transform: translateX(25%);
+            transform: translateX(70%);
         }
     
         .countdown-container {
@@ -754,11 +754,11 @@
 
         .countdown-value {
             font-size: 25px;
-            margin-bottom: 0.25rem;
+            margin-bottom: 0.95rem;
         }
         
         .countdown-label { 
-            font-size:10px;
+            font-size:20px;
         }
         
         .container-location {
