@@ -3,6 +3,8 @@
 .row {
     min-height: 100vh;
     background: #2B394D;
+    display: flex;
+    justify-content: center;
 }
 
 .decorations {
@@ -137,9 +139,7 @@
 }
 
 .bride-section .bride-photo,
-.groom-section .groom-photo {
-    
-}
+.groom-section .groom-photo {}
 
 /* .bride-section .bride-text,
 .groom-section .groom-text {
@@ -147,22 +147,22 @@
     color: #fff;
 } */
 
-.bride{
+.bride {
     text-align: left;
 }
 
 .bride-name,
-.groom-name{
+.groom-name {
     font-family: "Milonga", serif;
     font-size: 20px;
 }
 
-.groom{
+.groom {
     text-align: right;
 }
 
 .bride-text,
-.groom-text{
+.groom-text {
     font-family: "Marcellus", serif;
     font-size: 13px;
 }
@@ -468,4 +468,106 @@
     font-size: 10px;
     font-family: "Nunito", serif;
     line-height: 1.4;
+}
+
+/* iPad Mini */
+@media screen and (min-width: 744px) and (max-width: 1133px) {
+    .right-decoration {
+        width: 100%;
+    }
+
+    .left-decoration {
+        width: 60%;
+    }
+
+    .bawah{
+        width: 90%;
+    }
+
+    .bawah2{
+        width: 60%;
+    }
+
+    .text{
+        font-size: 20px;
+        margin-top: 400px;
+    }
+
+    .surat{
+        font-size: 22px;
+        margin-bottom: 350px;
+    }
+
+    .title-arab{
+        font-size: 40px;
+        margin-top: 350px;
+    }
+
+    .text-salam,
+    .ortu,
+    .groom-text,
+    .bride-text,
+    .time,
+    .lokasi,
+    .add,
+    .text-rsvp,
+    .custom-button,
+    .title-close,
+    .happy-text,
+    .family-names,
+    .family-title{
+        font-size: 20px;
+    }
+
+    .nama,
+    .bride-name,
+    .groom-name,
+    .title-rsvp{
+        font-size: 30px;
+    }
+
+    .mempelai{
+        margin-bottom: 300px;
+    }
+
+    .couple{
+        margin-top: 400px;
+        margin-bottom: 350px;
+    }
+
+    .akad{
+        margin-top: 350px;
+    }
+
+    .countdown-container{
+        margin-bottom: 350px;
+    }
+    
+    .gmaps{
+        margin-top: 400px;
+    }
+
+    .btn-invit{
+        margin-bottom: 400px;
+    }
+
+    .galeri{
+        margin-top: 400px;
+    }
+
+    .grid-container{
+        margin-bottom: 350px;
+    }
+
+    .button{
+        margin-bottom: 400px;
+    }
+
+    .title-close{
+        margin-top: 430px;
+    }
+
+    .families{
+        margin-bottom: 200px;
+    }
 }
