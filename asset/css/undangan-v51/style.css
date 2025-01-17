@@ -93,13 +93,13 @@
 .ornament.left {
     top: 100px;
     position: absolute;
-    left: 0;
+    left: 5%;
 }
 
 .ornament.right {
     top: 100px;
     position: absolute;
-    right: 18%;
+    right: 22%;
 }
 
 
@@ -178,7 +178,7 @@
 .ornament2.right2 {
     top: 150px;
     position: absolute;
-    right: 5%;
+    right: 10%;
 }
 
 
@@ -591,6 +591,10 @@
 
     .middle {
         margin: 0 100px;
+    }
+
+    .ornament.left {
+        left: 1%;
     }
 
     .text-doa{
