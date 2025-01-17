@@ -1,0 +1,599 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Marck+Script&family=Milonga&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Parisienne&family=Passions+Conflict&display=swap');
+
+.row {
+    min-height: 100vh;
+    background-color: #5E6572;
+    display: flex;
+    justify-content: center;
+}
+
+.atass {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.atas {
+    position: absolute;
+    margin-top: 35%;
+    width: 50%;
+    z-index: 1;
+}
+
+.left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 180px;
+    height: auto;
+    z-index: 1;
+}
+
+.right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 180px;
+    height: auto;
+    z-index: 1;
+}
+
+.bawahh {
+    position: relative;
+    width: 100%;
+    height: 130px;
+}
+
+.bawah {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 150px;
+    height: auto;
+    z-index: 1;
+}
+
+.middle {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    width: 40%;
+    margin: 0 140px;
+    z-index: 1;
+}
+
+.bawah2 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 150px;
+    height: auto;
+    z-index: 1;
+}
+
+.ornaments {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 15px;
+    width: 100%;
+}
+
+.ornament {
+    width: 60px;
+    height: auto;
+}
+
+.ornament.left {
+    top: 100px;
+    position: absolute;
+    left: 0;
+}
+
+.ornament.right {
+    top: 100px;
+    position: absolute;
+    right: 18%;
+}
+
+
+/* content1 */
+.content1 {
+    color: #FFFFFF;
+    text-align: center;
+    font-family: "Marcellus", serif;
+}
+
+.text-doa {
+    font-size: 16px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+
+/* .content2 */
+.content2 {
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.title-arab {
+    font-family: "Nunito", serif;
+    font-size: 24px;
+    margin-top: 200px;
+}
+
+.text-salam {
+    font-family: "Marcellus", serif;
+    font-size: 12px;
+}
+
+.mempelai {
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+
+.nama {
+    font-family: "Milonga", serif;
+    font-size: 20px;
+}
+
+.ortu {
+    font-family: "Marcellus", serif;
+    font-size: 13px;
+}
+
+.dan {
+    font-family: "Marcellus", serif;
+    font-size: 64px;
+}
+
+.ornaments2 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 15px;
+    width: 100%;
+}
+
+.ornament2 {
+    width: 60px;
+    height: auto;
+}
+
+.ornament2.left2 {
+    top: 150px;
+    position: absolute;
+    left: 0;
+}
+
+.ornament2.right2 {
+    top: 150px;
+    position: absolute;
+    right: 5%;
+}
+
+
+/* content3 */
+.content3 {
+    text-align: center;
+    margin: 20px 0;
+    margin-top: 250px;
+    margin-bottom: 150px;
+}
+
+.couple {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    color: #fff;
+}
+
+.bride-section,
+.groom-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.bride-section .bride-photo,
+.groom-section .groom-photo {}
+
+/* .bride-section .bride-text,
+.groom-section .groom-text {
+    text-align: left;
+    color: #fff;
+} */
+
+.bride {
+    text-align: left;
+}
+
+.bride-name,
+.groom-name {
+    font-family: "Milonga", serif;
+    font-size: 20px;
+}
+
+.groom {
+    text-align: right;
+}
+
+.bride-text,
+.groom-text {
+    font-family: "Marcellus", serif;
+    font-size: 13px;
+}
+
+.separator {
+    font-size: 64px;
+    font-family: "Marcellus", serif;
+}
+
+
+/* content4 */
+.invitation {
+    text-align: center;
+    z-index: 2;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.akad {
+    font-family: "Parisienne", serif;
+    font-size: 50px;
+    color: #FFFFFF;
+    margin: 10px 0;
+    margin-top: 150px;
+}
+
+.event-divider {
+    width: 1px;
+    height: 50px;
+    background-color: #FFFFFF;
+    opacity: 1;
+}
+
+.date-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    gap: 10px;
+}
+
+.date-info .day,
+.date-info .year {
+    font-family: "Marcellus", serif;
+    font-size: 36px;
+    color: #FFFFFF;
+}
+
+.datee {
+    font-family: "Marcellus", serif;
+    font-size: 36px;
+    color: #FFFFFF;
+}
+
+.date-info .date {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+    color: #FFFFFF;
+    font-family: "Marcellus", serif;
+}
+
+.lokasi {
+    font-size: 12px;
+    color: #FFFFFF;
+    margin-top: 25px;
+    font-family: "Marcellus", serif;
+}
+
+.time {
+    font-size: 12px;
+    color: #FFFFFF;
+    margin: 5px 0;
+    font-family: "Marcellus", serif;
+}
+
+.add {
+    font-size: 12px;
+    color: #FFFFFF;
+    margin: 5px 0;
+    font-family: "Marcellus", serif;
+}
+
+.countdown-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-family: "Marcellus", serif;
+    margin-bottom: 20px;
+}
+
+.countdown-box {
+    background-color: #FFF7EED6;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-align: center;
+    min-width: 60px;
+}
+
+.countdown-number {
+    font-size: 24px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.countdown-label hr {
+    color: black;
+}
+
+.countdown-label {
+    font-size: 14px;
+    color: #000;
+    margin: 5px 0 0 0;
+    font-family: "Marcellus", serif;
+}
+
+/* content5 */
+.content5 {
+    text-align: center;
+    z-index: 3;
+}
+
+.gmaps {
+    margin-top: 200px;
+    margin-bottom: 50px;
+}
+
+.gmaps iframe {
+    border-radius: 20px;
+    margin-bottom: 6%;
+}
+
+.btn-invit {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-invit {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 300px;
+}
+
+.custom-button {
+    position: absolute;
+    font-family: "Istok Web", serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000;
+    text-decoration: none;
+    padding: 5px 25px;
+    background-color: #FFF7EEA6;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    z-index: 1;
+}
+
+.custom-button:hover {
+    border: none;
+    background-color: #fff7eeb4;
+    color: #000;
+}
+
+
+/* content6 */
+.content6 p {
+    font-family: "Passions Conflict", serif;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 80px;
+    margin-top: 150px;
+}
+
+.galeri {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 158px);
+    grid-gap: 10px;
+    margin-bottom: 200px;
+}
+
+.gallery-item {
+    width: 158px;
+    height: 123px;
+    background-color: #D9D9D9;
+    /* Warna latar abu-abu */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.gallery-item span {
+    position: absolute;
+    bottom: 5px;
+    font-size: 12px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 2px 5px;
+    border-radius: 3px;
+}
+
+
+/* content7 */
+.content7 {
+    z-index: 2;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.title-rsvp {
+    font-size: 24px;
+    text-align: center;
+    font-family: "Marcellus", serif;
+    margin-top: 350px;
+}
+
+.text-rsvp {
+    font-size: 12px;
+    font-family: "Marcellus", serif;
+    text-align: center;
+    margin-bottom: 250px;
+}
+
+.button {
+    justify-content: center;
+    display: flex;
+}
+
+.custom-button {
+    background-color: #FFF7EEA6;
+    color: #000;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    padding: 8px 15px;
+    font-family: "Marcellus", serif;
+    font-size: 12px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.custom-button i.icon {
+    font-size: 12px;
+}
+
+.custom-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+}
+
+.custom-button:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.button2 {
+    justify-content: center;
+    display: flex;
+    margin-top: 50px;
+}
+
+.custom-button2 {
+    background-color: #FFF7EEA6;
+    color: #000;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    padding: 8px 15px;
+    font-family: "Marcellus", serif;
+    font-size: 12px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.custom-button2 i.icon {
+    font-size: 12px;
+}
+
+.custom-button2:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+}
+
+.custom-button2:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+/* content8 */
+.content8 {
+    z-index: 2;
+    color: #FFFFFF;
+}
+
+.title-close {
+    margin-top: 350px;
+    font-size: 12px;
+    font-family: "Marcellus", serif;
+    text-align: center;
+}
+
+.happy-text {
+    text-align: center;
+    margin: 30px 0;
+    font-size: 12px;
+    font-family: "Marcellus", serif;
+}
+
+.families {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    padding: 0 20px;
+}
+
+.family {
+    text-align: center;
+    margin-bottom: 250px;
+}
+
+.family-title {
+    margin-bottom: 10px;
+    font-size: 10px;
+    font-family: "Nunito", serif;
+}
+
+.family-names {
+    font-size: 10px;
+    font-family: "Nunito", serif;
+    line-height: 1.4;
+}
+
+@media screen and (min-width: 360px) and (max-width: 800px) {
+    .atas {
+        margin-top: 45%;
+    }
+
+    .bawah,
+    .bawah2 {
+        width: 120px;
+    }
+
+    .middle {
+        margin: 0 100px;
+    }
+
+    .text-doa{
+        margin-top: 250px;
+    }
+}
