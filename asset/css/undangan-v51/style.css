@@ -91,13 +91,13 @@
 }
 
 .ornament.left {
-    top: 100px;
+    top: 120px;
     position: absolute;
     left: 10%;
 }
 
 .ornament.right {
-    top: 100px;
+    top: 120px;
     position: absolute;
     right: 25%;
 }
@@ -594,7 +594,7 @@
     }
 
     .ornament.left {
-        left: 1%;
+        left: 5%;
     }
 
     .text-doa{
