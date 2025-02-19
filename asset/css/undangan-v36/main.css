@@ -2,14 +2,14 @@
 
 .row{
     min-height: 100vh;
-    min-height: 100vh; /* Pastikan elemen memiliki tinggi penuh */
+    min-height: 100vh; 
     display: flex;
     flex-direction: column;
-    justify-content: space-between; /* Pastikan elemen terpisah secara vertikal */
-    background-image: url('../../img/undangan-v36/bancground.png'); /* Gambar latar belakang */
+    justify-content: space-between; 
+    background-image: url('../../img/undangan-v36/bancground.png'); 
     background-position: center;
-    background-size: cover; /* Pastikan gambar menutupi seluruh area */
-    background-attachment: fixed; /* Agar gambar tetap */
+    background-size: cover; 
+    background-attachment: fixed; 
     background-repeat: no-repeat;
 }
 
@@ -35,7 +35,7 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    align-items: flex-end; /* Menempel di bawah */
+    align-items: flex-end; 
 }
 
 .bawah {
