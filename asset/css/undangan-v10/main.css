@@ -149,11 +149,10 @@ body {
     z-index: 3;
 }
 
-/* Styling untuk gambar utama */
 .main-image {
-    width: 425px; /* Base width, adjust as needed */
-    opacity: 0.9; /* Slight transparency to match watercolor effect */
-    transform: scale(1.05); /* Slight zoom on hover */
+    width: 425px; 
+    opacity: 0.9; 
+    transform: scale(1.05); 
     width: 100%;
     height: auto;
     display: block;
@@ -161,4 +160,3 @@ body {
     margin-top: 68px;
     border-radius: 8px 8px 0 0;
 }
-
